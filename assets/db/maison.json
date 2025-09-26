@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "MAISON",
+  "longitud": 6,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "casa"
+    },
+    "en": {
+      "traduccion": "house"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un bâtiment où les gens vivent.",
+      "es": "Es un edificio donde vive la gente.",
+      "en": "It's a building where people live."
+    },
+    {
+      "fr": "Elle a un toit et des murs.",
+      "es": "Tiene un techo y paredes.",
+      "en": "It has a roof and walls."
+    },
+    {
+      "fr": "Elle peut être grande ou petite.",
+      "es": "Puede ser grande o pequeña.",
+      "en": "It can be big or small."
+    },
+    {
+      "fr": "Elle a généralement des fenêtres et une porte.",
+      "es": "Generalmente tiene ventanas y una puerta.",
+      "en": "It usually has windows and a door."
+    },
+    {
+      "fr": "On y dort, on y mange et on y vit.",
+      "es": "Allí se duerme, se come y se vive.",
+      "en": "We sleep, eat, and live there."
+    }
+  ]
+}

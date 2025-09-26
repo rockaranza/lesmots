@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "FLEUR",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "flor"
+    },
+    "en": {
+      "traduccion": "flower"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une partie colorée d'une plante.",
+      "es": "Es una parte colorida de una planta.",
+      "en": "It's a colorful part of a plant."
+    },
+    {
+      "fr": "Elle sent souvent bon.",
+      "es": "A menudo huele bien.",
+      "en": "It often smells good."
+    },
+    {
+      "fr": "Les abeilles la visitent pour le nectar.",
+      "es": "Las abejas la visitan por el néctar.",
+      "en": "Bees visit it for nectar."
+    },
+    {
+      "fr": "Elle peut pousser dans un jardin ou dans un pot.",
+      "es": "Puede crecer en un jardín o en una maceta.",
+      "en": "It can grow in a garden or in a pot."
+    },
+    {
+      "fr": "On l'offre souvent en cadeau.",
+      "es": "A menudo se regala.",
+      "en": "It is often given as a gift."
+    }
+  ]
+}

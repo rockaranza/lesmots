@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "JOURNAL",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "periódico"
+    },
+    "en": {
+      "traduccion": "newspaper"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une publication qui donne les nouvelles du jour.",
+      "es": "Es una publicación que da las noticias del día.",
+      "en": "It's a publication that gives the day's news."
+    },
+    {
+      "fr": "On peut l'acheter dans les kiosques.",
+      "es": "Se puede comprar en los quioscos.",
+      "en": "You can buy it at newsstands."
+    },
+    {
+      "fr": "Il contient des articles, des reportages et des publicités.",
+      "es": "Contiene artículos, reportajes y publicidad.",
+      "en": "It contains articles, reports, and advertisements."
+    },
+    {
+      "fr": "C'est fait de papier et d'encre.",
+      "es": "Está hecho de papel y tinta.",
+      "en": "It's made of paper and ink."
+    },
+    {
+      "fr": "Beaucoup de personnes le lisent le matin en buvant leur café.",
+      "es": "Mucha gente lo lee por la mañana mientras bebe su café.",
+      "en": "Many people read it in the morning while drinking their coffee."
+    }
+  ]
+}

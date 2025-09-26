@@ -1,0 +1,117 @@
+/* Reset CSS para Les Mots */
+/* Configuración base para usar rem como múltiplo de 10 */
+
+/* Reset de márgenes y padding */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración del html para rem = 10px */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    line-height: 1.6;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Reset de elementos de texto */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Reset de listas */
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset de enlaces */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Reset de botones */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Reset de inputs */
+input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Reset de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset de elementos de formulario */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+}
+
+/* Utilidades para rem múltiplo de 10 */
+.text-xs { font-size: 1.2rem; } /* 12px */
+.text-sm { font-size: 1.4rem; } /* 14px */
+.text-base { font-size: 1.6rem; } /* 16px */
+.text-lg { font-size: 1.8rem; } /* 18px */
+.text-xl { font-size: 2rem; } /* 20px */
+.text-2xl { font-size: 2.4rem; } /* 24px */
+.text-3xl { font-size: 3rem; } /* 30px */
+.text-4xl { font-size: 3.6rem; } /* 36px */
+.text-5xl { font-size: 4.8rem; } /* 48px */
+
+/* Espaciado con rem múltiplo de 10 */
+.m-0 { margin: 0; }
+.m-1 { margin: 1rem; }
+.m-2 { margin: 2rem; }
+.m-3 { margin: 3rem; }
+.m-4 { margin: 4rem; }
+.m-5 { margin: 5rem; }
+
+.p-0 { padding: 0; }
+.p-1 { padding: 1rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+.p-4 { padding: 4rem; }
+.p-5 { padding: 5rem; }
