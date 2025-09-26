@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "ROUGE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "rojo"
+    },
+    "en": {
+      "traduccion": "red"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur du sang et des fraises.",
+      "es": "Es el color de la sangre y las fresas.",
+      "en": "It's the color of blood and strawberries."
+    },
+    {
+      "fr": "C'est une couleur primaire très vive.",
+      "es": "Es un color primario muy brillante.",
+      "en": "It's a very bright primary color."
+    },
+    {
+      "fr": "On l'associe souvent à l'amour et à la passion.",
+      "es": "A menudo se asocia con el amor y la pasión.",
+      "en": "It's often associated with love and passion."
+    },
+    {
+      "fr": "C'est la couleur des feux de circulation pour s'arrêter.",
+      "es": "Es el color de los semáforos para parar.",
+      "en": "It's the color of traffic lights to stop."
+    },
+    {
+      "fr": "On peut le voir dans un arc-en-ciel après la pluie.",
+      "es": "Se puede ver en un arcoíris después de la lluvia.",
+      "en": "You can see it in a rainbow after rain."
+    }
+  ]
+}

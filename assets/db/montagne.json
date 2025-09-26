@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "MONTAGNE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "montaña"
+    },
+    "en": {
+      "traduccion": "mountain"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une élévation naturelle très haute de la surface terrestre.",
+      "es": "Es una elevación natural muy alta de la superficie terrestre.",
+      "en": "It's a very high natural elevation of the earth's surface."
+    },
+    {
+      "fr": "Elle a un sommet pointu et des pentes raides.",
+      "es": "Tiene una cima puntiaguda y pendientes empinadas.",
+      "en": "It has a pointed peak and steep slopes."
+    },
+    {
+      "fr": "On peut y faire de l'escalade et de la randonnée.",
+      "es": "Se puede hacer escalada y senderismo.",
+      "en": "You can do climbing and hiking there."
+    },
+    {
+      "fr": "Elle peut être couverte de neige en hiver.",
+      "es": "Puede estar cubierta de nieve en invierno.",
+      "en": "It can be covered with snow in winter."
+    },
+    {
+      "fr": "Elle offre une vue magnifique depuis son sommet.",
+      "es": "Ofrece una vista magnífica desde su cima.",
+      "en": "It offers a magnificent view from its peak."
+    }
+  ]
+}

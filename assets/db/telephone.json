@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "TELEPHONE",
+  "longitud": 9,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "teléfono"
+    },
+    "en": {
+      "traduccion": "telephone"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un appareil pour communiquer à distance.",
+      "es": "Es un aparato para comunicarse a distancia.",
+      "en": "It's a device for communicating at a distance."
+    },
+    {
+      "fr": "Il peut être fixe ou portable et mobile.",
+      "es": "Puede ser fijo o portátil y móvil.",
+      "en": "It can be fixed or portable and mobile."
+    },
+    {
+      "fr": "On l'utilise pour appeler et recevoir des appels.",
+      "es": "Se usa para llamar y recibir llamadas.",
+      "en": "You use it to make and receive calls."
+    },
+    {
+      "fr": "Il a un clavier numérique et un écran.",
+      "es": "Tiene un teclado numérico y una pantalla.",
+      "en": "It has a numeric keypad and a screen."
+    },
+    {
+      "fr": "Il permet aussi d'envoyer des messages et des photos.",
+      "es": "También permite enviar mensajes y fotos.",
+      "en": "It also allows you to send messages and photos."
+    }
+  ]
+}

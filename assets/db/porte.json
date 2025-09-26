@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "PORTE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "puerta"
+    },
+    "en": {
+      "traduccion": "door"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une ouverture dans un mur pour entrer et sortir.",
+      "es": "Es una abertura en una pared para entrar y salir.",
+      "en": "It's an opening in a wall to enter and exit."
+    },
+    {
+      "fr": "Elle peut s'ouvrir et se fermer avec une clé.",
+      "es": "Se puede abrir y cerrar con una llave.",
+      "en": "It can be opened and closed with a key."
+    },
+    {
+      "fr": "Elle a souvent une poignée et une serrure.",
+      "es": "A menudo tiene una manija y una cerradura.",
+      "en": "It often has a handle and a lock."
+    },
+    {
+      "fr": "Elle peut être en bois, en métal ou en verre.",
+      "es": "Puede ser de madera, metal o vidrio.",
+      "en": "It can be made of wood, metal, or glass."
+    },
+    {
+      "fr": "Elle protège la maison et donne de l'intimité.",
+      "es": "Protege la casa y da intimidad.",
+      "en": "It protects the house and provides privacy."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "Arts"
+  },
+  "palabra": "MUSIQUE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "música"
+    },
+    "en": {
+      "traduccion": "music"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'art de combiner des sons de manière harmonieuse.",
+      "es": "Es el arte de combinar sonidos de manera armoniosa.",
+      "en": "It's the art of combining sounds in a harmonious way."
+    },
+    {
+      "fr": "Elle peut être jouée avec des instruments ou chantée.",
+      "es": "Se puede tocar con instrumentos o cantar.",
+      "en": "It can be played with instruments or sung."
+    },
+    {
+      "fr": "Elle a un rythme, une mélodie et parfois des paroles.",
+      "es": "Tiene ritmo, melodía y a veces letra.",
+      "en": "It has rhythm, melody, and sometimes lyrics."
+    },
+    {
+      "fr": "On peut l'écouter à la radio, en concert ou sur internet.",
+      "es": "Se puede escuchar en la radio, en concierto o en internet.",
+      "en": "You can listen to it on the radio, in concert, or on the internet."
+    },
+    {
+      "fr": "Elle peut exprimer des émotions et rassembler les gens.",
+      "es": "Puede expresar emociones y unir a las personas.",
+      "en": "It can express emotions and bring people together."
+    }
+  ]
+}

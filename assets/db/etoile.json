@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "ETOILE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "estrella"
+    },
+    "en": {
+      "traduccion": "star"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un point lumineux qu'on voit dans le ciel la nuit.",
+      "es": "Es un punto luminoso que se ve en el cielo por la noche.",
+      "en": "It's a bright point you see in the sky at night."
+    },
+    {
+      "fr": "Elle brille de sa propre lumière comme le soleil.",
+      "es": "Brilla con su propia luz como el sol.",
+      "en": "It shines with its own light like the sun."
+    },
+    {
+      "fr": "On peut en voir des milliers par nuit claire.",
+      "es": "Se pueden ver miles en una noche despejada.",
+      "en": "You can see thousands on a clear night."
+    },
+    {
+      "fr": "Elle forme des constellations avec d'autres étoiles.",
+      "es": "Forma constelaciones con otras estrellas.",
+      "en": "It forms constellations with other stars."
+    },
+    {
+      "fr": "Les marins s'en servaient pour naviguer autrefois.",
+      "es": "Los marineros las usaban para navegar antiguamente.",
+      "en": "Sailors used them for navigation in the past."
+    }
+  ]
+}

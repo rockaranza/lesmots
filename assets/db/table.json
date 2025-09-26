@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "TABLE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "mesa"
+    },
+    "en": {
+      "traduccion": "table"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un meuble avec une surface plane sur des pieds.",
+      "es": "Es un mueble con una superficie plana sobre patas.",
+      "en": "It's a piece of furniture with a flat surface on legs."
+    },
+    {
+      "fr": "On s'assoit autour pour manger ou travailler.",
+      "es": "Se sienta alrededor para comer o trabajar.",
+      "en": "You sit around it to eat or work."
+    },
+    {
+      "fr": "Elle peut être en bois, en verre ou en métal.",
+      "es": "Puede ser de madera, vidrio o metal.",
+      "en": "It can be made of wood, glass, or metal."
+    },
+    {
+      "fr": "Elle a généralement quatre pieds pour la stabilité.",
+      "es": "Generalmente tiene cuatro patas para la estabilidad.",
+      "en": "It usually has four legs for stability."
+    },
+    {
+      "fr": "On peut y mettre une nappe et des couverts.",
+      "es": "Se puede poner un mantel y cubiertos.",
+      "en": "You can put a tablecloth and cutlery on it."
+    }
+  ]
+}

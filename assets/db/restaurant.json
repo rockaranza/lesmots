@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les loisirs",
+    "es": "Los pasatiempos",
+    "en": "Leisure"
+  },
+  "palabra": "RESTAURANT",
+  "longitud": 10,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "restaurante"
+    },
+    "en": {
+      "traduccion": "restaurant"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un établissement où on peut manger des plats préparés.",
+      "es": "Es un establecimiento donde se pueden comer platos preparados.",
+      "en": "It's an establishment where you can eat prepared dishes."
+    },
+    {
+      "fr": "Il a une cuisine, une salle à manger et du personnel de service.",
+      "es": "Tiene una cocina, un comedor y personal de servicio.",
+      "en": "It has a kitchen, dining room, and service staff."
+    },
+    {
+      "fr": "Il propose un menu avec des entrées, plats et desserts.",
+      "es": "Propone un menú con entradas, platos y postres.",
+      "en": "It offers a menu with appetizers, main courses, and desserts."
+    },
+    {
+      "fr": "Il peut être de luxe, familial ou de fast-food.",
+      "es": "Puede ser de lujo, familiar o de comida rápida.",
+      "en": "It can be luxury, family, or fast-food."
+    },
+    {
+      "fr": "Il permet de sortir et de découvrir de nouvelles saveurs.",
+      "es": "Permite salir y descubrir nuevos sabores.",
+      "en": "It allows going out and discovering new flavors."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "LAIT",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "leche"
+    },
+    "en": {
+      "traduccion": "milk"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un liquide blanc produit par les mammifères femelles.",
+      "es": "Es un líquido blanco producido por las hembras mamíferas.",
+      "en": "It's a white liquid produced by female mammals."
+    },
+    {
+      "fr": "Il est très nutritif et riche en calcium.",
+      "es": "Es muy nutritivo y rico en calcio.",
+      "en": "It's very nutritious and rich in calcium."
+    },
+    {
+      "fr": "On le boit au petit-déjeuner avec des céréales.",
+      "es": "Se bebe en el desayuno con cereales.",
+      "en": "You drink it for breakfast with cereal."
+    },
+    {
+      "fr": "Il peut être de vache, de chèvre ou d'amande.",
+      "es": "Puede ser de vaca, cabra o almendra.",
+      "en": "It can be from cow, goat, or almond."
+    },
+    {
+      "fr": "Il sert à faire du fromage, du beurre et du yaourt.",
+      "es": "Sirve para hacer queso, mantequilla y yogur.",
+      "en": "It's used to make cheese, butter, and yogurt."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "VERT",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "verde"
+    },
+    "en": {
+      "traduccion": "green"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur de l'herbe et des feuilles.",
+      "es": "Es el color de la hierba y las hojas.",
+      "en": "It's the color of grass and leaves."
+    },
+    {
+      "fr": "C'est une couleur primaire très naturelle.",
+      "es": "Es un color primario muy natural.",
+      "en": "It's a very natural primary color."
+    },
+    {
+      "fr": "On l'associe souvent à l'espoir et à la nature.",
+      "es": "A menudo se asocia con la esperanza y la naturaleza.",
+      "en": "It's often associated with hope and nature."
+    },
+    {
+      "fr": "C'est la couleur des feux de circulation pour passer.",
+      "es": "Es el color de los semáforos para pasar.",
+      "en": "It's the color of traffic lights to go."
+    },
+    {
+      "fr": "Elle peut être claire comme le citron ou foncée comme la forêt.",
+      "es": "Puede ser clara como el limón u oscura como el bosque.",
+      "en": "It can be light like lemon or dark like the forest."
+    }
+  ]
+}

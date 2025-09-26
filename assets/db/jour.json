@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Le temps",
+    "es": "El tiempo",
+    "en": "Time"
+  },
+  "palabra": "JOUR",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "día"
+    },
+    "en": {
+      "traduccion": "day"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la période de 24 heures entre deux nuits.",
+      "es": "Es el período de 24 horas entre dos noches.",
+      "en": "It's the 24-hour period between two nights."
+    },
+    {
+      "fr": "Il commence à minuit et se termine à 23h59.",
+      "es": "Comienza a medianoche y termina a las 23:59.",
+      "en": "It starts at midnight and ends at 23:59."
+    },
+    {
+      "fr": "Il fait partie de la semaine avec 6 autres jours.",
+      "es": "Es parte de la semana con otros 6 días.",
+      "en": "It's part of the week with 6 other days."
+    },
+    {
+      "fr": "Pendant cette période, on travaille et on vit normalement.",
+      "es": "Durante este período, se trabaja y se vive normalmente.",
+      "en": "During this period, you work and live normally."
+    },
+    {
+      "fr": "Il y a 365 jours dans une année normale.",
+      "es": "Hay 365 días en un año normal.",
+      "en": "There are 365 days in a normal year."
+    }
+  ]
+}

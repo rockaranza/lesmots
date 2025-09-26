@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "FENETRE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "ventana"
+    },
+    "en": {
+      "traduccion": "window"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une ouverture dans le mur pour laisser entrer la lumière.",
+      "es": "Es una abertura en la pared para dejar entrar la luz.",
+      "en": "It's an opening in the wall to let in light."
+    },
+    {
+      "fr": "Elle est souvent en verre et peut s'ouvrir.",
+      "es": "A menudo es de vidrio y se puede abrir.",
+      "en": "It's often made of glass and can be opened."
+    },
+    {
+      "fr": "Elle permet de voir l'extérieur et d'aérer la pièce.",
+      "es": "Permite ver el exterior y ventilar la habitación.",
+      "en": "It allows you to see outside and air the room."
+    },
+    {
+      "fr": "Elle peut avoir des rideaux ou des volets.",
+      "es": "Puede tener cortinas o persianas.",
+      "en": "It can have curtains or shutters."
+    },
+    {
+      "fr": "Elle donne de la luminosité à la maison.",
+      "es": "Da luminosidad a la casa.",
+      "en": "It gives brightness to the house."
+    }
+  ]
+}

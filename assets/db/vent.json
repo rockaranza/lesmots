@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "VENT",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "viento"
+    },
+    "en": {
+      "traduccion": "wind"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le mouvement de l'air dans l'atmosphère.",
+      "es": "Es el movimiento del aire en la atmósfera.",
+      "en": "It's the movement of air in the atmosphere."
+    },
+    {
+      "fr": "Il peut être léger comme une brise ou fort comme une tempête.",
+      "es": "Puede ser ligero como una brisa o fuerte como una tormenta.",
+      "en": "It can be light like a breeze or strong like a storm."
+    },
+    {
+      "fr": "Il fait bouger les arbres et les drapeaux.",
+      "es": "Hace mover los árboles y las banderas.",
+      "en": "It makes trees and flags move."
+    },
+    {
+      "fr": "Il peut être mesuré avec un anémomètre.",
+      "es": "Se puede medir con un anemómetro.",
+      "en": "It can be measured with an anemometer."
+    },
+    {
+      "fr": "Il influence le temps et peut apporter la pluie.",
+      "es": "Influencia el tiempo y puede traer lluvia.",
+      "en": "It influences weather and can bring rain."
+    }
+  ]
+}

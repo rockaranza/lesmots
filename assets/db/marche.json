@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "MARCHE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "mercado"
+    },
+    "en": {
+      "traduccion": "market"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un lieu où on vend des produits frais et locaux.",
+      "es": "Es un lugar donde se venden productos frescos y locales.",
+      "en": "It's a place where fresh and local products are sold."
+    },
+    {
+      "fr": "Il a des étals avec des fruits, légumes et fromages.",
+      "es": "Tiene puestos con frutas, verduras y quesos.",
+      "en": "It has stalls with fruits, vegetables, and cheeses."
+    },
+    {
+      "fr": "On peut y acheter de la viande, du poisson et des épices.",
+      "es": "Se puede comprar carne, pescado y especias.",
+      "en": "You can buy meat, fish, and spices there."
+    },
+    {
+      "fr": "Il se tient souvent le matin dans les rues de la ville.",
+      "es": "Se celebra a menudo por la mañana en las calles de la ciudad.",
+      "en": "It's often held in the morning in the city streets."
+    },
+    {
+      "fr": "Il permet de rencontrer les producteurs et les commerçants.",
+      "es": "Permite conocer a productores y comerciantes.",
+      "en": "It allows you to meet producers and merchants."
+    }
+  ]
+}

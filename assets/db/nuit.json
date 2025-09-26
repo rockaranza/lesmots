@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Le temps",
+    "es": "El tiempo",
+    "en": "Time"
+  },
+  "palabra": "NUIT",
+  "longitud": 4,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "noche"
+    },
+    "en": {
+      "traduccion": "night"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la période sombre entre le coucher et le lever du soleil.",
+      "es": "Es el período oscuro entre la puesta y la salida del sol.",
+      "en": "It's the dark period between sunset and sunrise."
+    },
+    {
+      "fr": "Pendant cette période, on dort généralement.",
+      "es": "Durante este período, generalmente se duerme.",
+      "en": "During this period, people usually sleep."
+    },
+    {
+      "fr": "Le ciel devient noir et on peut voir les étoiles.",
+      "es": "El cielo se vuelve negro y se pueden ver las estrellas.",
+      "en": "The sky becomes black and you can see the stars."
+    },
+    {
+      "fr": "Elle dure environ 12 heures en hiver.",
+      "es": "Dura aproximadamente 12 horas en invierno.",
+      "en": "It lasts about 12 hours in winter."
+    },
+    {
+      "fr": "Certains animaux sont actifs uniquement pendant cette période.",
+      "es": "Algunos animales están activos solo durante este período.",
+      "en": "Some animals are active only during this period."
+    }
+  ]
+}

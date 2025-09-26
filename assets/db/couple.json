@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "COUPLE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "pareja"
+    },
+    "en": {
+      "traduccion": "couple"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'union de deux personnes qui s'aiment.",
+      "es": "Es la unión de dos personas que se aman.",
+      "en": "It's the union of two people who love each other."
+    },
+    {
+      "fr": "Il peut être marié ou vivre ensemble sans être marié.",
+      "es": "Puede estar casado o vivir juntos sin estar casados.",
+      "en": "They can be married or live together without being married."
+    },
+    {
+      "fr": "Il partage la vie quotidienne et les projets d'avenir.",
+      "es": "Comparte la vida cotidiana y los proyectos de futuro.",
+      "en": "They share daily life and future projects."
+    },
+    {
+      "fr": "Il peut avoir des enfants et former une famille.",
+      "es": "Puede tener hijos y formar una familia.",
+      "en": "They can have children and form a family."
+    },
+    {
+      "fr": "Il se soutient mutuellement dans les bons et mauvais moments.",
+      "es": "Se apoyan mutuamente en los buenos y malos momentos.",
+      "en": "They support each other in good and bad times."
+    }
+  ]
+}

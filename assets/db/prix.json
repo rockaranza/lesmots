@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "PRIX",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "precio"
+    },
+    "en": {
+      "traduccion": "price"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la valeur monétaire d'un produit ou d'un service.",
+      "es": "Es el valor monetario de un producto o servicio.",
+      "en": "It's the monetary value of a product or service."
+    },
+    {
+      "fr": "Il est affiché dans les magasins et sur les étiquettes.",
+      "es": "Se muestra en las tiendas y en las etiquetas.",
+      "en": "It's displayed in stores and on labels."
+    },
+    {
+      "fr": "Il peut être fixe ou négociable selon le contexte.",
+      "es": "Puede ser fijo o negociable según el contexto.",
+      "en": "It can be fixed or negotiable depending on the context."
+    },
+    {
+      "fr": "Il influence les décisions d'achat des consommateurs.",
+      "es": "Influencia las decisiones de compra de los consumidores.",
+      "en": "It influences consumers' purchasing decisions."
+    },
+    {
+      "fr": "Il peut varier selon l'offre et la demande.",
+      "es": "Puede variar según la oferta y la demanda.",
+      "en": "It can vary according to supply and demand."
+    }
+  ]
+}

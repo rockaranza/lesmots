@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "ARBRE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "árbol"
+    },
+    "en": {
+      "traduccion": "tree"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une plante ligneuse qui peut vivre très longtemps.",
+      "es": "Es una planta leñosa que puede vivir mucho tiempo.",
+      "en": "It's a woody plant that can live for a very long time."
+    },
+    {
+      "fr": "Il a un tronc, des branches et des feuilles.",
+      "es": "Tiene un tronco, ramas y hojas.",
+      "en": "It has a trunk, branches, and leaves."
+    },
+    {
+      "fr": "Il produit de l'oxygène et purifie l'air.",
+      "es": "Produce oxígeno y purifica el aire.",
+      "en": "It produces oxygen and purifies the air."
+    },
+    {
+      "fr": "Il peut donner des fruits, des noix ou des fleurs.",
+      "es": "Puede dar frutos, nueces o flores.",
+      "en": "It can produce fruits, nuts, or flowers."
+    },
+    {
+      "fr": "Il change de couleur selon les saisons.",
+      "es": "Cambia de color según las estaciones.",
+      "en": "It changes color according to the seasons."
+    }
+  ]
+}

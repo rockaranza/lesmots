@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "PEUR",
+  "longitud": 4,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "miedo"
+    },
+    "en": {
+      "traduccion": "fear"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une émotion de crainte et d'anxiété face au danger.",
+      "es": "Es una emoción de temor y ansiedad ante el peligro.",
+      "en": "It's an emotion of dread and anxiety in the face of danger."
+    },
+    {
+      "fr": "Elle peut être causée par des menaces réelles ou imaginaires.",
+      "es": "Puede ser causada por amenazas reales o imaginarias.",
+      "en": "It can be caused by real or imaginary threats."
+    },
+    {
+      "fr": "Elle se manifeste souvent par des tremblements et de la transpiration.",
+      "es": "Se manifiesta a menudo con temblores y sudoración.",
+      "en": "It often manifests with trembling and sweating."
+    },
+    {
+      "fr": "Elle peut être paralysante ou motiver à fuir.",
+      "es": "Puede ser paralizante o motivar a huir.",
+      "en": "It can be paralyzing or motivate to flee."
+    },
+    {
+      "fr": "Elle est une réaction naturelle de protection.",
+      "es": "Es una reacción natural de protección.",
+      "en": "It's a natural protective reaction."
+    }
+  ]
+}

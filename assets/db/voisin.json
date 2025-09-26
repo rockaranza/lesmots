@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "VOISIN",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "vecino"
+    },
+    "en": {
+      "traduccion": "neighbor"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne qui habite près de chez nous.",
+      "es": "Es una persona que vive cerca de nuestra casa.",
+      "en": "It's a person who lives near our house."
+    },
+    {
+      "fr": "Il peut habiter dans la même rue ou le même immeuble.",
+      "es": "Puede vivir en la misma calle o el mismo edificio.",
+      "en": "He can live on the same street or in the same building."
+    },
+    {
+      "fr": "On peut le saluer tous les jours et échanger quelques mots.",
+      "es": "Se puede saludar todos los días e intercambiar algunas palabras.",
+      "en": "You can greet him every day and exchange a few words."
+    },
+    {
+      "fr": "Il peut être un ami proche ou simplement une connaissance.",
+      "es": "Puede ser un amigo cercano o simplemente un conocido.",
+      "en": "He can be a close friend or simply an acquaintance."
+    },
+    {
+      "fr": "Il fait partie de la communauté locale.",
+      "es": "Forma parte de la comunidad local.",
+      "en": "He is part of the local community."
+    }
+  ]
+}

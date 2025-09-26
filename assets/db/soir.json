@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Le temps",
+    "es": "El tiempo",
+    "en": "Time"
+  },
+  "palabra": "SOIR",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "tarde"
+    },
+    "en": {
+      "traduccion": "evening"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la partie de la journée entre l'après-midi et la nuit.",
+      "es": "Es la parte del día entre la tarde y la noche.",
+      "en": "It's the part of the day between afternoon and night."
+    },
+    {
+      "fr": "Il commence vers 18h et se termine vers 22h.",
+      "es": "Comienza hacia las 18h y termina hacia las 22h.",
+      "en": "It starts around 6 PM and ends around 10 PM."
+    },
+    {
+      "fr": "On y dîne souvent en famille.",
+      "es": "A menudo se cena en familia.",
+      "en": "You often have dinner with family then."
+    },
+    {
+      "fr": "Il est souvent associé à la détente et au repos.",
+      "es": "A menudo se asocia con la relajación y el descanso.",
+      "en": "It's often associated with relaxation and rest."
+    },
+    {
+      "fr": "Il précède la nuit et suit l'après-midi.",
+      "es": "Precede a la noche y sigue a la tarde.",
+      "en": "It precedes night and follows afternoon."
+    }
+  ]
+}

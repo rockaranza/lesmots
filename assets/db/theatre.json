@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "Arts"
+  },
+  "palabra": "THEATRE",
+  "longitud": 7,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "teatro"
+    },
+    "en": {
+      "traduccion": "theater"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'art de représenter des histoires sur scène avec des acteurs.",
+      "es": "Es el arte de representar historias en escena con actores.",
+      "en": "It's the art of representing stories on stage with actors."
+    },
+    {
+      "fr": "Il se pratique dans un bâtiment spécialement conçu pour les spectacles.",
+      "es": "Se practica en un edificio especialmente diseñado para espectáculos.",
+      "en": "It's practiced in a building specially designed for shows."
+    },
+    {
+      "fr": "Il combine le jeu d'acteur, la mise en scène et les décors.",
+      "es": "Combina la actuación, la dirección y la escenografía.",
+      "en": "It combines acting, directing, and set design."
+    },
+    {
+      "fr": "Il peut être comique, dramatique ou musical.",
+      "es": "Puede ser cómico, dramático o musical.",
+      "en": "It can be comedic, dramatic, or musical."
+    },
+    {
+      "fr": "Il divertit et fait réfléchir le public.",
+      "es": "Divierte y hace reflexionar al público.",
+      "en": "It entertains and makes the audience think."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "PARC",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "parque"
+    },
+    "en": {
+      "traduccion": "park"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un espace vert dans la ville avec des arbres et de l'herbe.",
+      "es": "Es un espacio verde en la ciudad con árboles y hierba.",
+      "en": "It's a green space in the city with trees and grass."
+    },
+    {
+      "fr": "On peut y faire du sport, se promener ou pique-niquer.",
+      "es": "Se puede hacer deporte, pasear o hacer picnic.",
+      "en": "You can do sports, walk, or have a picnic there."
+    },
+    {
+      "fr": "Il a souvent des bancs, des jeux pour enfants et des allées.",
+      "es": "A menudo tiene bancos, juegos para niños y paseos.",
+      "en": "It often has benches, children's playgrounds, and paths."
+    },
+    {
+      "fr": "Il offre un moment de détente au milieu de la ville.",
+      "es": "Ofrece un momento de relajación en medio de la ciudad.",
+      "en": "It offers a moment of relaxation in the middle of the city."
+    },
+    {
+      "fr": "Il peut avoir une fontaine, un lac ou des fleurs.",
+      "es": "Puede tener una fuente, un lago o flores.",
+      "en": "It can have a fountain, a lake, or flowers."
+    }
+  ]
+}

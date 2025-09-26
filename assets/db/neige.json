@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "NEIGE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "nieve"
+    },
+    "en": {
+      "traduccion": "snow"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est de l'eau gelée qui tombe du ciel en flocons blancs.",
+      "es": "Es agua congelada que cae del cielo en copos blancos.",
+      "en": "It's frozen water that falls from the sky in white flakes."
+    },
+    {
+      "fr": "Elle tombe quand il fait très froid, en dessous de zéro.",
+      "es": "Cae cuando hace mucho frío, por debajo de cero.",
+      "en": "It falls when it's very cold, below zero."
+    },
+    {
+      "fr": "Elle recouvre le sol d'un manteau blanc et doux.",
+      "es": "Cubre el suelo con un manto blanco y suave.",
+      "en": "It covers the ground with a white and soft blanket."
+    },
+    {
+      "fr": "On peut faire des bonhommes de neige et des batailles.",
+      "es": "Se pueden hacer muñecos de nieve y batallas.",
+      "en": "You can make snowmen and have snowball fights."
+    },
+    {
+      "fr": "Elle fond au printemps et devient de l'eau.",
+      "es": "Se derrite en primavera y se convierte en agua.",
+      "en": "It melts in spring and becomes water."
+    }
+  ]
+}

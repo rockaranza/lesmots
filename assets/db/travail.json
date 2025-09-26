@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "TRAVAIL",
+  "longitud": 7,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "trabajo"
+    },
+    "en": {
+      "traduccion": "work"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'activité professionnelle qui permet de gagner sa vie.",
+      "es": "Es la actividad profesional que permite ganarse la vida.",
+      "en": "It's the professional activity that allows earning a living."
+    },
+    {
+      "fr": "Il peut être salarié, indépendant ou fonctionnaire.",
+      "es": "Puede ser asalariado, independiente o funcionario.",
+      "en": "It can be salaried, self-employed, or civil service."
+    },
+    {
+      "fr": "Il occupe une grande partie de la journée des adultes.",
+      "es": "Ocupa una gran parte del día de los adultos.",
+      "en": "It occupies a large part of adults' day."
+    },
+    {
+      "fr": "Il permet de développer des compétences et de progresser.",
+      "es": "Permite desarrollar habilidades y progresar.",
+      "en": "It allows developing skills and progressing."
+    },
+    {
+      "fr": "Il est essentiel pour l'économie et la société.",
+      "es": "Es esencial para la economía y la sociedad.",
+      "en": "It's essential for the economy and society."
+    }
+  ]
+}

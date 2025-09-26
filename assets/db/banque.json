@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "BANQUE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "banco"
+    },
+    "en": {
+      "traduccion": "bank"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une institution financière qui gère l'argent des clients.",
+      "es": "Es una institución financiera que gestiona el dinero de los clientes.",
+      "en": "It's a financial institution that manages clients' money."
+    },
+    {
+      "fr": "Elle propose des comptes courants, des épargnes et des crédits.",
+      "es": "Ofrece cuentas corrientes, ahorros y créditos.",
+      "en": "It offers current accounts, savings, and credits."
+    },
+    {
+      "fr": "On peut y déposer de l'argent et retirer des espèces.",
+      "es": "Se puede depositar dinero y retirar efectivo.",
+      "en": "You can deposit money and withdraw cash there."
+    },
+    {
+      "fr": "Elle a des guichets automatiques et des conseillers.",
+      "es": "Tiene cajeros automáticos y asesores.",
+      "en": "It has ATMs and advisors."
+    },
+    {
+      "fr": "Elle est régulée par l'État et protège les dépôts.",
+      "es": "Está regulada por el Estado y protege los depósitos.",
+      "en": "It's regulated by the state and protects deposits."
+    }
+  ]
+}

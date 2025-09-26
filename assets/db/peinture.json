@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "Arts"
+  },
+  "palabra": "PEINTURE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "pintura"
+    },
+    "en": {
+      "traduccion": "painting"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'art de créer des images avec des couleurs sur une surface.",
+      "es": "Es el arte de crear imágenes con colores sobre una superficie.",
+      "en": "It's the art of creating images with colors on a surface."
+    },
+    {
+      "fr": "Elle peut être faite avec des pinceaux et de la peinture à l'huile.",
+      "es": "Se puede hacer con pinceles y pintura al óleo.",
+      "en": "It can be made with brushes and oil paint."
+    },
+    {
+      "fr": "Elle peut représenter des paysages, des portraits ou des scènes.",
+      "es": "Puede representar paisajes, retratos o escenas.",
+      "en": "It can represent landscapes, portraits, or scenes."
+    },
+    {
+      "fr": "Elle est exposée dans des musées et des galeries d'art.",
+      "es": "Se expone en museos y galerías de arte.",
+      "en": "It's exhibited in museums and art galleries."
+    },
+    {
+      "fr": "Elle peut être abstraite ou figurative.",
+      "es": "Puede ser abstracta o figurativa.",
+      "en": "It can be abstract or figurative."
+    }
+  ]
+}

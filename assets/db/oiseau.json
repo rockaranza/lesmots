@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "OISEAU",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "pájaro"
+    },
+    "en": {
+      "traduccion": "bird"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un animal qui vole dans le ciel avec des ailes.",
+      "es": "Es un animal que vuela en el cielo con alas.",
+      "en": "It's an animal that flies in the sky with wings."
+    },
+    {
+      "fr": "Il a des plumes, un bec et pond des œufs.",
+      "es": "Tiene plumas, pico y pone huevos.",
+      "en": "It has feathers, a beak, and lays eggs."
+    },
+    {
+      "fr": "Il peut chanter de belles mélodies le matin.",
+      "es": "Puede cantar hermosas melodías por la mañana.",
+      "en": "It can sing beautiful melodies in the morning."
+    },
+    {
+      "fr": "Il peut être petit comme un moineau ou grand comme un aigle.",
+      "es": "Puede ser pequeño como un gorrión o grande como un águila.",
+      "en": "It can be small like a sparrow or big like an eagle."
+    },
+    {
+      "fr": "Il se perche souvent sur les branches des arbres.",
+      "es": "A menudo se posa en las ramas de los árboles.",
+      "en": "It often perches on tree branches."
+    }
+  ]
+}

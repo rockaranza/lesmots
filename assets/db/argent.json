@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "ARGENT",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "dinero"
+    },
+    "en": {
+      "traduccion": "money"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est ce qu'on utilise pour acheter des choses.",
+      "es": "Es lo que se usa para comprar cosas.",
+      "en": "It's what you use to buy things."
+    },
+    {
+      "fr": "Il peut être en pièces, en billets ou sur une carte.",
+      "es": "Puede ser en monedas, billetes o en una tarjeta.",
+      "en": "It can be in coins, bills, or on a card."
+    },
+    {
+      "fr": "On le gagne en travaillant ou en vendant des biens.",
+      "es": "Se gana trabajando o vendiendo bienes.",
+      "en": "You earn it by working or selling goods."
+    },
+    {
+      "fr": "Il permet de payer les factures et les impôts.",
+      "es": "Permite pagar facturas e impuestos.",
+      "en": "It allows you to pay bills and taxes."
+    },
+    {
+      "fr": "On peut l'économiser dans une banque.",
+      "es": "Se puede ahorrar en un banco.",
+      "en": "You can save it in a bank."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "ORDINATEUR",
+  "longitud": 10,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "computadora"
+    },
+    "en": {
+      "traduccion": "computer"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une machine électronique qui traite des informations.",
+      "es": "Es una máquina electrónica que procesa información.",
+      "en": "It's an electronic machine that processes information."
+    },
+    {
+      "fr": "Il a un écran, un clavier et une souris.",
+      "es": "Tiene una pantalla, un teclado y un ratón.",
+      "en": "It has a screen, keyboard, and mouse."
+    },
+    {
+      "fr": "On peut l'utiliser pour travailler, jouer ou communiquer.",
+      "es": "Se puede usar para trabajar, jugar o comunicarse.",
+      "en": "You can use it to work, play, or communicate."
+    },
+    {
+      "fr": "Il peut être portable ou fixe sur un bureau.",
+      "es": "Puede ser portátil o fijo en un escritorio.",
+      "en": "It can be portable or fixed on a desk."
+    },
+    {
+      "fr": "Il fonctionne avec des programmes et des logiciels.",
+      "es": "Funciona con programas y software.",
+      "en": "It works with programs and software."
+    }
+  ]
+}

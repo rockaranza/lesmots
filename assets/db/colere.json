@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "COLERE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "ira"
+    },
+    "en": {
+      "traduccion": "anger"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une émotion forte de mécontentement et d'agressivité.",
+      "es": "Es una emoción fuerte de descontento y agresividad.",
+      "en": "It's a strong emotion of discontent and aggressiveness."
+    },
+    {
+      "fr": "Elle peut être causée par une injustice ou une frustration.",
+      "es": "Puede ser causada por una injusticia o frustración.",
+      "en": "It can be caused by injustice or frustration."
+    },
+    {
+      "fr": "Elle se manifeste souvent par des cris et de l'agitation.",
+      "es": "Se manifiesta a menudo con gritos y agitación.",
+      "en": "It often manifests with shouting and agitation."
+    },
+    {
+      "fr": "Elle peut être contrôlée ou explosive.",
+      "es": "Puede ser controlada o explosiva.",
+      "en": "It can be controlled or explosive."
+    },
+    {
+      "fr": "Elle est souvent associée à la couleur rouge.",
+      "es": "A menudo se asocia con el color rojo.",
+      "en": "It's often associated with the color red."
+    }
+  ]
+}

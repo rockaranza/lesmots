@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "CRAYON",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "lápiz"
+    },
+    "en": {
+      "traduccion": "pencil"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un instrument d'écriture avec une mine de graphite.",
+      "es": "Es un instrumento de escritura con una mina de grafito.",
+      "en": "It's a writing instrument with a graphite lead."
+    },
+    {
+      "fr": "Il a souvent une gomme à effacer à une extrémité.",
+      "es": "A menudo tiene una goma de borrar en un extremo.",
+      "en": "It often has an eraser at one end."
+    },
+    {
+      "fr": "On peut l'aiguiser avec un taille-crayon.",
+      "es": "Se puede afilar con un sacapuntas.",
+      "en": "You can sharpen it with a pencil sharpener."
+    },
+    {
+      "fr": "Il est utilisé pour dessiner et écrire à l'école.",
+      "es": "Se usa para dibujar y escribir en la escuela.",
+      "en": "It's used for drawing and writing at school."
+    },
+    {
+      "fr": "Il peut être de différentes couleurs et tailles.",
+      "es": "Puede ser de diferentes colores y tamaños.",
+      "en": "It can be of different colors and sizes."
+    }
+  ]
+}

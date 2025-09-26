@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les loisirs",
+    "es": "Los pasatiempos",
+    "en": "Leisure"
+  },
+  "palabra": "PLAGE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "playa"
+    },
+    "en": {
+      "traduccion": "beach"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un lieu de détente au bord de la mer avec du sable.",
+      "es": "Es un lugar de relajación a la orilla del mar con arena.",
+      "en": "It's a relaxation place by the sea with sand."
+    },
+    {
+      "fr": "On peut y nager, se bronzer et jouer au volley.",
+      "es": "Se puede nadar, broncearse y jugar voleibol.",
+      "en": "You can swim, sunbathe, and play volleyball there."
+    },
+    {
+      "fr": "Elle a souvent des parasols, des chaises longues et des cabines.",
+      "es": "A menudo tiene sombrillas, tumbonas y cabinas.",
+      "en": "It often has umbrellas, deck chairs, and cabins."
+    },
+    {
+      "fr": "Elle est très fréquentée en été et pendant les vacances.",
+      "es": "Es muy frecuentada en verano y durante las vacaciones.",
+      "en": "It's very busy in summer and during holidays."
+    },
+    {
+      "fr": "Elle offre une vue magnifique sur l'océan ou la mer.",
+      "es": "Ofrece una vista magnífica del océano o el mar.",
+      "en": "It offers a magnificent view of the ocean or sea."
+    }
+  ]
+}

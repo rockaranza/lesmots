@@ -4,104 +4,132 @@
  */
 class DataManager {
     constructor() {
-        this.categories = new Map();
-        this.currentCategory = null;
-        this.currentWords = [];
-        this.availableCategories = [
-            { id: 'journal', name: 'La ville', icon: '🏙️', file: 'journal.json' },
-            { id: 'fleur', name: 'La nature', icon: '🌺', file: 'fleur.json' },
-            { id: 'maison', name: 'La maison', icon: '🏠', file: 'maison.json' }
-        ];
+        this.wordsList = [];
+        this.currentWord = null;
+        this.isLoaded = false;
+        this.recentWords = []; // Historial de palabras recientes
+        this.maxRecentWords = 3; // Máximo de palabras recientes a recordar
     }
 
     /**
-     * Carga una categoría específica desde el archivo JSON
-     * @param {string} categoryId - ID de la categoría
-     * @returns {Promise<Object>} Datos de la categoría
+     * Carga la lista de palabras disponibles
+     * @returns {Promise<void>}
      */
-    async loadCategory(categoryId) {
+    async loadWordsList() {
         try {
-            const categoryInfo = this.availableCategories.find(cat => cat.id === categoryId);
-            if (!categoryInfo) {
-                throw new Error(`Categoría ${categoryId} no encontrada`);
-            }
-
-            const response = await fetch(`assets/db/${categoryInfo.file}`);
+            const response = await fetch('assets/db/words.json');
             if (!response.ok) {
-                throw new Error(`Error al cargar ${categoryInfo.file}`);
+                throw new Error('Error al cargar la lista de palabras');
             }
 
             const data = await response.json();
-            this.categories.set(categoryId, data);
-            this.currentCategory = categoryId;
-            this.currentWords = [data]; // Por ahora cada archivo tiene una palabra
-            
-            return data;
+            this.wordsList = data.words;
+            this.isLoaded = true;
         } catch (error) {
-            console.error('Error cargando categoría:', error);
+            console.error('Error cargando lista de palabras:', error);
             throw error;
         }
     }
 
     /**
-     * Carga una categoría aleatoria
-     * @returns {Promise<Object>} Datos de la categoría aleatoria
+     * Carga una palabra aleatoria
+     * @returns {Promise<Object>} Datos de la palabra aleatoria
      */
-    async loadRandomCategory() {
+    async loadRandomWord() {
         try {
-            const randomIndex = Math.floor(Math.random() * this.availableCategories.length);
-            const randomCategory = this.availableCategories[randomIndex];
-            return await this.loadCategory(randomCategory.id);
+            if (!this.isLoaded) {
+                await this.loadWordsList();
+            }
+
+            if (this.wordsList.length === 0) {
+                throw new Error('No hay palabras disponibles');
+            }
+
+            // Filtrar palabras recientes
+            const availableWords = this.wordsList.filter(word => 
+                !this.recentWords.includes(word.id)
+            );
+
+            // Si no hay palabras disponibles (todas son recientes), usar todas
+            const wordsToChooseFrom = availableWords.length > 0 ? availableWords : this.wordsList;
+
+            // Seleccionar una palabra aleatoria
+            const randomIndex = Math.floor(Math.random() * wordsToChooseFrom.length);
+            const selectedWord = wordsToChooseFrom[randomIndex];
+
+            // Cargar los datos completos de la palabra
+            const response = await fetch(`assets/db/${selectedWord.filename}`);
+            if (!response.ok) {
+                throw new Error(`Error al cargar ${selectedWord.filename}`);
+            }
+
+            const wordData = await response.json();
+            this.currentWord = wordData;
+            
+            // Agregar la palabra al historial de recientes
+            this.addToRecentWords(selectedWord.id);
+            
+            return wordData;
         } catch (error) {
-            console.error('Error cargando categoría aleatoria:', error);
+            console.error('Error cargando palabra aleatoria:', error);
             throw error;
         }
     }
 
     /**
-     * Obtiene todas las categorías disponibles
-     * @returns {Array} Lista de categorías
+     * Obtiene la palabra actual
+     * @returns {Object|null} Palabra actual
      */
-    getAvailableCategories() {
-        return this.availableCategories;
+    getCurrentWord() {
+        return this.currentWord;
     }
 
     /**
-     * Obtiene las palabras de la categoría actual
-     * @returns {Array} Palabras de la categoría actual
+     * Obtiene todas las palabras disponibles
+     * @returns {Array} Lista de palabras
      */
-    getCurrentWords() {
-        return this.currentWords;
+    getWordsList() {
+        return this.wordsList;
     }
 
     /**
-     * Obtiene una palabra aleatoria de la categoría actual
-     * @returns {Object} Palabra aleatoria
+     * Verifica si las palabras están cargadas
+     * @returns {boolean} True si están cargadas
      */
-    getRandomWord() {
-        if (this.currentWords.length === 0) {
-            throw new Error('No hay palabras disponibles');
-        }
+    isWordsLoaded() {
+        return this.isLoaded;
+    }
+
+    /**
+     * Agrega una palabra al historial de recientes
+     * @param {string} wordId - ID de la palabra
+     */
+    addToRecentWords(wordId) {
+        // Remover la palabra si ya existe en el historial
+        this.recentWords = this.recentWords.filter(id => id !== wordId);
         
-        const randomIndex = Math.floor(Math.random() * this.currentWords.length);
-        return this.currentWords[randomIndex];
+        // Agregar la palabra al inicio del historial
+        this.recentWords.unshift(wordId);
+        
+        // Mantener solo el número máximo de palabras recientes
+        if (this.recentWords.length > this.maxRecentWords) {
+            this.recentWords = this.recentWords.slice(0, this.maxRecentWords);
+        }
     }
 
     /**
-     * Obtiene la categoría actual
-     * @returns {string|null} ID de la categoría actual
+     * Obtiene el historial de palabras recientes
+     * @returns {Array} Lista de IDs de palabras recientes
      */
-    getCurrentCategory() {
-        return this.currentCategory;
+    getRecentWords() {
+        return [...this.recentWords];
     }
 
     /**
-     * Obtiene información de una categoría específica
-     * @param {string} categoryId - ID de la categoría
-     * @returns {Object|null} Información de la categoría
+     * Limpia el historial de palabras recientes
      */
-    getCategoryInfo(categoryId) {
-        return this.availableCategories.find(cat => cat.id === categoryId) || null;
+    clearRecentWords() {
+        this.recentWords = [];
     }
 }
 

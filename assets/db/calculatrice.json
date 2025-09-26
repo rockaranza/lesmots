@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "CALCULATRICE",
+  "longitud": 12,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "calculadora"
+    },
+    "en": {
+      "traduccion": "calculator"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un appareil électronique pour faire des calculs.",
+      "es": "Es un aparato electrónico para hacer cálculos.",
+      "en": "It's an electronic device for making calculations."
+    },
+    {
+      "fr": "Elle a des boutons avec des chiffres et des symboles.",
+      "es": "Tiene botones con números y símbolos.",
+      "en": "It has buttons with numbers and symbols."
+    },
+    {
+      "fr": "On peut y faire des additions, soustractions et multiplications.",
+      "es": "Se pueden hacer sumas, restas y multiplicaciones.",
+      "en": "You can do additions, subtractions, and multiplications."
+    },
+    {
+      "fr": "Elle est autorisée dans certains examens de mathématiques.",
+      "es": "Está permitida en ciertos exámenes de matemáticas.",
+      "en": "It's allowed in certain mathematics exams."
+    },
+    {
+      "fr": "Elle peut être scientifique ou basique.",
+      "es": "Puede ser científica o básica.",
+      "en": "It can be scientific or basic."
+    }
+  ]
+}

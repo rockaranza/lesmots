@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "TRISTESSE",
+  "longitud": 9,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "tristeza"
+    },
+    "en": {
+      "traduccion": "sadness"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une émotion de douleur morale et de mélancolie.",
+      "es": "Es una emoción de dolor moral y melancolía.",
+      "en": "It's an emotion of moral pain and melancholy."
+    },
+    {
+      "fr": "Elle peut être causée par une perte ou une déception.",
+      "es": "Puede ser causada por una pérdida o decepción.",
+      "en": "It can be caused by a loss or disappointment."
+    },
+    {
+      "fr": "Elle se manifeste souvent par des larmes et de la solitude.",
+      "es": "Se manifiesta a menudo con lágrimas y soledad.",
+      "en": "It often manifests with tears and loneliness."
+    },
+    {
+      "fr": "Elle est opposée à la joie et au bonheur.",
+      "es": "Es opuesta a la alegría y la felicidad.",
+      "en": "It's opposite to joy and happiness."
+    },
+    {
+      "fr": "Elle peut être temporaire ou profonde et durable.",
+      "es": "Puede ser temporal o profunda y duradera.",
+      "en": "It can be temporary or deep and lasting."
+    }
+  ]
+}

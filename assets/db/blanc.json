@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "BLANC",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "blanco"
+    },
+    "en": {
+      "traduccion": "white"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur la plus claire, opposée au noir.",
+      "es": "Es el color más claro, opuesto al negro.",
+      "en": "It's the lightest color, opposite to black."
+    },
+    {
+      "fr": "C'est la couleur de la neige et des nuages.",
+      "es": "Es el color de la nieve y las nubes.",
+      "en": "It's the color of snow and clouds."
+    },
+    {
+      "fr": "On l'associe souvent à la pureté et à la paix.",
+      "es": "A menudo se asocia con la pureza y la paz.",
+      "en": "It's often associated with purity and peace."
+    },
+    {
+      "fr": "C'est la couleur des drapeaux de reddition.",
+      "es": "Es el color de las banderas de rendición.",
+      "en": "It's the color of surrender flags."
+    },
+    {
+      "fr": "Elle réfléchit toute la lumière et ne l'absorbe pas.",
+      "es": "Refleja toda la luz y no la absorbe.",
+      "en": "It reflects all light and doesn't absorb it."
+    }
+  ]
+}

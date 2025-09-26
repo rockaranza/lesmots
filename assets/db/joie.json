@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "JOIE",
+  "longitud": 4,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "alegría"
+    },
+    "en": {
+      "traduccion": "joy"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment de bonheur et de satisfaction.",
+      "es": "Es un sentimiento de felicidad y satisfacción.",
+      "en": "It's a feeling of happiness and satisfaction."
+    },
+    {
+      "fr": "Elle se manifeste par des sourires et de la bonne humeur.",
+      "es": "Se manifiesta con sonrisas y buen humor.",
+      "en": "It manifests itself with smiles and good mood."
+    },
+    {
+      "fr": "Elle peut être causée par de bonnes nouvelles ou des réussites.",
+      "es": "Puede ser causada por buenas noticias o logros.",
+      "en": "It can be caused by good news or achievements."
+    },
+    {
+      "fr": "Elle est contagieuse et peut se partager avec les autres.",
+      "es": "Es contagiosa y se puede compartir con otros.",
+      "en": "It's contagious and can be shared with others."
+    },
+    {
+      "fr": "Elle rend la vie plus belle et plus agréable.",
+      "es": "Hace la vida más bella y agradable.",
+      "en": "It makes life more beautiful and pleasant."
+    }
+  ]
+}

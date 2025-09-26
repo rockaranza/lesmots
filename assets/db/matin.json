@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Le temps",
+    "es": "El tiempo",
+    "en": "Time"
+  },
+  "palabra": "MATIN",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "mañana"
+    },
+    "en": {
+      "traduccion": "morning"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la première partie de la journée, avant midi.",
+      "es": "Es la primera parte del día, antes del mediodía.",
+      "en": "It's the first part of the day, before noon."
+    },
+    {
+      "fr": "Il commence quand le soleil se lève.",
+      "es": "Comienza cuando sale el sol.",
+      "en": "It begins when the sun rises."
+    },
+    {
+      "fr": "On y prend souvent le petit-déjeuner.",
+      "es": "A menudo se toma el desayuno.",
+      "en": "You often have breakfast then."
+    },
+    {
+      "fr": "Il est souvent associé à la fraîcheur et à la tranquillité.",
+      "es": "A menudo se asocia con la frescura y la tranquilidad.",
+      "en": "It's often associated with freshness and tranquility."
+    },
+    {
+      "fr": "Il précède l'après-midi et la soirée.",
+      "es": "Precede a la tarde y la noche.",
+      "en": "It precedes afternoon and evening."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "SPORT",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "deporte"
+    },
+    "en": {
+      "traduccion": "sport"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une activité physique qui demande de l'effort.",
+      "es": "Es una actividad física que requiere esfuerzo.",
+      "en": "It's a physical activity that requires effort."
+    },
+    {
+      "fr": "Il peut se pratiquer seul ou en équipe.",
+      "es": "Se puede practicar solo o en equipo.",
+      "en": "It can be practiced alone or in a team."
+    },
+    {
+      "fr": "Il améliore la santé et la condition physique.",
+      "es": "Mejora la salud y la condición física.",
+      "en": "It improves health and physical condition."
+    },
+    {
+      "fr": "Il peut être compétitif ou simplement récréatif.",
+      "es": "Puede ser competitivo o simplemente recreativo.",
+      "en": "It can be competitive or simply recreational."
+    },
+    {
+      "fr": "Il existe de nombreux types : football, tennis, natation...",
+      "es": "Existen muchos tipos: fútbol, tenis, natación...",
+      "en": "There are many types: football, tennis, swimming..."
+    }
+  ]
+}

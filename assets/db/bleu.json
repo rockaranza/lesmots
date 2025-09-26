@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "BLEU",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "azul"
+    },
+    "en": {
+      "traduccion": "blue"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur du ciel par temps clair.",
+      "es": "Es el color del cielo cuando está despejado.",
+      "en": "It's the color of the sky on a clear day."
+    },
+    {
+      "fr": "C'est une couleur primaire très apaisante.",
+      "es": "Es un color primario muy relajante.",
+      "en": "It's a very calming primary color."
+    },
+    {
+      "fr": "On l'associe souvent à la mer et à l'océan.",
+      "es": "A menudo se asocia con el mar y el océano.",
+      "en": "It's often associated with the sea and ocean."
+    },
+    {
+      "fr": "C'est la couleur de nombreux uniformes de police.",
+      "es": "Es el color de muchos uniformes de policía.",
+      "en": "It's the color of many police uniforms."
+    },
+    {
+      "fr": "Elle peut être claire comme le ciel ou foncée comme la nuit.",
+      "es": "Puede ser clara como el cielo u oscura como la noche.",
+      "en": "It can be light like the sky or dark like the night."
+    }
+  ]
+}

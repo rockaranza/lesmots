@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "CUISINE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "cocina"
+    },
+    "en": {
+      "traduccion": "cooking"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'activité de préparer et cuisiner des repas.",
+      "es": "Es la actividad de preparar y cocinar comidas.",
+      "en": "It's the activity of preparing and cooking meals."
+    },
+    {
+      "fr": "Elle nécessite des ingrédients, des ustensiles et de la créativité.",
+      "es": "Requiere ingredientes, utensilios y creatividad.",
+      "en": "It requires ingredients, utensils, and creativity."
+    },
+    {
+      "fr": "Elle peut être un loisir ou une profession.",
+      "es": "Puede ser un pasatiempo o una profesión.",
+      "en": "It can be a hobby or a profession."
+    },
+    {
+      "fr": "Elle permet de créer des plats délicieux et originaux.",
+      "es": "Permite crear platos deliciosos y originales.",
+      "en": "It allows creating delicious and original dishes."
+    },
+    {
+      "fr": "Elle rassemble souvent la famille autour de la table.",
+      "es": "A menudo reúne a la familia alrededor de la mesa.",
+      "en": "It often brings the family together around the table."
+    }
+  ]
+}

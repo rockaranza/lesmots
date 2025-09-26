@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "SOLEIL",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "sol"
+    },
+    "en": {
+      "traduccion": "sun"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'astre qui éclaire la Terre et donne de la chaleur.",
+      "es": "Es el astro que ilumina la Tierra y da calor.",
+      "en": "It's the star that illuminates the Earth and gives heat."
+    },
+    {
+      "fr": "Il apparaît le jour et disparaît la nuit.",
+      "es": "Aparece durante el día y desaparece por la noche.",
+      "en": "It appears during the day and disappears at night."
+    },
+    {
+      "fr": "Il est responsable du beau temps et de la luminosité.",
+      "es": "Es responsable del buen tiempo y la luminosidad.",
+      "en": "It's responsible for good weather and brightness."
+    },
+    {
+      "fr": "Il peut être brûlant en été et doux en hiver.",
+      "es": "Puede ser abrasador en verano y suave en invierno.",
+      "en": "It can be scorching in summer and mild in winter."
+    },
+    {
+      "fr": "Il est essentiel pour la vie sur Terre.",
+      "es": "Es esencial para la vida en la Tierra.",
+      "en": "It's essential for life on Earth."
+    }
+  ]
+}

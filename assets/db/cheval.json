@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "CHEVAL",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "caballo"
+    },
+    "en": {
+      "traduccion": "horse"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un grand animal domestique avec quatre pattes et une crinière.",
+      "es": "Es un gran animal doméstico con cuatro patas y una crin.",
+      "en": "It's a large domestic animal with four legs and a mane."
+    },
+    {
+      "fr": "Il peut être monté et utilisé pour le transport.",
+      "es": "Se puede montar y usar para el transporte.",
+      "en": "It can be ridden and used for transportation."
+    },
+    {
+      "fr": "Il hennit et peut courir très vite.",
+      "es": "Relincha y puede correr muy rápido.",
+      "en": "It neighs and can run very fast."
+    },
+    {
+      "fr": "Il mange de l'herbe et du foin.",
+      "es": "Come hierba y heno.",
+      "en": "It eats grass and hay."
+    },
+    {
+      "fr": "Il est utilisé dans les sports équestres et les courses.",
+      "es": "Se usa en deportes ecuestres y carreras.",
+      "en": "It's used in equestrian sports and races."
+    }
+  ]
+}

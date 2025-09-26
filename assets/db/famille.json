@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relationships"
+  },
+  "palabra": "FAMILLE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "familia"
+    },
+    "en": {
+      "traduccion": "family"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un groupe de personnes liées par le sang ou l'amour.",
+      "es": "Es un grupo de personas unidas por sangre o amor.",
+      "en": "It's a group of people connected by blood or love."
+    },
+    {
+      "fr": "Elle comprend souvent des parents, des enfants et des grands-parents.",
+      "es": "A menudo incluye padres, hijos y abuelos.",
+      "en": "It often includes parents, children, and grandparents."
+    },
+    {
+      "fr": "C'est le premier cercle social d'une personne.",
+      "es": "Es el primer círculo social de una persona.",
+      "en": "It's a person's first social circle."
+    },
+    {
+      "fr": "Elle se réunit souvent pour les fêtes et les repas.",
+      "es": "Se reúne a menudo para fiestas y comidas.",
+      "en": "It often gathers for holidays and meals."
+    },
+    {
+      "fr": "Elle offre soutien, amour et protection à ses membres.",
+      "es": "Ofrece apoyo, amor y protección a sus miembros.",
+      "en": "It offers support, love, and protection to its members."
+    }
+  ]
+}

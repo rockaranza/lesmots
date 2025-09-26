@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "VOITURE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "coche"
+    },
+    "en": {
+      "traduccion": "car"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un véhicule à quatre roues qui transporte des personnes.",
+      "es": "Es un vehículo de cuatro ruedas que transporta personas.",
+      "en": "It's a four-wheeled vehicle that transports people."
+    },
+    {
+      "fr": "Elle a un volant, des freins et un moteur.",
+      "es": "Tiene un volante, frenos y un motor.",
+      "en": "It has a steering wheel, brakes, and an engine."
+    },
+    {
+      "fr": "On peut la conduire sur les routes et les autoroutes.",
+      "es": "Se puede conducir por carreteras y autopistas.",
+      "en": "You can drive it on roads and highways."
+    },
+    {
+      "fr": "Elle peut être électrique, à essence ou hybride.",
+      "es": "Puede ser eléctrica, de gasolina o híbrida.",
+      "en": "It can be electric, gasoline, or hybrid."
+    },
+    {
+      "fr": "Beaucoup de familles en ont une pour se déplacer.",
+      "es": "Muchas familias tienen una para desplazarse.",
+      "en": "Many families have one to get around."
+    }
+  ]
+}

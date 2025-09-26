@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "CAMERA",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "cámara"
+    },
+    "en": {
+      "traduccion": "camera"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un appareil qui permet de prendre des photos et des vidéos.",
+      "es": "Es un dispositivo que permite tomar fotos y videos.",
+      "en": "It's a device that allows taking photos and videos."
+    },
+    {
+      "fr": "Elle peut être numérique ou analogique.",
+      "es": "Puede ser digital o analógica.",
+      "en": "It can be digital or analog."
+    },
+    {
+      "fr": "Elle a un objectif, un capteur et un écran de visualisation.",
+      "es": "Tiene un objetivo, un sensor y una pantalla de visualización.",
+      "en": "It has a lens, a sensor, and a viewing screen."
+    },
+    {
+      "fr": "Elle est utilisée par les photographes et les amateurs.",
+      "es": "Es usada por fotógrafos y aficionados.",
+      "en": "It's used by photographers and amateurs."
+    },
+    {
+      "fr": "Elle peut être intégrée dans un téléphone ou être un appareil séparé.",
+      "es": "Puede estar integrada en un teléfono o ser un dispositivo separado.",
+      "en": "It can be integrated in a phone or be a separate device."
+    }
+  ]
+}

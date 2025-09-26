@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "NOIR",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "negro"
+    },
+    "en": {
+      "traduccion": "black"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur la plus sombre, opposée au blanc.",
+      "es": "Es el color más oscuro, opuesto al blanco.",
+      "en": "It's the darkest color, opposite to white."
+    },
+    {
+      "fr": "C'est la couleur de la nuit et du charbon.",
+      "es": "Es el color de la noche y el carbón.",
+      "en": "It's the color of night and coal."
+    },
+    {
+      "fr": "On l'associe souvent à l'élégance et au mystère.",
+      "es": "A menudo se asocia con la elegancia y el misterio.",
+      "en": "It's often associated with elegance and mystery."
+    },
+    {
+      "fr": "C'est la couleur des vêtements de deuil.",
+      "es": "Es el color de la ropa de luto.",
+      "en": "It's the color of mourning clothes."
+    },
+    {
+      "fr": "Elle absorbe toute la lumière et ne réfléchit rien.",
+      "es": "Absorbe toda la luz y no refleja nada.",
+      "en": "It absorbs all light and reflects nothing."
+    }
+  ]
+}

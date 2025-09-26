@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "VILLE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "ciudad"
+    },
+    "en": {
+      "traduccion": "city"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un grand endroit où vivent beaucoup de personnes.",
+      "es": "Es un lugar grande donde viven muchas personas.",
+      "en": "It's a large place where many people live."
+    },
+    {
+      "fr": "Elle a des rues, des bâtiments et des magasins.",
+      "es": "Tiene calles, edificios y tiendas.",
+      "en": "It has streets, buildings, and shops."
+    },
+    {
+      "fr": "Elle est plus grande qu'un village mais plus petite qu'une métropole.",
+      "es": "Es más grande que un pueblo pero más pequeña que una metrópolis.",
+      "en": "It's bigger than a village but smaller than a metropolis."
+    },
+    {
+      "fr": "Elle a souvent une mairie et des services publics.",
+      "es": "A menudo tiene un ayuntamiento y servicios públicos.",
+      "en": "It often has a town hall and public services."
+    },
+    {
+      "fr": "On y trouve des écoles, des hôpitaux et des parcs.",
+      "es": "Se encuentran escuelas, hospitales y parques.",
+      "en": "You can find schools, hospitals, and parks there."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "NATATION",
+  "longitud": 8,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "natación"
+    },
+    "en": {
+      "traduccion": "swimming"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sport qui se pratique dans l'eau.",
+      "es": "Es un deporte que se practica en el agua.",
+      "en": "It's a sport practiced in water."
+    },
+    {
+      "fr": "Elle se pratique dans une piscine, un lac ou la mer.",
+      "es": "Se practica en una piscina, lago o mar.",
+      "en": "It's practiced in a pool, lake, or sea."
+    },
+    {
+      "fr": "Elle fait travailler tous les muscles du corps.",
+      "es": "Hace trabajar todos los músculos del cuerpo.",
+      "en": "It works all the muscles of the body."
+    },
+    {
+      "fr": "Elle peut être de loisir ou de compétition.",
+      "es": "Puede ser de ocio o de competición.",
+      "en": "It can be recreational or competitive."
+    },
+    {
+      "fr": "Elle nécessite de savoir nager et de maîtriser différentes techniques.",
+      "es": "Requiere saber nadar y dominar diferentes técnicas.",
+      "en": "It requires knowing how to swim and mastering different techniques."
+    }
+  ]
+}

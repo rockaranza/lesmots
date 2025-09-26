@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Le temps",
+    "es": "El tiempo",
+    "en": "Time"
+  },
+  "palabra": "ANNEE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "año"
+    },
+    "en": {
+      "traduccion": "year"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une période de 365 jours (ou 366 les années bissextiles).",
+      "es": "Es un período de 365 días (o 366 en los años bisiestos).",
+      "en": "It's a period of 365 days (or 366 in leap years)."
+    },
+    {
+      "fr": "Elle commence le 1er janvier et se termine le 31 décembre.",
+      "es": "Comienza el 1 de enero y termina el 31 de diciembre.",
+      "en": "It starts on January 1st and ends on December 31st."
+    },
+    {
+      "fr": "Elle est divisée en 12 mois et 4 saisons.",
+      "es": "Está dividida en 12 meses y 4 estaciones.",
+      "en": "It's divided into 12 months and 4 seasons."
+    },
+    {
+      "fr": "Elle marque le passage du temps et les anniversaires.",
+      "es": "Marca el paso del tiempo y los cumpleaños.",
+      "en": "It marks the passage of time and birthdays."
+    },
+    {
+      "fr": "Elle est utilisée pour mesurer l'âge et les événements.",
+      "es": "Se usa para medir la edad y los eventos.",
+      "en": "It's used to measure age and events."
+    }
+  ]
+}

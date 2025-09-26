@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "VIANDE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "carne"
+    },
+    "en": {
+      "traduccion": "meat"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la chair des animaux utilisée comme nourriture.",
+      "es": "Es la carne de los animales usada como alimento.",
+      "en": "It's the flesh of animals used as food."
+    },
+    {
+      "fr": "Elle peut être de bœuf, de porc, d'agneau ou de volaille.",
+      "es": "Puede ser de res, cerdo, cordero o aves.",
+      "en": "It can be beef, pork, lamb, or poultry."
+    },
+    {
+      "fr": "Elle est riche en protéines et en fer.",
+      "es": "Es rica en proteínas y hierro.",
+      "en": "It's rich in proteins and iron."
+    },
+    {
+      "fr": "On peut la griller, la rôtir ou la faire bouillir.",
+      "es": "Se puede asar, rostizar o hervir.",
+      "en": "You can grill, roast, or boil it."
+    },
+    {
+      "fr": "Elle doit être bien cuite pour éviter les maladies.",
+      "es": "Debe estar bien cocida para evitar enfermedades.",
+      "en": "It must be well cooked to avoid diseases."
+    }
+  ]
+}

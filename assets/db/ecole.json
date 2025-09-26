@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "ECOLE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "escuela"
+    },
+    "en": {
+      "traduccion": "school"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un lieu où les enfants vont apprendre.",
+      "es": "Es un lugar donde los niños van a aprender.",
+      "en": "It's a place where children go to learn."
+    },
+    {
+      "fr": "Elle a des salles de classe, des professeurs et des élèves.",
+      "es": "Tiene aulas, profesores y estudiantes.",
+      "en": "It has classrooms, teachers, and students."
+    },
+    {
+      "fr": "On y apprend à lire, écrire et compter.",
+      "es": "Allí se aprende a leer, escribir y contar.",
+      "en": "You learn to read, write, and count there."
+    },
+    {
+      "fr": "Elle a une cour de récréation pour jouer.",
+      "es": "Tiene un patio de recreo para jugar.",
+      "en": "It has a playground to play."
+    },
+    {
+      "fr": "Les enfants y vont du lundi au vendredi.",
+      "es": "Los niños van de lunes a viernes.",
+      "en": "Children go there from Monday to Friday."
+    }
+  ]
+}

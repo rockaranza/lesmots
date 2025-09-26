@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les loisirs",
+    "es": "El ocio",
+    "en": "Leisure"
+  },
+  "palabra": "VOYAGE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "viaje"
+    },
+    "en": {
+      "traduccion": "trip"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un déplacement vers un autre endroit.",
+      "es": "Es un desplazamiento hacia otro lugar.",
+      "en": "It's a movement to another place."
+    },
+    {
+      "fr": "On peut le faire en avion, en train ou en voiture.",
+      "es": "Se puede hacer en avión, tren o coche.",
+      "en": "You can do it by plane, train, or car."
+    },
+    {
+      "fr": "Il permet de découvrir de nouveaux endroits.",
+      "es": "Permite descubrir nuevos lugares.",
+      "en": "It allows you to discover new places."
+    },
+    {
+      "fr": "On peut voyager pour les vacances ou le travail.",
+      "es": "Se puede viajar por vacaciones o trabajo.",
+      "en": "You can travel for vacation or work."
+    },
+    {
+      "fr": "Il nécessite souvent de faire des bagages.",
+      "es": "A menudo requiere hacer equipaje.",
+      "en": "It often requires packing luggage."
+    }
+  ]
+}

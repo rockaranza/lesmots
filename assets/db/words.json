@@ -1,0 +1,399 @@
+{
+  "words": [
+    {
+      "id": "fleur",
+      "filename": "fleur.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "journal",
+      "filename": "journal.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "maison",
+      "filename": "maison.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "chat",
+      "filename": "chat.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "rouge",
+      "filename": "rouge.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "pomme",
+      "filename": "pomme.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "soleil",
+      "filename": "soleil.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "voiture",
+      "filename": "voiture.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "livre",
+      "filename": "livre.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "musique",
+      "filename": "musique.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "amour",
+      "filename": "amour.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "arbre",
+      "filename": "arbre.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "ecole",
+      "filename": "ecole.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "bleu",
+      "filename": "bleu.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "famille",
+      "filename": "famille.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "sport",
+      "filename": "sport.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "ordinateur",
+      "filename": "ordinateur.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "nuit",
+      "filename": "nuit.json",
+      "categoria": "Le temps"
+    },
+    {
+      "id": "argent",
+      "filename": "argent.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "voyage",
+      "filename": "voyage.json",
+      "categoria": "Les loisirs"
+    },
+    {
+      "id": "pluie",
+      "filename": "pluie.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "vert",
+      "filename": "vert.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "chien",
+      "filename": "chien.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "table",
+      "filename": "table.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "ville",
+      "filename": "ville.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "pain",
+      "filename": "pain.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "joie",
+      "filename": "joie.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "telephone",
+      "filename": "telephone.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "jour",
+      "filename": "jour.json",
+      "categoria": "Le temps"
+    },
+    {
+      "id": "cinema",
+      "filename": "cinema.json",
+      "categoria": "Les loisirs"
+    },
+    {
+      "id": "neige",
+      "filename": "neige.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "montagne",
+      "filename": "montagne.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "riviere",
+      "filename": "riviere.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "etoile",
+      "filename": "etoile.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "parc",
+      "filename": "parc.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "marche",
+      "filename": "marche.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "eglise",
+      "filename": "eglise.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "porte",
+      "filename": "porte.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "fenetre",
+      "filename": "fenetre.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "cuisine",
+      "filename": "cuisine.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "poisson",
+      "filename": "poisson.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "oiseau",
+      "filename": "oiseau.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "cheval",
+      "filename": "cheval.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "jaune",
+      "filename": "jaune.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "noir",
+      "filename": "noir.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "blanc",
+      "filename": "blanc.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "lait",
+      "filename": "lait.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "fromage",
+      "filename": "fromage.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "viande",
+      "filename": "viande.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "crayon",
+      "filename": "crayon.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "calculatrice",
+      "filename": "calculatrice.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "professeur",
+      "filename": "professeur.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "peinture",
+      "filename": "peinture.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "danse",
+      "filename": "danse.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "theatre",
+      "filename": "theatre.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "tristesse",
+      "filename": "tristesse.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "colere",
+      "filename": "colere.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "peur",
+      "filename": "peur.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "ami",
+      "filename": "ami.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "voisin",
+      "filename": "voisin.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "couple",
+      "filename": "couple.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "natation",
+      "filename": "natation.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "lecture",
+      "filename": "lecture.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "cuisine",
+      "filename": "cuisine.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "internet",
+      "filename": "internet.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "tablette",
+      "filename": "tablette.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "camera",
+      "filename": "camera.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "matin",
+      "filename": "matin.json",
+      "categoria": "Le temps"
+    },
+    {
+      "id": "soir",
+      "filename": "soir.json",
+      "categoria": "Le temps"
+    },
+    {
+      "id": "annee",
+      "filename": "annee.json",
+      "categoria": "Le temps"
+    },
+    {
+      "id": "banque",
+      "filename": "banque.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "travail",
+      "filename": "travail.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "prix",
+      "filename": "prix.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "jeu",
+      "filename": "jeu.json",
+      "categoria": "Les loisirs"
+    },
+    {
+      "id": "plage",
+      "filename": "plage.json",
+      "categoria": "Les loisirs"
+    },
+    {
+      "id": "restaurant",
+      "filename": "restaurant.json",
+      "categoria": "Les loisirs"
+    },
+    {
+      "id": "soleil",
+      "filename": "soleil.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "vent",
+      "filename": "vent.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "orage",
+      "filename": "orage.json",
+      "categoria": "La météo"
+    }
+  ]
+}

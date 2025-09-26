@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "CHAT",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "gato"
+    },
+    "en": {
+      "traduccion": "cat"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un petit animal domestique qui miaule.",
+      "es": "Es un pequeño animal doméstico que maúlla.",
+      "en": "It's a small domestic animal that meows."
+    },
+    {
+      "fr": "Il a des moustaches et des griffes rétractiles.",
+      "es": "Tiene bigotes y garras retráctiles.",
+      "en": "It has whiskers and retractable claws."
+    },
+    {
+      "fr": "Il dort beaucoup et aime chasser les souris.",
+      "es": "Duerme mucho y le gusta cazar ratones.",
+      "en": "It sleeps a lot and likes to hunt mice."
+    },
+    {
+      "fr": "Il peut être noir, blanc, roux ou tigré.",
+      "es": "Puede ser negro, blanco, rojizo o atigrado.",
+      "en": "It can be black, white, ginger, or striped."
+    },
+    {
+      "fr": "Il fait 'ronron' quand il est content.",
+      "es": "Hace 'ronroneo' cuando está contento.",
+      "en": "It purrs when it's happy."
+    }
+  ]
+}

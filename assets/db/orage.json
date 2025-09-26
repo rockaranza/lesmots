@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "ORAGE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "tormenta"
+    },
+    "en": {
+      "traduccion": "storm"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un phénomène météorologique avec du tonnerre et des éclairs.",
+      "es": "Es un fenómeno meteorológico con truenos y relámpagos.",
+      "en": "It's a meteorological phenomenon with thunder and lightning."
+    },
+    {
+      "fr": "Il s'accompagne souvent de pluie forte et de vent.",
+      "es": "A menudo se acompaña de lluvia fuerte y viento.",
+      "en": "It's often accompanied by heavy rain and wind."
+    },
+    {
+      "fr": "Il peut être impressionnant et parfois dangereux.",
+      "es": "Puede ser impresionante y a veces peligroso.",
+      "en": "It can be impressive and sometimes dangerous."
+    },
+    {
+      "fr": "Il se forme dans les nuages d'orage sombres.",
+      "es": "Se forma en las nubes de tormenta oscuras.",
+      "en": "It forms in dark storm clouds."
+    },
+    {
+      "fr": "Il peut durer quelques minutes ou plusieurs heures.",
+      "es": "Puede durar unos minutos o varias horas.",
+      "en": "It can last a few minutes or several hours."
+    }
+  ]
+}

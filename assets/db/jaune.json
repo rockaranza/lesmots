@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "JAUNE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "amarillo"
+    },
+    "en": {
+      "traduccion": "yellow"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la couleur du soleil et des tournesols.",
+      "es": "Es el color del sol y los girasoles.",
+      "en": "It's the color of the sun and sunflowers."
+    },
+    {
+      "fr": "C'est une couleur primaire très lumineuse.",
+      "es": "Es un color primario muy luminoso.",
+      "en": "It's a very bright primary color."
+    },
+    {
+      "fr": "On l'associe souvent à la joie et à l'optimisme.",
+      "es": "A menudo se asocia con la alegría y el optimismo.",
+      "en": "It's often associated with joy and optimism."
+    },
+    {
+      "fr": "C'est la couleur des taxis dans beaucoup de villes.",
+      "es": "Es el color de los taxis en muchas ciudades.",
+      "en": "It's the color of taxis in many cities."
+    },
+    {
+      "fr": "Elle peut être claire comme le citron ou foncée comme l'or.",
+      "es": "Puede ser clara como el limón u oscura como el oro.",
+      "en": "It can be light like lemon or dark like gold."
+    }
+  ]
+}

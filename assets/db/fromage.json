@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "FROMAGE",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "queso"
+    },
+    "en": {
+      "traduccion": "cheese"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un aliment fait à partir de lait fermenté.",
+      "es": "Es un alimento hecho a partir de leche fermentada.",
+      "en": "It's a food made from fermented milk."
+    },
+    {
+      "fr": "Il peut être dur, mou, à pâte cuite ou non cuite.",
+      "es": "Puede ser duro, blando, de pasta cocida o no cocida.",
+      "en": "It can be hard, soft, cooked or uncooked paste."
+    },
+    {
+      "fr": "Il existe des centaines de variétés différentes.",
+      "es": "Existen cientos de variedades diferentes.",
+      "en": "There are hundreds of different varieties."
+    },
+    {
+      "fr": "Il se mange souvent avec du pain et du vin.",
+      "es": "Se come a menudo con pan y vino.",
+      "en": "It's often eaten with bread and wine."
+    },
+    {
+      "fr": "Il peut sentir fort ou être très doux.",
+      "es": "Puede oler fuerte o ser muy suave.",
+      "en": "It can smell strong or be very mild."
+    }
+  ]
+}

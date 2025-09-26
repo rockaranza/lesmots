@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "INTERNET",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "internet"
+    },
+    "en": {
+      "traduccion": "internet"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un réseau mondial qui connecte des millions d'ordinateurs.",
+      "es": "Es una red mundial que conecta millones de computadoras.",
+      "en": "It's a worldwide network that connects millions of computers."
+    },
+    {
+      "fr": "Il permet d'accéder à des informations et de communiquer.",
+      "es": "Permite acceder a información y comunicarse.",
+      "en": "It allows accessing information and communicating."
+    },
+    {
+      "fr": "Il est utilisé pour naviguer sur des sites web et envoyer des emails.",
+      "es": "Se usa para navegar en sitios web y enviar emails.",
+      "en": "It's used to browse websites and send emails."
+    },
+    {
+      "fr": "Il a révolutionné la façon de travailler et de s'informer.",
+      "es": "Ha revolucionado la forma de trabajar e informarse.",
+      "en": "It has revolutionized the way of working and getting informed."
+    },
+    {
+      "fr": "Il nécessite une connexion et un navigateur web.",
+      "es": "Requiere una conexión y un navegador web.",
+      "en": "It requires a connection and a web browser."
+    }
+  ]
+}

@@ -23,9 +23,8 @@ class WordleGame {
      */
     async initialize() {
         try {
-            // Cargar categoría aleatoria
-            await this.dataManager.loadRandomCategory();
-            this.targetWord = this.dataManager.getRandomWord();
+            // Cargar palabra aleatoria
+            this.targetWord = await this.dataManager.loadRandomWord();
             this.hints = [...this.targetWord.pistas]; // Copiar todas las pistas
             this.usedHints = []; // Reiniciar pistas usadas
             
@@ -108,9 +107,8 @@ class WordleGame {
 
                     <aside class="game-sidebar-right">
                         <div class="hints-section">
-                            <h3>💡 Pistas</h3>
+                            <h3>Pistas</h3>
                             <button class="btn btn-hint" id="use-hint">
-                                <span class="hint-icon">💡</span>
                                 <span class="hint-text">Revelar Pista</span>
                             </button>
                         </div>
@@ -312,10 +310,8 @@ class WordleGame {
         if (key === 'BACKSPACE') {
             this.removeLetter();
         } else if (key === 'ENTER') {
-            // Si la fila está completa, enviar el intento
-            if (this.currentGuess.length === this.targetWord.longitud) {
-                this.submitGuess();
-            }
+            // Enter no hace nada durante el juego, solo en modales
+            return;
         } else if (key.match(/^[A-ZÀ-ÿ]$/) && this.currentGuess.length < this.targetWord.longitud) {
             // Solo aceptar letras individuales válidas (ya convertidas a mayúsculas)
             this.addLetter(key);
@@ -360,6 +356,7 @@ class WordleGame {
      */
     submitGuess() {
         if (this.currentGuess.length !== this.targetWord.longitud) return;
+        if (this.gameState !== 'playing') return;
 
         // Procesar inmediatamente sin animación de envío
         this.guesses[this.currentAttempt] = this.currentGuess;
@@ -367,14 +364,15 @@ class WordleGame {
         this.currentAttempt++;
         this.currentGuess = '';
 
-        this.checkGameState();
-        
         // Actualizar el tablero completo para mostrar los colores
         this.updateGameBoard();
         this.updateGameInfo();
         
         // Agregar animación escalonada a las letras de la fila completada
         this.addStaggeredLetterAnimation();
+        
+        // Verificar el estado del juego después de actualizar la UI
+        this.checkGameState();
         
         // Si la palabra es incorrecta, agregar temblor
         if (!isCorrect && this.currentAttempt <= this.maxGuesses) {
@@ -395,10 +393,16 @@ class WordleGame {
         
         if (lastGuess === this.targetWord.palabra) {
             this.gameState = 'won';
-            this.showWinMessage();
+            // Mostrar mensaje de victoria después de un breve delay para que se vean las animaciones
+            setTimeout(() => {
+                this.showWinMessage();
+            }, 1000);
         } else if (this.currentAttempt >= this.maxGuesses) {
             this.gameState = 'lost';
-            this.showLoseMessage();
+            // Mostrar mensaje de derrota después de un breve delay
+            setTimeout(() => {
+                this.showLoseMessage();
+            }, 1000);
         }
     }
 
@@ -554,28 +558,116 @@ class WordleGame {
      * Muestra mensaje de victoria
      */
     showWinMessage() {
-        const message = document.createElement('div');
-        message.className = 'game-message win';
-        message.innerHTML = `
-            <h3>🎉 ¡Felicidades!</h3>
-            <p>Has adivinado la palabra: <strong>${this.targetWord.palabra}</strong></p>
-            <p>Traducción: ${this.targetWord.traducciones.es.traduccion}</p>
+        // Crear un modal o overlay para el mensaje de victoria
+        const overlay = document.createElement('div');
+        overlay.className = 'game-overlay';
+        overlay.innerHTML = `
+            <div class="game-message win">
+                <h3>¡Felicidades!</h3>
+                <div class="word-reveal">
+                    <p class="reveal-label">Has adivinado la palabra:</p>
+                    <p class="reveal-word">${this.targetWord.palabra}</p>
+                    <p class="reveal-translation">${this.targetWord.traducciones.es.traduccion}</p>
+                </div>
+                <div class="game-end-options">
+                    <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>
+                </div>
+            </div>
         `;
-        this.container.appendChild(message);
+        
+        // Agregar estilos para el overlay
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        `;
+        
+        this.container.appendChild(overlay);
+        
+        // Agregar event listener para el botón de jugar de nuevo
+        const playAgainBtn = overlay.querySelector('#play-again');
+        if (playAgainBtn) {
+            playAgainBtn.addEventListener('click', () => {
+                this.newGame();
+                overlay.remove();
+            });
+        }
+        
+        // Agregar event listener para Enter en el modal
+        const handleModalKeydown = (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                this.newGame();
+                overlay.remove();
+                document.removeEventListener('keydown', handleModalKeydown);
+            }
+        };
+        document.addEventListener('keydown', handleModalKeydown);
     }
 
     /**
      * Muestra mensaje de derrota
      */
     showLoseMessage() {
-        const message = document.createElement('div');
-        message.className = 'game-message lose';
-        message.innerHTML = `
-            <h3>😔 ¡Inténtalo de nuevo!</h3>
-            <p>La palabra era: <strong>${this.targetWord.palabra}</strong></p>
-            <p>Traducción: ${this.targetWord.traducciones.es.traduccion}</p>
+        // Crear un modal o overlay para el mensaje de derrota
+        const overlay = document.createElement('div');
+        overlay.className = 'game-overlay';
+        overlay.innerHTML = `
+            <div class="game-message lose">
+                <h3>¡Inténtalo de nuevo!</h3>
+                <div class="word-reveal">
+                    <p class="reveal-label">La palabra era:</p>
+                    <p class="reveal-word">${this.targetWord.palabra}</p>
+                    <p class="reveal-translation">${this.targetWord.traducciones.es.traduccion}</p>
+                </div>
+                <div class="game-end-options">
+                    <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>
+                </div>
+            </div>
         `;
-        this.container.appendChild(message);
+        
+        // Agregar estilos para el overlay
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        `;
+        
+        this.container.appendChild(overlay);
+        
+        // Agregar event listener para el botón de jugar de nuevo
+        const playAgainBtn = overlay.querySelector('#play-again');
+        if (playAgainBtn) {
+            playAgainBtn.addEventListener('click', () => {
+                this.newGame();
+                overlay.remove();
+            });
+        }
+        
+        // Agregar event listener para Enter en el modal
+        const handleModalKeydown = (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                this.newGame();
+                overlay.remove();
+                document.removeEventListener('keydown', handleModalKeydown);
+            }
+        };
+        document.addEventListener('keydown', handleModalKeydown);
     }
 
     /**

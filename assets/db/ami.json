@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "AMI",
+  "longitud": 3,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "amigo"
+    },
+    "en": {
+      "traduccion": "friend"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne avec qui on partage une relation d'affection.",
+      "es": "Es una persona con quien se comparte una relación de afecto.",
+      "en": "It's a person with whom you share a relationship of affection."
+    },
+    {
+      "fr": "Il est fidèle, loyal et toujours présent dans les moments difficiles.",
+      "es": "Es fiel, leal y siempre presente en los momentos difíciles.",
+      "en": "He is faithful, loyal, and always present in difficult moments."
+    },
+    {
+      "fr": "On peut partager des secrets et des confidences avec lui.",
+      "es": "Se pueden compartir secretos y confidencias con él.",
+      "en": "You can share secrets and confidences with him."
+    },
+    {
+      "fr": "Il peut être d'enfance ou rencontré plus tard dans la vie.",
+      "es": "Puede ser de la infancia o conocido más tarde en la vida.",
+      "en": "He can be from childhood or met later in life."
+    },
+    {
+      "fr": "Il apporte du bonheur et de la complicité dans la vie.",
+      "es": "Aporta felicidad y complicidad en la vida.",
+      "en": "He brings happiness and complicity in life."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "PROFESSEUR",
+  "longitud": 10,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "profesor"
+    },
+    "en": {
+      "traduccion": "teacher"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne qui enseigne dans une école ou une université.",
+      "es": "Es una persona que enseña en una escuela o universidad.",
+      "en": "It's a person who teaches in a school or university."
+    },
+    {
+      "fr": "Il transmet des connaissances à ses élèves ou étudiants.",
+      "es": "Transmite conocimientos a sus alumnos o estudiantes.",
+      "en": "He transmits knowledge to his pupils or students."
+    },
+    {
+      "fr": "Il peut enseigner différentes matières comme les maths ou l'histoire.",
+      "es": "Puede enseñar diferentes materias como matemáticas o historia.",
+      "en": "He can teach different subjects like math or history."
+    },
+    {
+      "fr": "Il prépare des cours et corrige des devoirs.",
+      "es": "Prepara clases y corrige tareas.",
+      "en": "He prepares lessons and corrects homework."
+    },
+    {
+      "fr": "Il aide les élèves à apprendre et à comprendre.",
+      "es": "Ayuda a los alumnos a aprender y entender.",
+      "en": "He helps students learn and understand."
+    }
+  ]
+}

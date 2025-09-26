@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "TABLETTE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "tablet"
+    },
+    "en": {
+      "traduccion": "tablet"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un appareil électronique portable avec un écran tactile.",
+      "es": "Es un dispositivo electrónico portátil con pantalla táctil.",
+      "en": "It's a portable electronic device with a touch screen."
+    },
+    {
+      "fr": "Elle est plus grande qu'un téléphone mais plus petite qu'un ordinateur.",
+      "es": "Es más grande que un teléfono pero más pequeña que una computadora.",
+      "en": "It's bigger than a phone but smaller than a computer."
+    },
+    {
+      "fr": "Elle permet de naviguer sur internet et d'utiliser des applications.",
+      "es": "Permite navegar en internet y usar aplicaciones.",
+      "en": "It allows browsing the internet and using applications."
+    },
+    {
+      "fr": "Elle est idéale pour lire des livres électroniques et regarder des vidéos.",
+      "es": "Es ideal para leer libros electrónicos y ver videos.",
+      "en": "It's ideal for reading e-books and watching videos."
+    },
+    {
+      "fr": "Elle se recharge avec un câble et peut être emportée partout.",
+      "es": "Se recarga con un cable y se puede llevar a todas partes.",
+      "en": "It recharges with a cable and can be taken anywhere."
+    }
+  ]
+}

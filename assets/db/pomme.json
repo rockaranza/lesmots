@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "POMME",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "manzana"
+    },
+    "en": {
+      "traduccion": "apple"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un fruit rond qui pousse sur un arbre.",
+      "es": "Es una fruta redonda que crece en un árbol.",
+      "en": "It's a round fruit that grows on a tree."
+    },
+    {
+      "fr": "Elle peut être verte, rouge ou jaune.",
+      "es": "Puede ser verde, roja o amarilla.",
+      "en": "It can be green, red, or yellow."
+    },
+    {
+      "fr": "Elle est croquante et juteuse quand elle est mûre.",
+      "es": "Es crujiente y jugosa cuando está madura.",
+      "en": "It's crunchy and juicy when ripe."
+    },
+    {
+      "fr": "On peut en faire du jus, de la compote ou de la tarte.",
+      "es": "Se puede hacer jugo, compota o tarta con ella.",
+      "en": "You can make juice, compote, or pie with it."
+    },
+    {
+      "fr": "Un proverbe dit qu'une par jour éloigne le médecin.",
+      "es": "Un proverbio dice que una al día aleja al médico.",
+      "en": "A proverb says one a day keeps the doctor away."
+    }
+  ]
+}

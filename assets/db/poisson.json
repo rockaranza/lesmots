@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "POISSON",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "pez"
+    },
+    "en": {
+      "traduccion": "fish"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un animal qui vit dans l'eau et respire avec des branchies.",
+      "es": "Es un animal que vive en el agua y respira con branquias.",
+      "en": "It's an animal that lives in water and breathes with gills."
+    },
+    {
+      "fr": "Il nage avec des nageoires et a des écailles.",
+      "es": "Nada con aletas y tiene escamas.",
+      "en": "It swims with fins and has scales."
+    },
+    {
+      "fr": "Il peut être petit comme un poisson rouge ou grand comme un requin.",
+      "es": "Puede ser pequeño como un pez dorado o grande como un tiburón.",
+      "en": "It can be small like a goldfish or big like a shark."
+    },
+    {
+      "fr": "On peut le pêcher dans la mer, les rivières ou les lacs.",
+      "es": "Se puede pescar en el mar, ríos o lagos.",
+      "en": "You can fish it in the sea, rivers, or lakes."
+    },
+    {
+      "fr": "Il est une source importante de nourriture pour les humains.",
+      "es": "Es una fuente importante de alimento para los humanos.",
+      "en": "It's an important source of food for humans."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "AMOUR",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "amor"
+    },
+    "en": {
+      "traduccion": "love"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment profond d'affection et d'attachement.",
+      "es": "Es un sentimiento profundo de afecto y apego.",
+      "en": "It's a deep feeling of affection and attachment."
+    },
+    {
+      "fr": "Il peut être ressenti pour la famille, les amis ou un partenaire.",
+      "es": "Se puede sentir por la familia, amigos o una pareja.",
+      "en": "It can be felt for family, friends, or a partner."
+    },
+    {
+      "fr": "Il rend les gens heureux et donne un sens à la vie.",
+      "es": "Hace feliz a las personas y da sentido a la vida.",
+      "en": "It makes people happy and gives meaning to life."
+    },
+    {
+      "fr": "Il s'exprime souvent par des gestes, des mots ou des cadeaux.",
+      "es": "Se expresa a menudo con gestos, palabras o regalos.",
+      "en": "It's often expressed through gestures, words, or gifts."
+    },
+    {
+      "fr": "C'est le thème principal de nombreuses chansons et poèmes.",
+      "es": "Es el tema principal de muchas canciones y poemas.",
+      "en": "It's the main theme of many songs and poems."
+    }
+  ]
+}

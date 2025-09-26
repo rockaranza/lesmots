@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "LECTURE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "lectura"
+    },
+    "en": {
+      "traduccion": "reading"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'activité de lire des livres, des journaux ou des textes.",
+      "es": "Es la actividad de leer libros, periódicos o textos.",
+      "en": "It's the activity of reading books, newspapers, or texts."
+    },
+    {
+      "fr": "Elle développe l'imagination et enrichit le vocabulaire.",
+      "es": "Desarrolla la imaginación y enriquece el vocabulario.",
+      "en": "It develops imagination and enriches vocabulary."
+    },
+    {
+      "fr": "Elle peut être de loisir ou d'étude.",
+      "es": "Puede ser de ocio o de estudio.",
+      "en": "It can be recreational or for study."
+    },
+    {
+      "fr": "Elle se pratique en silence et nécessite de la concentration.",
+      "es": "Se practica en silencio y requiere concentración.",
+      "en": "It's practiced in silence and requires concentration."
+    },
+    {
+      "fr": "Elle permet de découvrir de nouveaux mondes et connaissances.",
+      "es": "Permite descubrir nuevos mundos y conocimientos.",
+      "en": "It allows discovering new worlds and knowledge."
+    }
+  ]
+}

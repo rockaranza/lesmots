@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "CHIEN",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "perro"
+    },
+    "en": {
+      "traduccion": "dog"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le meilleur ami de l'homme parmi les animaux.",
+      "es": "Es el mejor amigo del hombre entre los animales.",
+      "en": "It's man's best friend among animals."
+    },
+    {
+      "fr": "Il aboie et remue la queue quand il est content.",
+      "es": "Ladra y mueve la cola cuando está contento.",
+      "en": "It barks and wags its tail when happy."
+    },
+    {
+      "fr": "Il peut être de différentes races et tailles.",
+      "es": "Puede ser de diferentes razas y tamaños.",
+      "en": "It can be of different breeds and sizes."
+    },
+    {
+      "fr": "Il a un excellent odorat et peut être dressé.",
+      "es": "Tiene un excelente olfato y puede ser entrenado.",
+      "en": "It has an excellent sense of smell and can be trained."
+    },
+    {
+      "fr": "Il a besoin de promenades quotidiennes et d'affection.",
+      "es": "Necesita paseos diarios y cariño.",
+      "en": "It needs daily walks and affection."
+    }
+  ]
+}

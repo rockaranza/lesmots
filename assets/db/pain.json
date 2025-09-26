@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "PAIN",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "pan"
+    },
+    "en": {
+      "traduccion": "bread"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un aliment de base fait avec de la farine et de l'eau.",
+      "es": "Es un alimento básico hecho con harina y agua.",
+      "en": "It's a basic food made with flour and water."
+    },
+    {
+      "fr": "Il se mange souvent au petit-déjeuner avec du beurre.",
+      "es": "Se come a menudo en el desayuno con mantequilla.",
+      "en": "It's often eaten for breakfast with butter."
+    },
+    {
+      "fr": "Il peut être blanc, complet ou aux céréales.",
+      "es": "Puede ser blanco, integral o de cereales.",
+      "en": "It can be white, whole wheat, or multigrain."
+    },
+    {
+      "fr": "Il se fait dans une boulangerie avec un four.",
+      "es": "Se hace en una panadería con un horno.",
+      "en": "It's made in a bakery with an oven."
+    },
+    {
+      "fr": "Il accompagne souvent les repas et les sandwichs.",
+      "es": "A menudo acompaña las comidas y los sándwiches.",
+      "en": "It often accompanies meals and sandwiches."
+    }
+  ]
+}

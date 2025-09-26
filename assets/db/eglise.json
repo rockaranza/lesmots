@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "EGLISE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "iglesia"
+    },
+    "en": {
+      "traduccion": "church"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un bâtiment religieux où les chrétiens prient.",
+      "es": "Es un edificio religioso donde los cristianos rezan.",
+      "en": "It's a religious building where Christians pray."
+    },
+    {
+      "fr": "Elle a souvent une croix sur le toit et des cloches.",
+      "es": "A menudo tiene una cruz en el techo y campanas.",
+      "en": "It often has a cross on the roof and bells."
+    },
+    {
+      "fr": "On y célèbre des mariages, baptêmes et funérailles.",
+      "es": "Se celebran bodas, bautizos y funerales.",
+      "en": "Weddings, baptisms, and funerals are celebrated there."
+    },
+    {
+      "fr": "Elle peut être très ancienne avec de l'architecture gothique.",
+      "es": "Puede ser muy antigua con arquitectura gótica.",
+      "en": "It can be very old with gothic architecture."
+    },
+    {
+      "fr": "Elle est souvent au centre du village ou de la ville.",
+      "es": "A menudo está en el centro del pueblo o la ciudad.",
+      "en": "It's often in the center of the village or city."
+    }
+  ]
+}

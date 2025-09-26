@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "RIVIERE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "río"
+    },
+    "en": {
+      "traduccion": "river"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un cours d'eau naturel qui coule vers la mer.",
+      "es": "Es un curso de agua natural que fluye hacia el mar.",
+      "en": "It's a natural watercourse that flows to the sea."
+    },
+    {
+      "fr": "Elle a des rives où poussent des arbres et des plantes.",
+      "es": "Tiene orillas donde crecen árboles y plantas.",
+      "en": "It has banks where trees and plants grow."
+    },
+    {
+      "fr": "On peut y pêcher des poissons et naviguer en bateau.",
+      "es": "Se puede pescar peces y navegar en barco.",
+      "en": "You can fish and sail a boat there."
+    },
+    {
+      "fr": "Elle serpente à travers les paysages et les vallées.",
+      "es": "Serpentea a través de paisajes y valles.",
+      "en": "It winds through landscapes and valleys."
+    },
+    {
+      "fr": "Elle est essentielle pour la vie des animaux et des plantes.",
+      "es": "Es esencial para la vida de animales y plantas.",
+      "en": "It's essential for the life of animals and plants."
+    }
+  ]
+}

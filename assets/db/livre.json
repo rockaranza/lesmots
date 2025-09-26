@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "LIVRE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "libro"
+    },
+    "en": {
+      "traduccion": "book"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un objet avec des pages qu'on lit pour apprendre ou se divertir.",
+      "es": "Es un objeto con páginas que se lee para aprender o divertirse.",
+      "en": "It's an object with pages that you read to learn or have fun."
+    },
+    {
+      "fr": "Il a une couverture et contient des histoires ou des informations.",
+      "es": "Tiene una portada y contiene historias o información.",
+      "en": "It has a cover and contains stories or information."
+    },
+    {
+      "fr": "On peut l'acheter dans une librairie ou l'emprunter à la bibliothèque.",
+      "es": "Se puede comprar en una librería o pedirlo prestado en la biblioteca.",
+      "en": "You can buy it at a bookstore or borrow it from the library."
+    },
+    {
+      "fr": "Il peut être un roman, un dictionnaire ou un manuel scolaire.",
+      "es": "Puede ser una novela, un diccionario o un manual escolar.",
+      "en": "It can be a novel, dictionary, or school textbook."
+    },
+    {
+      "fr": "Lire régulièrement améliore le vocabulaire et l'imagination.",
+      "es": "Leer regularmente mejora el vocabulario y la imaginación.",
+      "en": "Reading regularly improves vocabulary and imagination."
+    }
+  ]
+}

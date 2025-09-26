@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "PLUIE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "lluvia"
+    },
+    "en": {
+      "traduccion": "rain"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est de l'eau qui tombe du ciel sous forme de gouttes.",
+      "es": "Es agua que cae del cielo en forma de gotas.",
+      "en": "It's water that falls from the sky in the form of drops."
+    },
+    {
+      "fr": "Elle se forme quand les nuages deviennent trop lourds.",
+      "es": "Se forma cuando las nubes se vuelven demasiado pesadas.",
+      "en": "It forms when clouds become too heavy."
+    },
+    {
+      "fr": "Elle est essentielle pour faire pousser les plantes.",
+      "es": "Es esencial para hacer crecer las plantas.",
+      "en": "It's essential for plants to grow."
+    },
+    {
+      "fr": "On peut l'entendre tomber sur le toit.",
+      "es": "Se puede escuchar caer sobre el techo.",
+      "en": "You can hear it falling on the roof."
+    },
+    {
+      "fr": "Elle peut être légère ou très forte avec du tonnerre.",
+      "es": "Puede ser ligera o muy fuerte con truenos.",
+      "en": "It can be light or very heavy with thunder."
+    }
+  ]
+}
