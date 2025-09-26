@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "TERRE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "tierra"
+    },
+    "en": {
+      "traduccion": "earth"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la planète sur laquelle nous vivons.",
+      "es": "Es el planeta en el que vivimos.",
+      "en": "It's the planet we live on."
+    },
+    {
+      "fr": "Elle est composée de continents et d'océans.",
+      "es": "Está compuesta de continentes y océanos.",
+      "en": "It's composed of continents and oceans."
+    },
+    {
+      "fr": "Elle est la troisième planète du système solaire.",
+      "es": "Es el tercer planeta del sistema solar.",
+      "en": "It's the third planet from the sun."
+    },
+    {
+      "fr": "Elle a une atmosphère qui nous permet de respirer.",
+      "es": "Tiene una atmósfera que nos permite respirar.",
+      "en": "It has an atmosphere that allows us to breathe."
+    },
+    {
+      "fr": "Elle est souvent appelée la planète bleue.",
+      "es": "A menudo se le llama el planeta azul.",
+      "en": "It's often called the blue planet."
+    }
+  ]
+}

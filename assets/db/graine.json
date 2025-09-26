@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "GRAINE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "semilla"
+    },
+    "en": {
+      "traduccion": "seed"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le petit élément qui donne naissance à une nouvelle plante.",
+      "es": "Es el pequeño elemento que da origen a una nueva planta.",
+      "en": "It's the small element that gives birth to a new plant."
+    },
+    {
+      "fr": "Elle contient tout ce qu'il faut pour faire pousser une plante.",
+      "es": "Contiene todo lo necesario para hacer crecer una planta.",
+      "en": "It contains everything needed to grow a plant."
+    },
+    {
+      "fr": "Elle est souvent plantée dans la terre au printemps.",
+      "es": "A menudo se planta en la tierra en primavera.",
+      "en": "It's often planted in the ground in spring."
+    },
+    {
+      "fr": "Elle peut être de différentes tailles et formes.",
+      "es": "Puede ser de diferentes tamaños y formas.",
+      "en": "It can be of different sizes and shapes."
+    },
+    {
+      "fr": "Elle germe et devient une petite plante.",
+      "es": "Germina y se convierte en una pequeña planta.",
+      "en": "It germinates and becomes a small plant."
+    }
+  ]
+}

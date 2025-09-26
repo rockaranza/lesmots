@@ -1,13 +1,13 @@
 {
   "categoria": {
-    "fr": "La météo",
-    "es": "El clima",
-    "en": "Weather"
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
   },
   "palabra": "NEIGE",
   "longitud": 5,
   "genero": "feminin",
-  "traducciones": {
+  "traductions": {
     "es": {
       "traduccion": "nieve"
     },
@@ -22,19 +22,19 @@
       "en": "It's frozen water that falls from the sky in white flakes."
     },
     {
-      "fr": "Elle tombe quand il fait très froid, en dessous de zéro.",
-      "es": "Cae cuando hace mucho frío, por debajo de cero.",
-      "en": "It falls when it's very cold, below zero."
+      "fr": "Elle tombe en hiver quand il fait très froid.",
+      "es": "Cae en invierno cuando hace mucho frío.",
+      "en": "It falls in winter when it's very cold."
     },
     {
-      "fr": "Elle recouvre le sol d'un manteau blanc et doux.",
-      "es": "Cubre el suelo con un manto blanco y suave.",
-      "en": "It covers the ground with a white and soft blanket."
+      "fr": "Elle recouvre le sol d'un manteau blanc.",
+      "es": "Cubre el suelo con un manto blanco.",
+      "en": "It covers the ground with a white blanket."
     },
     {
-      "fr": "On peut faire des bonhommes de neige et des batailles.",
-      "es": "Se pueden hacer muñecos de nieve y batallas.",
-      "en": "You can make snowmen and have snowball fights."
+      "fr": "On peut faire des bonhommes de neige avec elle.",
+      "es": "Se pueden hacer muñecos de nieve con ella.",
+      "en": "You can make snowmen with it."
     },
     {
       "fr": "Elle fond au printemps et devient de l'eau.",

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "HERBE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "hierba"
+    },
+    "en": {
+      "traduccion": "grass"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une plante verte qui pousse dans les jardins et les prairies.",
+      "es": "Es una planta verde que crece en jardines y praderas.",
+      "en": "It's a green plant that grows in gardens and meadows."
+    },
+    {
+      "fr": "Elle recouvre le sol d'un tapis vert.",
+      "es": "Cubre el suelo con una alfombra verde.",
+      "en": "It covers the ground with a green carpet."
+    },
+    {
+      "fr": "Elle est souvent tondue pour maintenir les pelouses.",
+      "es": "A menudo se corta para mantener los céspedes.",
+      "en": "It's often mowed to maintain lawns."
+    },
+    {
+      "fr": "Elle produit de l'oxygène et purifie l'air.",
+      "es": "Produce oxígeno y purifica el aire.",
+      "en": "It produces oxygen and purifies the air."
+    },
+    {
+      "fr": "Elle peut être utilisée comme nourriture pour les animaux.",
+      "es": "Puede usarse como alimento para los animales.",
+      "en": "It can be used as food for animals."
+    }
+  ]
+}

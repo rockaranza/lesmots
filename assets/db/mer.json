@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "MER",
+  "longitud": 3,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "mar"
+    },
+    "en": {
+      "traduccion": "sea"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une grande étendue d'eau salée qui couvre une partie de la Terre.",
+      "es": "Es una gran extensión de agua salada que cubre parte de la Tierra.",
+      "en": "It's a large expanse of salt water that covers part of the Earth."
+    },
+    {
+      "fr": "Elle est plus petite qu'un océan mais plus grande qu'un lac.",
+      "es": "Es más pequeña que un océano pero más grande que un lago.",
+      "en": "It's smaller than an ocean but larger than a lake."
+    },
+    {
+      "fr": "Elle a des vagues et des courants marins.",
+      "es": "Tiene olas y corrientes marinas.",
+      "en": "It has waves and marine currents."
+    },
+    {
+      "fr": "Elle abrite une grande diversité de vie marine.",
+      "es": "Alberga una gran diversidad de vida marina.",
+      "en": "It houses a great diversity of marine life."
+    },
+    {
+      "fr": "Elle est souvent bleue et peut être calme ou agitée.",
+      "es": "A menudo es azul y puede estar calmada o agitada.",
+      "en": "It's often blue and can be calm or rough."
+    }
+  ]
+}

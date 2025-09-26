@@ -1,13 +1,13 @@
 {
   "categoria": {
-    "fr": "La météo",
-    "es": "El clima",
-    "en": "Weather"
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
   },
   "palabra": "PLUIE",
   "longitud": 5,
   "genero": "feminin",
-  "traducciones": {
+  "traductions": {
     "es": {
       "traduccion": "lluvia"
     },
@@ -22,24 +22,24 @@
       "en": "It's water that falls from the sky in the form of drops."
     },
     {
-      "fr": "Elle se forme quand les nuages deviennent trop lourds.",
-      "es": "Se forma cuando las nubes se vuelven demasiado pesadas.",
-      "en": "It forms when clouds become too heavy."
+      "fr": "Elle est essentielle pour la vie des plantes et des animaux.",
+      "es": "Es esencial para la vida de plantas y animales.",
+      "en": "It's essential for the life of plants and animals."
     },
     {
-      "fr": "Elle est essentielle pour faire pousser les plantes.",
-      "es": "Es esencial para hacer crecer las plantas.",
-      "en": "It's essential for plants to grow."
+      "fr": "Elle peut être fine comme une bruine ou forte comme un orage.",
+      "es": "Puede ser fina como una llovizna o fuerte como una tormenta.",
+      "en": "It can be light like drizzle or heavy like a storm."
     },
     {
-      "fr": "On peut l'entendre tomber sur le toit.",
-      "es": "Se puede escuchar caer sobre el techo.",
-      "en": "You can hear it falling on the roof."
+      "fr": "Elle se forme dans les nuages et tombe sur la terre.",
+      "es": "Se forma en las nubes y cae sobre la tierra.",
+      "en": "It forms in clouds and falls on the earth."
     },
     {
-      "fr": "Elle peut être légère ou très forte avec du tonnerre.",
-      "es": "Puede ser ligera o muy fuerte con truenos.",
-      "en": "It can be light or very heavy with thunder."
+      "fr": "Elle peut créer des arcs-en-ciel après la pluie.",
+      "es": "Puede crear arcoíris después de la lluvia.",
+      "en": "It can create rainbows after the rain."
     }
   ]
 }

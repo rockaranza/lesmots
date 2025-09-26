@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "FEUILLE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "hoja"
+    },
+    "en": {
+      "traduccion": "leaf"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la partie verte des arbres et des plantes qui capte la lumière.",
+      "es": "Es la parte verde de los árboles y plantas que capta la luz.",
+      "en": "It's the green part of trees and plants that captures light."
+    },
+    {
+      "fr": "Elle change de couleur selon les saisons.",
+      "es": "Cambia de color según las estaciones.",
+      "en": "It changes color according to the seasons."
+    },
+    {
+      "fr": "Elle tombe en automne et repousse au printemps.",
+      "es": "Se cae en otoño y vuelve a crecer en primavera.",
+      "en": "It falls in autumn and grows back in spring."
+    },
+    {
+      "fr": "Elle est essentielle pour la photosynthèse.",
+      "es": "Es esencial para la fotosíntesis.",
+      "en": "It's essential for photosynthesis."
+    },
+    {
+      "fr": "Elle peut être de différentes formes et tailles.",
+      "es": "Puede ser de diferentes formas y tamaños.",
+      "en": "It can be of different shapes and sizes."
+    }
+  ]
+}

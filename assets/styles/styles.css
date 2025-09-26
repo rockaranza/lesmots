@@ -826,7 +826,7 @@ main {
     border-radius: 1rem;
     padding: 1.2rem;
     margin-bottom: 1rem;
-    border-left: 0.4rem solid var(--primary-color);
+    border-left: 0.4rem solid #f39c12;
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     position: relative;
@@ -1362,5 +1362,231 @@ footer {
     
     .stat-value {
         font-size: 1rem;
+    }
+}
+
+/* Estilos para el botón de instrucciones en la columna izquierda */
+.instructions-section {
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.btn-instructions {
+    background: linear-gradient(135deg, var(--secondary-color), #2980b9);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    box-shadow: var(--shadow);
+    font-family: inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-instructions:hover {
+    background: linear-gradient(135deg, #2980b9, var(--secondary-color));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+.btn-instructions:active {
+    transform: translateY(0);
+}
+
+.instructions-icon {
+    font-size: 1.2rem;
+}
+
+.instructions-text {
+    font-size: 1rem;
+}
+
+/* Modal de instrucciones */
+.instructions-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.instructions-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.instructions-modal-content {
+    background: var(--bg-color);
+    border-radius: var(--border-radius);
+    padding: 3rem;
+    max-width: 60rem;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.instructions-modal.show .instructions-modal-content {
+    transform: scale(1);
+}
+
+.instructions-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.instructions-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.instructions-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    font-weight: 400;
+}
+
+.instructions-body {
+    line-height: 1.8;
+}
+
+.instructions-section {
+    margin-bottom: 2rem;
+}
+
+.instructions-section h3 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.instructions-section h3::before {
+    content: "🎯";
+    font-size: 1.2rem;
+}
+
+.instructions-section p {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.instructions-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.instructions-list li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.instructions-list li:last-child {
+    border-bottom: none;
+}
+
+.instructions-list li::before {
+    content: "✓";
+    color: var(--success-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.instructions-example {
+    background: var(--bg-light);
+    border-left: 4px solid var(--secondary-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.instructions-example h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.instructions-example p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.instructions-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions-close:hover {
+    background: var(--bg-light);
+    color: var(--text-color);
+}
+
+/* Responsive para el modal */
+@media (max-width: 768px) {
+    .instructions-modal-content {
+        padding: 2rem;
+        margin: 1rem;
+        width: calc(100% - 2rem);
+    }
+    
+    .instructions-title {
+        font-size: 2rem;
+    }
+    
+    .instructions-section h3 {
+        font-size: 1.2rem;
+    }
+    
+    .instructions-section p {
+        font-size: 1rem;
+    }
+    
+    .instructions-list li {
+        font-size: 0.95rem;
     }
 }

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "AVENUE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "avenida"
+    },
+    "en": {
+      "traduccion": "avenue"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une large rue dans la ville, souvent bordée d'arbres.",
+      "es": "Es una calle ancha en la ciudad, a menudo bordeada de árboles.",
+      "en": "It's a wide street in the city, often lined with trees."
+    },
+    {
+      "fr": "Elle est généralement plus large qu'une rue normale.",
+      "es": "Generalmente es más ancha que una calle normal.",
+      "en": "It's generally wider than a normal street."
+    },
+    {
+      "fr": "Elle peut avoir plusieurs voies de circulation.",
+      "es": "Puede tener varias vías de circulación.",
+      "en": "It can have multiple traffic lanes."
+    },
+    {
+      "fr": "Elle relie souvent des quartiers importants de la ville.",
+      "es": "A menudo conecta barrios importantes de la ciudad.",
+      "en": "It often connects important neighborhoods in the city."
+    },
+    {
+      "fr": "Elle peut avoir des commerces et des restaurants sur les côtés.",
+      "es": "Puede tener comercios y restaurantes a los lados.",
+      "en": "It can have shops and restaurants on the sides."
+    }
+  ]
+}

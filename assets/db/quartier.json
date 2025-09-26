@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "QUARTIER",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "barrio"
+    },
+    "en": {
+      "traduccion": "neighborhood"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une partie de la ville avec ses propres caractéristiques.",
+      "es": "Es una parte de la ciudad con sus propias características.",
+      "en": "It's a part of the city with its own characteristics."
+    },
+    {
+      "fr": "Il peut être résidentiel, commercial ou historique.",
+      "es": "Puede ser residencial, comercial o histórico.",
+      "en": "It can be residential, commercial, or historical."
+    },
+    {
+      "fr": "Il a souvent sa propre identité et son ambiance.",
+      "es": "A menudo tiene su propia identidad y ambiente.",
+      "en": "It often has its own identity and atmosphere."
+    },
+    {
+      "fr": "Les habitants y vivent et s'y déplacent quotidiennement.",
+      "es": "Los habitantes viven y se desplazan diariamente.",
+      "en": "Residents live and move around there daily."
+    },
+    {
+      "fr": "Il peut être célèbre pour ses monuments ou ses commerces.",
+      "es": "Puede ser famoso por sus monumentos o comercios.",
+      "en": "It can be famous for its monuments or shops."
+    }
+  ]
+}

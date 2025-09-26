@@ -171,6 +171,76 @@
       "categoria": "La nature"
     },
     {
+      "id": "foret",
+      "filename": "foret.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "lune",
+      "filename": "lune.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "mer",
+      "filename": "mer.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "feuille",
+      "filename": "feuille.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "ciel",
+      "filename": "ciel.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "terre",
+      "filename": "terre.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "vent",
+      "filename": "vent.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "pluie",
+      "filename": "pluie.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "neige",
+      "filename": "neige.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "orage",
+      "filename": "orage.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "soleil",
+      "filename": "soleil.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "rose",
+      "filename": "rose.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "herbe",
+      "filename": "herbe.json",
+      "categoria": "La nature"
+    },
+    {
+      "id": "graine",
+      "filename": "graine.json",
+      "categoria": "La nature"
+    },
+    {
       "id": "parc",
       "filename": "parc.json",
       "categoria": "La ville"
@@ -183,6 +253,31 @@
     {
       "id": "eglise",
       "filename": "eglise.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "maire",
+      "filename": "maire.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "avenue",
+      "filename": "avenue.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "station",
+      "filename": "station.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "place",
+      "filename": "place.json",
+      "categoria": "La ville"
+    },
+    {
+      "id": "quartier",
+      "filename": "quartier.json",
       "categoria": "La ville"
     },
     {

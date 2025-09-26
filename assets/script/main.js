@@ -8,6 +8,7 @@ class LesMotsApp {
         this.categorySelector = null;
         this.vocabularyStudy = null;
         this.wordleGame = null;
+        this.instructionsModal = null;
         this.currentState = 'category-selection'; // 'category-selection', 'study', 'game'
     }
 
@@ -34,6 +35,9 @@ class LesMotsApp {
         this.wordleGame.setOnGameEnd((action) => {
             this.onGameEnd(action);
         });
+
+        // Configurar modal de instrucciones
+        this.instructionsModal = new InstructionsModal();
     }
 
     /**

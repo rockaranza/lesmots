@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "PLACE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "plaza"
+    },
+    "en": {
+      "traduccion": "square"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un espace ouvert dans la ville, souvent entouré de bâtiments.",
+      "es": "Es un espacio abierto en la ciudad, a menudo rodeado de edificios.",
+      "en": "It's an open space in the city, often surrounded by buildings."
+    },
+    {
+      "fr": "Elle sert souvent de lieu de rassemblement et de rencontre.",
+      "es": "A menudo sirve como lugar de reunión y encuentro.",
+      "en": "It often serves as a gathering and meeting place."
+    },
+    {
+      "fr": "Elle peut avoir une fontaine, une statue ou des bancs.",
+      "es": "Puede tener una fuente, una estatua o bancos.",
+      "en": "It can have a fountain, statue, or benches."
+    },
+    {
+      "fr": "Elle est souvent le cœur historique de la ville.",
+      "es": "A menudo es el corazón histórico de la ciudad.",
+      "en": "It's often the historical heart of the city."
+    },
+    {
+      "fr": "On y organise parfois des marchés ou des événements.",
+      "es": "A veces se organizan mercados o eventos.",
+      "en": "Markets or events are sometimes organized there."
+    }
+  ]
+}

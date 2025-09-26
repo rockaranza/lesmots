@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "FORET",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "bosque"
+    },
+    "en": {
+      "traduccion": "forest"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un grand espace couvert d'arbres et de végétation.",
+      "es": "Es un gran espacio cubierto de árboles y vegetación.",
+      "en": "It's a large space covered with trees and vegetation."
+    },
+    {
+      "fr": "Elle abrite de nombreux animaux sauvages.",
+      "es": "Alberga muchos animales salvajes.",
+      "en": "It houses many wild animals."
+    },
+    {
+      "fr": "Elle peut être dense et mystérieuse.",
+      "es": "Puede ser densa y misteriosa.",
+      "en": "It can be dense and mysterious."
+    },
+    {
+      "fr": "Elle produit de l'oxygène et purifie l'air.",
+      "es": "Produce oxígeno y purifica el aire.",
+      "en": "It produces oxygen and purifies the air."
+    },
+    {
+      "fr": "Elle est souvent appelée le poumon de la planète.",
+      "es": "A menudo se le llama el pulmón del planeta.",
+      "en": "It's often called the planet's lung."
+    }
+  ]
+}

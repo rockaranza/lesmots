@@ -31,6 +31,11 @@ class WordleGame {
             this.resetGame();
             this.render();
             
+            // Dar la primera pista automáticamente después de un breve delay
+            setTimeout(() => {
+                this.giveFirstHint();
+            }, 500);
+            
             this.updateDisplay();
         } catch (error) {
             console.error('Error inicializando juego:', error);
@@ -87,6 +92,13 @@ class WordleGame {
                         <div class="game-actions">
                             <button class="btn btn-primary btn-new-game" id="new-game">
                                 Nueva Palabra
+                            </button>
+                        </div>
+
+                        <div class="instructions-section">
+                            <button class="btn btn-instructions" id="instructions-btn">
+                                <span class="instructions-icon">❓</span>
+                                <span class="instructions-text">¿Cómo jugar?</span>
                             </button>
                         </div>
                     </aside>
@@ -281,6 +293,7 @@ class WordleGame {
         // Botones de control
         const hintBtn = this.container.querySelector('#use-hint');
         const newGameBtn = this.container.querySelector('#new-game');
+        const instructionsBtn = this.container.querySelector('#instructions-btn');
 
         if (hintBtn) {
             hintBtn.addEventListener('click', () => this.useHint());
@@ -288,6 +301,10 @@ class WordleGame {
 
         if (newGameBtn) {
             newGameBtn.addEventListener('click', () => this.newGame());
+        }
+
+        if (instructionsBtn) {
+            instructionsBtn.addEventListener('click', () => this.openInstructions());
         }
     }
 
@@ -361,6 +378,7 @@ class WordleGame {
         // Procesar inmediatamente sin animación de envío
         this.guesses[this.currentAttempt] = this.currentGuess;
         const isCorrect = this.currentGuess === this.targetWord.palabra;
+        const currentAttemptIndex = this.currentAttempt; // Guardar el índice actual
         this.currentAttempt++;
         this.currentGuess = '';
 
@@ -371,41 +389,60 @@ class WordleGame {
         // Agregar animación escalonada a las letras de la fila completada
         this.addStaggeredLetterAnimation();
         
-        // Verificar el estado del juego después de actualizar la UI
-        this.checkGameState();
-        
-        // Si la palabra es incorrecta, agregar temblor
-        if (!isCorrect && this.currentAttempt <= this.maxGuesses) {
-            this.addShakeAnimation();
-        }
-        
-        // Si la palabra es correcta, mostrar confetti
+        // Si la palabra es correcta, mostrar confetti y cambiar estado
         if (isCorrect) {
+            console.log('¡Palabra correcta!', this.guesses[currentAttemptIndex]);
+            this.gameState = 'won';
             this.showConfetti();
+            // Mostrar mensaje de victoria después de un breve delay
+            setTimeout(() => {
+                console.log('Mostrando modal de victoria');
+                this.showWinMessage();
+            }, 1000);
+        } else if (this.currentAttempt >= this.maxGuesses) {
+            // Si se agotaron los intentos, mostrar mensaje de derrota
+            console.log('Se agotaron los intentos');
+            this.gameState = 'lost';
+            setTimeout(() => {
+                console.log('Mostrando modal de derrota');
+                this.showLoseMessage();
+            }, 1000);
+        } else {
+            // Si la palabra es incorrecta pero aún hay intentos, agregar temblor
+            console.log('Palabra incorrecta, intento', this.currentAttempt, 'de', this.maxGuesses);
+            this.addShakeAnimation();
         }
     }
 
     /**
-     * Verifica el estado del juego
+     * Verifica el estado del juego (método de respaldo)
      */
     checkGameState() {
-        const lastGuess = this.guesses[this.currentAttempt - 1];
-        
-        if (lastGuess === this.targetWord.palabra) {
-            this.gameState = 'won';
-            // Mostrar mensaje de victoria después de un breve delay para que se vean las animaciones
-            setTimeout(() => {
-                this.showWinMessage();
-            }, 1000);
-        } else if (this.currentAttempt >= this.maxGuesses) {
-            this.gameState = 'lost';
-            // Mostrar mensaje de derrota después de un breve delay
-            setTimeout(() => {
-                this.showLoseMessage();
-            }, 1000);
-        }
+        // Este método ya no se usa directamente, la lógica está en submitGuess()
+        // Se mantiene por compatibilidad
+        console.log('checkGameState called - current state:', this.gameState);
     }
 
+
+    /**
+     * Da la primera pista automáticamente al comenzar
+     */
+    giveFirstHint() {
+        if (this.hints.length === 0 || this.gameState !== 'playing') return;
+
+        // Tomar la primera pista disponible
+        const firstHint = this.hints[0];
+        
+        // Mover la pista de disponibles a usadas
+        this.hints.splice(0, 1);
+        this.usedHints.push(firstHint);
+        
+        // Actualizar solo las pistas
+        this.updateHints();
+        this.updateHintButton();
+        
+        console.log('Primera pista dada automáticamente:', firstHint.fr);
+    }
 
     /**
      * Usa una pista
@@ -424,6 +461,18 @@ class WordleGame {
         // Actualizar solo las pistas
         this.updateHints();
         this.updateHintButton();
+    }
+
+    /**
+     * Abre el modal de instrucciones
+     */
+    openInstructions() {
+        // Buscar el modal de instrucciones en el DOM
+        const instructionsModal = document.getElementById('instructions-modal');
+        if (instructionsModal) {
+            instructionsModal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
     }
 
     /**
@@ -558,6 +607,22 @@ class WordleGame {
      * Muestra mensaje de victoria
      */
     showWinMessage() {
+        console.log('showWinMessage() llamado');
+        console.log('targetWord:', this.targetWord);
+        
+        // Verificar que targetWord existe
+        if (!this.targetWord) {
+            console.error('targetWord no está definido');
+            return;
+        }
+        
+        // Verificar que las traducciones existen (manejar ambos casos: traductions y traducciones)
+        const traductions = this.targetWord.traductions || this.targetWord.traducciones;
+        if (!traductions || !traductions.es) {
+            console.error('Traducciones no están definidas:', this.targetWord.traductions || this.targetWord.traducciones);
+            return;
+        }
+        
         // Crear un modal o overlay para el mensaje de victoria
         const overlay = document.createElement('div');
         overlay.className = 'game-overlay';
@@ -567,7 +632,7 @@ class WordleGame {
                 <div class="word-reveal">
                     <p class="reveal-label">Has adivinado la palabra:</p>
                     <p class="reveal-word">${this.targetWord.palabra}</p>
-                    <p class="reveal-translation">${this.targetWord.traducciones.es.traduccion}</p>
+                    <p class="reveal-translation">${traductions.es.traduccion}</p>
                 </div>
                 <div class="game-end-options">
                     <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>
@@ -616,6 +681,22 @@ class WordleGame {
      * Muestra mensaje de derrota
      */
     showLoseMessage() {
+        console.log('showLoseMessage() llamado');
+        console.log('targetWord:', this.targetWord);
+        
+        // Verificar que targetWord existe
+        if (!this.targetWord) {
+            console.error('targetWord no está definido');
+            return;
+        }
+        
+        // Verificar que las traducciones existen (manejar ambos casos: traductions y traducciones)
+        const traductions = this.targetWord.traductions || this.targetWord.traducciones;
+        if (!traductions || !traductions.es) {
+            console.error('Traducciones no están definidas:', this.targetWord.traductions || this.targetWord.traducciones);
+            return;
+        }
+        
         // Crear un modal o overlay para el mensaje de derrota
         const overlay = document.createElement('div');
         overlay.className = 'game-overlay';
@@ -625,7 +706,7 @@ class WordleGame {
                 <div class="word-reveal">
                     <p class="reveal-label">La palabra era:</p>
                     <p class="reveal-word">${this.targetWord.palabra}</p>
-                    <p class="reveal-translation">${this.targetWord.traducciones.es.traduccion}</p>
+                    <p class="reveal-translation">${traductions.es.traduccion}</p>
                 </div>
                 <div class="game-end-options">
                     <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>

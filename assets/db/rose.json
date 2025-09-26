@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "ROSE",
+  "longitud": 4,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "rosa"
+    },
+    "en": {
+      "traduccion": "rose"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une fleur très populaire avec des pétales parfumés.",
+      "es": "Es una flor muy popular con pétalos perfumados.",
+      "en": "It's a very popular flower with fragrant petals."
+    },
+    {
+      "fr": "Elle peut être rouge, blanche, jaune ou rose.",
+      "es": "Puede ser roja, blanca, amarilla o rosa.",
+      "en": "It can be red, white, yellow, or pink."
+    },
+    {
+      "fr": "Elle a souvent des épines sur sa tige.",
+      "es": "A menudo tiene espinas en su tallo.",
+      "en": "It often has thorns on its stem."
+    },
+    {
+      "fr": "Elle est souvent offerte comme symbole d'amour.",
+      "es": "A menudo se regala como símbolo de amor.",
+      "en": "It's often given as a symbol of love."
+    },
+    {
+      "fr": "Elle pousse dans les jardins et les parcs.",
+      "es": "Crece en jardines y parques.",
+      "en": "It grows in gardens and parks."
+    }
+  ]
+}

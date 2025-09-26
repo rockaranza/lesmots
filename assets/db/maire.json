@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "MAIRE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "alcalde"
+    },
+    "en": {
+      "traduccion": "mayor"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le dirigeant élu de la ville qui prend les décisions importantes.",
+      "es": "Es el dirigente elegido de la ciudad que toma las decisiones importantes.",
+      "en": "It's the elected leader of the city who makes important decisions."
+    },
+    {
+      "fr": "Il travaille à la mairie et représente les citoyens.",
+      "es": "Trabaja en el ayuntamiento y representa a los ciudadanos.",
+      "en": "He works at the town hall and represents the citizens."
+    },
+    {
+      "fr": "Il est élu par les habitants de la ville.",
+      "es": "Es elegido por los habitantes de la ciudad.",
+      "en": "He is elected by the city's inhabitants."
+    },
+    {
+      "fr": "Il s'occupe de l'administration et des services publics.",
+      "es": "Se encarga de la administración y los servicios públicos.",
+      "en": "He takes care of administration and public services."
+    },
+    {
+      "fr": "Il porte souvent une écharpe tricolore lors des cérémonies.",
+      "es": "A menudo lleva una banda tricolor en las ceremonias.",
+      "en": "He often wears a tricolor sash at ceremonies."
+    }
+  ]
+}

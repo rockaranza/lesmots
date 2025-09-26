@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "CIEL",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "cielo"
+    },
+    "en": {
+      "traduccion": "sky"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'espace au-dessus de nos têtes où on voit les nuages et les étoiles.",
+      "es": "Es el espacio sobre nuestras cabezas donde vemos las nubes y las estrellas.",
+      "en": "It's the space above our heads where we see clouds and stars."
+    },
+    {
+      "fr": "Il peut être bleu, gris ou noir selon le temps.",
+      "es": "Puede ser azul, gris o negro según el clima.",
+      "en": "It can be blue, gray, or black depending on the weather."
+    },
+    {
+      "fr": "Il abrite le soleil, la lune et les étoiles.",
+      "es": "Alberga el sol, la luna y las estrellas.",
+      "en": "It houses the sun, moon, and stars."
+    },
+    {
+      "fr": "Il est souvent associé à la liberté et à l'infini.",
+      "es": "A menudo se asocia con la libertad y el infinito.",
+      "en": "It's often associated with freedom and infinity."
+    },
+    {
+      "fr": "On peut y voir des avions et des oiseaux voler.",
+      "es": "Se pueden ver aviones y pájaros volando.",
+      "en": "You can see planes and birds flying there."
+    }
+  ]
+}

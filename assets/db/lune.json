@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nature",
+    "es": "La naturaleza",
+    "en": "Nature"
+  },
+  "palabra": "LUNE",
+  "longitud": 4,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "luna"
+    },
+    "en": {
+      "traduccion": "moon"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le satellite naturel de la Terre qui brille la nuit.",
+      "es": "Es el satélite natural de la Tierra que brilla por la noche.",
+      "en": "It's Earth's natural satellite that shines at night."
+    },
+    {
+      "fr": "Elle a des phases différentes selon sa position.",
+      "es": "Tiene fases diferentes según su posición.",
+      "en": "It has different phases depending on its position."
+    },
+    {
+      "fr": "Elle influence les marées et les cycles naturels.",
+      "es": "Influencia las mareas y los ciclos naturales.",
+      "en": "It influences tides and natural cycles."
+    },
+    {
+      "fr": "Elle peut être pleine, croissante ou décroissante.",
+      "es": "Puede estar llena, creciente o menguante.",
+      "en": "It can be full, waxing, or waning."
+    },
+    {
+      "fr": "Elle est visible dans le ciel nocturne.",
+      "es": "Es visible en el cielo nocturno.",
+      "en": "It's visible in the night sky."
+    }
+  ]
+}

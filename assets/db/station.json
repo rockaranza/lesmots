@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La ville",
+    "es": "La ciudad",
+    "en": "The city"
+  },
+  "palabra": "STATION",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "estación"
+    },
+    "en": {
+      "traduccion": "station"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un lieu où les trains ou les bus s'arrêtent pour prendre des passagers.",
+      "es": "Es un lugar donde los trenes o autobuses se detienen para recoger pasajeros.",
+      "en": "It's a place where trains or buses stop to pick up passengers."
+    },
+    {
+      "fr": "Elle peut être de métro, de train ou de bus.",
+      "es": "Puede ser de metro, tren o autobús.",
+      "en": "It can be a subway, train, or bus station."
+    },
+    {
+      "fr": "Elle a souvent des quais et des panneaux d'information.",
+      "es": "A menudo tiene andenes y paneles de información.",
+      "en": "It often has platforms and information boards."
+    },
+    {
+      "fr": "On y achète des billets et on y attend le transport.",
+      "es": "Se compran boletos y se espera el transporte.",
+      "en": "You buy tickets there and wait for transportation."
+    },
+    {
+      "fr": "Elle est souvent située dans le centre-ville ou près des gares.",
+      "es": "A menudo está ubicada en el centro de la ciudad o cerca de las estaciones.",
+      "en": "It's often located in the city center or near train stations."
+    }
+  ]
+}
