@@ -14,6 +14,11 @@ class WordleGame {
         this.hints = []; // Array de pistas disponibles
         this.usedHints = []; // Array de pistas usadas
         this.gameState = 'playing'; // 'playing', 'won', 'lost'
+        
+        // Sistema de dificultad
+        this.difficulty = 'normal'; // 'easy', 'normal', 'hard'
+        this.maxHints = 2; // Pistas máximas según dificultad
+        this.difficultySelected = false; // Si ya se seleccionó la dificultad
         this.keydownHandler = null; // Para poder remover el listener
         
         // Sistema de rachas
@@ -42,9 +47,104 @@ class WordleGame {
     }
 
     /**
+     * Configura la dificultad del juego
+     */
+    setDifficulty(difficulty) {
+        this.difficulty = difficulty;
+        
+        switch (difficulty) {
+            case 'easy':
+                this.maxGuesses = 5;
+                this.maxHints = 3;
+                break;
+            case 'normal':
+                this.maxGuesses = 3;
+                this.maxHints = 2;
+                break;
+            case 'hard':
+                this.maxGuesses = 1;
+                this.maxHints = 1; // Solo la pista inicial
+                break;
+            default:
+                this.maxGuesses = 3;
+                this.maxHints = 2;
+        }
+    }
+
+    /**
+     * Obtiene el nombre de la dificultad
+     */
+    getDifficultyName() {
+        switch (this.difficulty) {
+            case 'easy': return 'Fácil';
+            case 'normal': return 'Normal';
+            case 'hard': return 'Desafío';
+            default: return 'Normal';
+        }
+    }
+
+    /**
      * Inicializa el juego con una palabra aleatoria
      */
     async initialize() {
+        try {
+            // Mostrar selección de dificultad solo si no se ha seleccionado antes
+            if (!this.difficultySelected) {
+                this.showDifficultySelection();
+            } else {
+                this.startGame();
+            }
+        } catch (error) {
+            console.error('Error inicializando juego:', error);
+            this.showError('Error al cargar el juego');
+        }
+    }
+
+    /**
+     * Muestra la selección de dificultad
+     */
+    showDifficultySelection() {
+        this.container.innerHTML = `
+            <div class="difficulty-selection">
+                <div class="difficulty-modal">
+                    <h2>Selecciona la Dificultad</h2>
+                    <div class="difficulty-options">
+                        <button class="difficulty-btn easy" data-difficulty="easy">
+                            <div class="difficulty-icon">😊</div>
+                            <h3>Fácil</h3>
+                            <p>5 intentos • 3 pistas</p>
+                        </button>
+                        <button class="difficulty-btn normal" data-difficulty="normal">
+                            <div class="difficulty-icon">😐</div>
+                            <h3>Normal</h3>
+                            <p>3 intentos • 2 pistas</p>
+                        </button>
+                        <button class="difficulty-btn hard" data-difficulty="hard">
+                            <div class="difficulty-icon">😤</div>
+                            <h3>Desafío</h3>
+                            <p>1 intento • 1 pista</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        // Agregar event listeners para los botones de dificultad
+        const difficultyBtns = this.container.querySelectorAll('.difficulty-btn');
+        difficultyBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const difficulty = btn.dataset.difficulty;
+                this.setDifficulty(difficulty);
+                this.difficultySelected = true; // Marcar que ya se seleccionó la dificultad
+                this.startGame();
+            });
+        });
+    }
+
+    /**
+     * Inicia el juego con la dificultad seleccionada
+     */
+    async startGame() {
         try {
             // Cargar palabra aleatoria
             this.targetWord = await this.dataManager.loadRandomWord();
@@ -54,14 +154,14 @@ class WordleGame {
             this.resetGame();
             this.render();
             
-            // Dar la primera pista automáticamente después de un breve delay
+            // Dar la primera pista automáticamente siempre
             setTimeout(() => {
                 this.giveFirstHint();
             }, 500);
             
             this.updateDisplay();
         } catch (error) {
-            console.error('Error inicializando juego:', error);
+            console.error('Error iniciando juego:', error);
             this.showError('Error al cargar la palabra del juego');
         }
     }
@@ -102,6 +202,10 @@ class WordleGame {
                         <div class="stat">
                             <span class="stat-label">Racha</span>
                             <span class="stat-value streak-value">${this.currentStreak}</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Dificultad</span>
+                            <span class="stat-value">${this.getDifficultyName()}</span>
                         </div>
                     </div>
                 </header>
@@ -437,8 +541,8 @@ class WordleGame {
      * Da la primera pista automáticamente al comenzar
      */
     giveFirstHint() {
-        // Verificar si ya se alcanzó el límite de 3 pistas
-        if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
+        // Verificar si ya se alcanzó el límite de pistas
+        if (this.usedHints.length >= this.maxHints || this.hints.length === 0 || this.gameState !== 'playing') {
             return;
         }
 
@@ -459,8 +563,8 @@ class WordleGame {
      * Usa una pista
      */
     useHint() {
-        // Verificar si ya se alcanzó el límite de 3 pistas
-        if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
+        // Verificar si ya se alcanzó el límite de pistas
+        if (this.usedHints.length >= this.maxHints || this.hints.length === 0 || this.gameState !== 'playing') {
             return;
         }
 
@@ -694,18 +798,19 @@ class WordleGame {
         const giveUpContainer = this.container.querySelector('#give-up-container');
         
         if (hintBtn) {
-            // Desactivar si ya se usaron 3 pistas o no hay pistas disponibles
-            const isDisabled = this.usedHints.length >= 3 || this.hints.length === 0;
+            // Desactivar si ya se usaron todas las pistas disponibles o no hay pistas
+            const isDisabled = this.usedHints.length >= this.maxHints || this.hints.length === 0;
             hintBtn.disabled = isDisabled;
             
             // Actualizar el texto del botón
             let buttonText = 'Revelar Pista';
-            if (this.usedHints.length >= 3) {
+            if (this.usedHints.length >= this.maxHints) {
                 buttonText = 'Límite alcanzado';
             } else if (this.hints.length === 0) {
                 buttonText = 'Sin pistas';
             } else {
-                buttonText = `Revelar Pista (${3 - this.usedHints.length} restantes)`;
+                const remaining = this.maxHints - this.usedHints.length;
+                buttonText = `Revelar Pista (${remaining} restantes)`;
             }
             
             hintBtn.textContent = buttonText;
@@ -714,7 +819,7 @@ class WordleGame {
         
         // Mostrar/ocultar botón de rendirse
         if (giveUpContainer) {
-            if (this.usedHints.length >= 3) {
+            if (this.usedHints.length >= this.maxHints) {
                 giveUpContainer.style.display = 'block';
             } else {
                 giveUpContainer.style.display = 'none';
@@ -781,7 +886,7 @@ class WordleGame {
         const playAgainBtn = overlay.querySelector('#play-again');
         if (playAgainBtn) {
             playAgainBtn.addEventListener('click', () => {
-                this.newGame();
+                this.continueGame();
                 overlay.remove();
             });
         }
@@ -790,7 +895,7 @@ class WordleGame {
         const handleModalKeydown = (e) => {
             if (e.key === 'Enter') {
                 e.preventDefault();
-                this.newGame();
+                this.continueGame();
                 overlay.remove();
                 document.removeEventListener('keydown', handleModalKeydown);
             }
@@ -891,11 +996,22 @@ class WordleGame {
     }
 
     /**
-     * Inicia un nuevo juego
+     * Inicia un nuevo juego (desde modal de derrota - resetea dificultad)
      */
     newGame() {
         this.cleanup();
+        // Resetear selección de dificultad para volver a elegir
+        this.difficultySelected = false;
         this.initialize();
+    }
+
+    /**
+     * Continúa el juego manteniendo la dificultad (desde modal de victoria)
+     */
+    continueGame() {
+        this.cleanup();
+        // Mantener la dificultad seleccionada
+        this.startGame();
     }
 
     /**
@@ -904,6 +1020,8 @@ class WordleGame {
     newGameWithReset() {
         this.cleanup();
         this.resetStreak(); // Reiniciar racha al presionar "Nueva Palabra"
+        // Resetear selección de dificultad para volver a elegir
+        this.difficultySelected = false;
         this.initialize();
     }
 
