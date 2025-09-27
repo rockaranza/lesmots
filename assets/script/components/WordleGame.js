@@ -132,18 +132,23 @@ class WordleGame {
                                 Revelar Pista
                             </button>
                         </div>
-                        <div class="hints-container" id="hints-container">
-                            ${this.renderHints()}
-                        </div>
+                       <div class="hints-container" id="hints-container">
+                           ${this.renderHints()}
+                       </div>
+                       <div class="give-up-container" id="give-up-container" style="display: none;">
+                           <button class="control-btn danger" id="give-up-btn">
+                               Rendirse
+                           </button>
+                       </div>
                     </div>
                 </div>
 
                 <!-- Botones de control -->
-                <div class="game-controls">
-                    <button class="control-btn secondary" id="instructions-btn">
-                        ¿Cómo jugar?
-                    </button>
-                </div>
+                   <div class="game-controls">
+                       <button class="control-btn secondary" id="instructions-btn">
+                           ¿Cómo jugar?
+                       </button>
+                   </div>
             </div>
         `;
 
@@ -310,6 +315,7 @@ class WordleGame {
         // Botones de control
         const hintBtn = this.container.querySelector('#use-hint');
         const instructionsBtn = this.container.querySelector('#instructions-btn');
+        const giveUpBtn = this.container.querySelector('#give-up-btn');
 
         if (hintBtn) {
             hintBtn.addEventListener('click', () => this.useHint());
@@ -317,6 +323,10 @@ class WordleGame {
 
         if (instructionsBtn) {
             instructionsBtn.addEventListener('click', () => this.openInstructions());
+        }
+
+        if (giveUpBtn) {
+            giveUpBtn.addEventListener('click', () => this.giveUp());
         }
 
     }
@@ -709,6 +719,8 @@ class WordleGame {
      */
     updateHintButton() {
         const hintBtn = this.container.querySelector('#use-hint');
+        const giveUpContainer = this.container.querySelector('#give-up-container');
+        
         if (hintBtn) {
             // Desactivar si ya se usaron 3 pistas o no hay pistas disponibles
             const isDisabled = this.usedHints.length >= 3 || this.hints.length === 0;
@@ -727,6 +739,15 @@ class WordleGame {
             hintBtn.textContent = buttonText;
             
             console.log('Botón de pistas actualizado - usadas:', this.usedHints.length, 'disponibles:', this.hints.length, 'deshabilitado:', isDisabled);
+        }
+        
+        // Mostrar/ocultar botón de rendirse
+        if (giveUpContainer) {
+            if (this.usedHints.length >= 3) {
+                giveUpContainer.style.display = 'block';
+            } else {
+                giveUpContainer.style.display = 'none';
+            }
         }
     }
 
@@ -888,6 +909,22 @@ class WordleGame {
         document.addEventListener('keydown', handleModalKeydown);
     }
 
+
+    /**
+     * El jugador se rinde
+     */
+    giveUp() {
+        if (this.gameState !== 'playing') return;
+        
+        // Cambiar estado a perdido
+        this.gameState = 'lost';
+        
+        // Resetear racha al rendirse
+        this.resetStreak();
+        
+        // Mostrar modal de derrota
+        this.showLoseMessage();
+    }
 
     /**
      * Inicia un nuevo juego

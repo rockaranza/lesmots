@@ -541,6 +541,22 @@ main {
     color: white;
 }
 
+.control-btn.danger {
+    background: #e74c3c;
+    color: white;
+}
+
+.control-btn.danger:hover {
+    background: #c0392b;
+    transform: translateY(-0.1rem);
+}
+
+/* Contenedor del botón de rendirse */
+.give-up-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
 .control-btn.secondary:hover {
     background: #6c7b7d;
     transform: translateY(-1px);
