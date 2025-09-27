@@ -14,7 +14,6 @@ class WordleGame {
         this.hints = []; // Array de pistas disponibles
         this.usedHints = []; // Array de pistas usadas
         this.gameState = 'playing'; // 'playing', 'won', 'lost'
-        this.onGameEnd = null;
         this.keydownHandler = null; // Para poder remover el listener
         
         // Sistema de rachas
@@ -78,7 +77,6 @@ class WordleGame {
         this.hints = [...this.targetWord.pistas]; // Restaurar todas las pistas
         this.gameState = 'playing';
         
-        console.log('Juego reiniciado - pistas restauradas:', this.hints.length);
     }
 
 
@@ -414,67 +412,47 @@ class WordleGame {
         
         // Si la palabra es correcta, mostrar confetti y cambiar estado
         if (isCorrect) {
-            console.log('¡Palabra correcta!', this.guesses[currentAttemptIndex]);
             this.gameState = 'won';
             this.incrementStreak(); // Incrementar racha al ganar
             // Mostrar mensaje de victoria después de un breve delay
             setTimeout(() => {
-                console.log('Mostrando modal de victoria');
             this.showWinMessage();
             }, 1000);
         } else if (this.currentAttempt >= this.maxGuesses) {
             // Si se agotaron los intentos, mostrar mensaje de derrota
-            console.log('Se agotaron los intentos');
             this.gameState = 'lost';
             this.resetStreak(); // Reiniciar racha al perder
             setTimeout(() => {
-                console.log('Mostrando modal de derrota');
             this.showLoseMessage();
             }, 1000);
         } else {
             // Si la palabra es incorrecta pero aún hay intentos, agregar temblor
-            console.log('Palabra incorrecta, intento', this.currentAttempt, 'de', this.maxGuesses);
             this.addShakeAnimation();
         }
     }
 
-    /**
-     * Verifica el estado del juego (método de respaldo)
-     */
-    checkGameState() {
-        // Este método ya no se usa directamente, la lógica está en submitGuess()
-        // Se mantiene por compatibilidad
-        console.log('checkGameState called - current state:', this.gameState);
-    }
 
 
     /**
      * Da la primera pista automáticamente al comenzar
      */
     giveFirstHint() {
-        console.log('giveFirstHint llamado - hints disponibles:', this.hints.length, 'usadas:', this.usedHints.length, 'gameState:', this.gameState);
-        
         // Verificar si ya se alcanzó el límite de 3 pistas
         if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
-            console.log('No se puede dar primera pista - usadas:', this.usedHints.length, 'disponibles:', this.hints.length, 'gameState:', this.gameState);
             return;
         }
 
         // Tomar la primera pista disponible
         const firstHint = this.hints[0];
-        console.log('Primera pista seleccionada:', firstHint);
         
         // Mover la pista de disponibles a usadas
         this.hints.splice(0, 1);
         this.usedHints.push(firstHint);
         
-        console.log('Pistas después de mover:', 'disponibles:', this.hints.length, 'usadas:', this.usedHints.length);
-        
         // Actualizar solo las pistas
         this.updateHints();
         this.updateHintButton();
         
-        console.log('Primera pista dada automáticamente:', firstHint.fr);
     }
 
     /**
@@ -483,7 +461,6 @@ class WordleGame {
     useHint() {
         // Verificar si ya se alcanzó el límite de 3 pistas
         if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
-            console.log('No se puede usar más pistas - usadas:', this.usedHints.length, 'disponibles:', this.hints.length);
             return;
         }
 
@@ -494,8 +471,6 @@ class WordleGame {
         // Mover la pista de disponibles a usadas
         this.hints.splice(randomIndex, 1);
         this.usedHints.push(selectedHint);
-        
-        console.log('Pista usada:', selectedHint.fr, 'Total usadas:', this.usedHints.length);
         
         // Actualizar solo las pistas
         this.updateHints();
@@ -701,13 +676,10 @@ class WordleGame {
      * Actualiza las pistas usadas
      */
     updateHints() {
-        console.log('updateHints llamado - usedHints:', this.usedHints.length);
         const hintsList = this.container.querySelector('#hints-container');
-        console.log('Elemento hints-container encontrado:', hintsList);
         
         if (hintsList) {
             const hintsHTML = this.renderHints();
-            console.log('HTML de pistas generado:', hintsHTML);
             hintsList.innerHTML = hintsHTML;
         } else {
             console.error('No se encontró el elemento #hints-container');
@@ -738,7 +710,6 @@ class WordleGame {
             
             hintBtn.textContent = buttonText;
             
-            console.log('Botón de pistas actualizado - usadas:', this.usedHints.length, 'disponibles:', this.hints.length, 'deshabilitado:', isDisabled);
         }
         
         // Mostrar/ocultar botón de rendirse
@@ -756,10 +727,6 @@ class WordleGame {
      * Muestra mensaje de victoria
      */
     showWinMessage() {
-        console.log('showWinMessage() llamado');
-        console.log('targetWord:', this.targetWord);
-        
-        
         // Verificar que targetWord existe
         if (!this.targetWord) {
             console.error('targetWord no está definido');
@@ -835,9 +802,6 @@ class WordleGame {
      * Muestra mensaje de derrota
      */
     showLoseMessage() {
-        console.log('showLoseMessage() llamado');
-        console.log('targetWord:', this.targetWord);
-        
         // Verificar que targetWord existe
         if (!this.targetWord) {
             console.error('targetWord no está definido');
@@ -968,12 +932,6 @@ class WordleGame {
         `;
     }
 
-    /**
-     * Establece el callback para cuando termina el juego
-     */
-    setOnGameEnd(callback) {
-        this.onGameEnd = callback;
-    }
 }
 
 // Exportar para uso en módulos
