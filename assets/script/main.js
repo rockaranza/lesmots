@@ -32,9 +32,6 @@ class LesMotsApp {
     setupComponents() {
         // Configurar juego de Wordle
         this.wordleGame = new WordleGame('app-container', this.dataManager);
-        this.wordleGame.setOnGameEnd((action) => {
-            this.onGameEnd(action);
-        });
 
         // Configurar modal de instrucciones
         this.instructionsModal = new InstructionsModal();
@@ -53,13 +50,6 @@ class LesMotsApp {
         }
     }
 
-    /**
-     * Maneja el final del juego
-     */
-    onGameEnd(action) {
-        // Siempre reiniciar el juego con una nueva palabra aleatoria
-        this.startGame();
-    }
 
     /**
      * Muestra mensaje de error
