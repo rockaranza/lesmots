@@ -16,6 +16,30 @@ class WordleGame {
         this.gameState = 'playing'; // 'playing', 'won', 'lost'
         this.onGameEnd = null;
         this.keydownHandler = null; // Para poder remover el listener
+        
+        // Sistema de rachas
+        this.currentStreak = 0;
+        this.bestStreak = 0;
+        this.loadStreaks();
+        
+        // Detectar si es dispositivo móvil
+        this.isMobileDevice = this.detectMobileDevice();
+    }
+
+    /**
+     * Detecta si el usuario está en un dispositivo móvil o tablet
+     */
+    detectMobileDevice() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        // Detectar dispositivos móviles y tablets
+        const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
+        const tabletRegex = /ipad|android(?!.*mobile)|tablet/i;
+        
+        // Detectar por tamaño de pantalla (opcional)
+        const isSmallScreen = window.innerWidth <= 768;
+        
+        return mobileRegex.test(userAgent) || tabletRegex.test(userAgent) || isSmallScreen;
     }
 
     /**
@@ -50,7 +74,11 @@ class WordleGame {
         this.currentGuess = '';
         this.guesses = [];
         this.currentAttempt = 0;
+        this.usedHints = [];
+        this.hints = [...this.targetWord.pistas]; // Restaurar todas las pistas
         this.gameState = 'playing';
+        
+        console.log('Juego reiniciado - pistas restauradas:', this.hints.length);
     }
 
 
@@ -65,75 +93,65 @@ class WordleGame {
 
         this.container.innerHTML = `
             <div class="wordle-game">
-                <div class="game-layout">
-                    <aside class="game-sidebar-left">
-                        <div class="app-title">
+                <!-- Título del juego -->
+                <header class="game-title">
                             <h1>Les Mots</h1>
-                        </div>
-                        
                         <div class="game-stats">
-                            <div class="stat-item">
-                                <span class="stat-icon">🎯</span>
-                                <span class="stat-label">Intentos</span>
-                                <span class="stat-value">${this.currentAttempt}/${this.maxGuesses}</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-icon">📏</span>
-                                <span class="stat-label">Letras</span>
-                                <span class="stat-value">${this.targetWord.longitud}</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-icon">🏷️</span>
+                        <div class="stat">
                                 <span class="stat-label">Categoría</span>
-                                <span class="stat-value">${this.targetWord.categoria.fr}</span>
-                            </div>
+                            <span class="stat-value">${this.targetWord ? this.targetWord.categoria.fr : 'Cargando...'}</span>
                         </div>
-
-                        <div class="game-actions">
-                            <button class="btn btn-primary btn-new-game" id="new-game">
-                                Nueva Palabra
-                            </button>
+                        <div class="stat">
+                            <span class="stat-label">Racha</span>
+                            <span class="stat-value streak-value">${this.currentStreak}</span>
                         </div>
+                    </div>
+                </header>
 
-                        <div class="instructions-section">
-                            <button class="btn btn-instructions" id="instructions-btn">
-                                <span class="instructions-icon">❓</span>
-                                <span class="instructions-text">¿Cómo jugar?</span>
-                            </button>
-                        </div>
-                    </aside>
-
-                    <main class="game-main">
-                        <div class="game-board-container">
+                <!-- Contenedor principal del juego -->
+                <div class="game-main-container">
+                    <!-- Columna izquierda: Tablero -->
+                    <div class="game-board-section">
                             <div class="game-board">
                                 ${this.renderGameBoard()}
-                            </div>
                         </div>
 
-                        <div class="game-controls">
+                        <!-- Teclado virtual solo en móviles -->
+                        ${this.isMobileDevice ? `
                             <div class="keyboard">
                                 ${this.renderKeyboard()}
-                            </div>
                         </div>
-                    </main>
+                        ` : ''}
+                    </div>
 
-                    <aside class="game-sidebar-right">
+                    <!-- Columna derecha: Pistas -->
                         <div class="hints-section">
+                        <div class="hints-header">
                             <h3>Pistas</h3>
-                            <button class="btn btn-hint" id="use-hint">
-                                <span class="hint-text">Revelar Pista</span>
+                            <button class="hint-btn" id="use-hint">
+                                Revelar Pista
                             </button>
                         </div>
-                        
-                        <div class="hints-list">
+                        <div class="hints-container" id="hints-container">
                             ${this.renderHints()}
                         </div>
-                    </aside>
+                    </div>
+                </div>
+
+                <!-- Botones de control -->
+                <div class="game-controls">
+                    <button class="control-btn secondary" id="instructions-btn">
+                        ¿Cómo jugar?
+                    </button>
                 </div>
             </div>
         `;
 
         this.attachEventListeners();
+        
+        // Actualizar las pistas después de renderizar
+        this.updateHints();
+        this.updateHintButton();
     }
 
     /**
@@ -234,7 +252,6 @@ class WordleGame {
 
         return this.usedHints.map((hint, index) => `
             <div class="hint-item">
-                <div class="hint-number">Pista ${index + 1}</div>
                 <div class="hint-text">${hint.fr}</div>
                 <div class="hint-translation">${hint.es}</div>
             </div>
@@ -285,27 +302,23 @@ class WordleGame {
                 this.handleKeyPress('BACKSPACE');
             } else if (e.key.match(/^[A-ZÀ-ÿa-zà-ÿ]$/)) {
                 // Procesar letras tanto mayúsculas como minúsculas
-                this.handleKeyPress(e.key.toUpperCase());
+            this.handleKeyPress(e.key.toUpperCase());
             }
         };
         document.addEventListener('keydown', this.keydownHandler);
 
         // Botones de control
         const hintBtn = this.container.querySelector('#use-hint');
-        const newGameBtn = this.container.querySelector('#new-game');
         const instructionsBtn = this.container.querySelector('#instructions-btn');
 
         if (hintBtn) {
             hintBtn.addEventListener('click', () => this.useHint());
         }
 
-        if (newGameBtn) {
-            newGameBtn.addEventListener('click', () => this.newGame());
-        }
-
         if (instructionsBtn) {
             instructionsBtn.addEventListener('click', () => this.openInstructions());
         }
+
     }
 
     /**
@@ -381,7 +394,7 @@ class WordleGame {
         const currentAttemptIndex = this.currentAttempt; // Guardar el índice actual
         this.currentAttempt++;
         this.currentGuess = '';
-
+        
         // Actualizar el tablero completo para mostrar los colores
         this.updateGameBoard();
         this.updateGameInfo();
@@ -393,19 +406,20 @@ class WordleGame {
         if (isCorrect) {
             console.log('¡Palabra correcta!', this.guesses[currentAttemptIndex]);
             this.gameState = 'won';
-            this.showConfetti();
+            this.incrementStreak(); // Incrementar racha al ganar
             // Mostrar mensaje de victoria después de un breve delay
             setTimeout(() => {
                 console.log('Mostrando modal de victoria');
-                this.showWinMessage();
+            this.showWinMessage();
             }, 1000);
         } else if (this.currentAttempt >= this.maxGuesses) {
             // Si se agotaron los intentos, mostrar mensaje de derrota
             console.log('Se agotaron los intentos');
             this.gameState = 'lost';
+            this.resetStreak(); // Reiniciar racha al perder
             setTimeout(() => {
                 console.log('Mostrando modal de derrota');
-                this.showLoseMessage();
+            this.showLoseMessage();
             }, 1000);
         } else {
             // Si la palabra es incorrecta pero aún hay intentos, agregar temblor
@@ -428,14 +442,23 @@ class WordleGame {
      * Da la primera pista automáticamente al comenzar
      */
     giveFirstHint() {
-        if (this.hints.length === 0 || this.gameState !== 'playing') return;
+        console.log('giveFirstHint llamado - hints disponibles:', this.hints.length, 'usadas:', this.usedHints.length, 'gameState:', this.gameState);
+        
+        // Verificar si ya se alcanzó el límite de 3 pistas
+        if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
+            console.log('No se puede dar primera pista - usadas:', this.usedHints.length, 'disponibles:', this.hints.length, 'gameState:', this.gameState);
+            return;
+        }
 
         // Tomar la primera pista disponible
         const firstHint = this.hints[0];
+        console.log('Primera pista seleccionada:', firstHint);
         
         // Mover la pista de disponibles a usadas
         this.hints.splice(0, 1);
         this.usedHints.push(firstHint);
+        
+        console.log('Pistas después de mover:', 'disponibles:', this.hints.length, 'usadas:', this.usedHints.length);
         
         // Actualizar solo las pistas
         this.updateHints();
@@ -448,7 +471,11 @@ class WordleGame {
      * Usa una pista
      */
     useHint() {
-        if (this.hints.length === 0 || this.gameState !== 'playing') return;
+        // Verificar si ya se alcanzó el límite de 3 pistas
+        if (this.usedHints.length >= 3 || this.hints.length === 0 || this.gameState !== 'playing') {
+            console.log('No se puede usar más pistas - usadas:', this.usedHints.length, 'disponibles:', this.hints.length);
+            return;
+        }
 
         // Tomar una pista aleatoria de las disponibles
         const randomIndex = Math.floor(Math.random() * this.hints.length);
@@ -457,6 +484,8 @@ class WordleGame {
         // Mover la pista de disponibles a usadas
         this.hints.splice(randomIndex, 1);
         this.usedHints.push(selectedHint);
+        
+        console.log('Pista usada:', selectedHint.fr, 'Total usadas:', this.usedHints.length);
         
         // Actualizar solo las pistas
         this.updateHints();
@@ -474,6 +503,85 @@ class WordleGame {
             document.body.style.overflow = 'hidden';
         }
     }
+
+    /**
+     * Carga las rachas (solo para la sesión actual)
+     */
+    loadStreaks() {
+        // Las rachas se resetean cada vez que se recarga la página
+        this.currentStreak = 0;
+        this.bestStreak = 0;
+    }
+
+    /**
+     * Guarda las rachas (solo para la sesión actual)
+     */
+    saveStreaks() {
+        // No se guarda en localStorage, solo se mantiene durante la sesión
+        // Las rachas se resetean al recargar la página
+    }
+
+    /**
+     * Incrementa la racha actual
+     */
+    incrementStreak() {
+        this.currentStreak++;
+        const isNewRecord = this.currentStreak > this.bestStreak;
+        if (isNewRecord) {
+            this.bestStreak = this.currentStreak;
+        }
+        this.saveStreaks();
+        
+        // Aplicar efectos visuales
+        this.addStreakEffects(isNewRecord);
+    }
+
+    /**
+     * Aplica efectos visuales a las rachas
+     */
+    addStreakEffects(isNewRecord) {
+        // Buscar el elemento de racha actual (ahora es el 2do elemento)
+        const streakItem = this.container.querySelector('.stat-item:nth-child(2)');
+        if (!streakItem) return;
+
+        // Efecto de temblor en el número
+        streakItem.classList.add('streak-shake');
+        setTimeout(() => {
+            streakItem.classList.remove('streak-shake');
+        }, 500);
+
+        // Si es nuevo récord, agregar efectos especiales
+        if (isNewRecord) {
+            // Efecto de crecimiento en el número
+            streakItem.classList.add('streak-grow');
+            
+            // Efecto de fuego alrededor del contenedor
+            streakItem.classList.add('streak-fire');
+            
+            // Efecto de récord permanente en el número
+            streakItem.classList.add('streak-record');
+            
+            // Mantener el efecto de crecimiento temporal
+            setTimeout(() => {
+                streakItem.classList.remove('streak-grow');
+            }, 800);
+        }
+    }
+
+    /**
+     * Reinicia la racha actual
+     */
+    resetStreak() {
+        this.currentStreak = 0;
+        this.saveStreaks();
+        
+        // Remover efectos especiales si existen
+        const streakItem = this.container.querySelector('.stat-item:nth-child(2)');
+        if (streakItem) {
+            streakItem.classList.remove('streak-fire', 'streak-record');
+        }
+    }
+
 
     /**
      * Actualiza la visualización del juego
@@ -573,8 +681,9 @@ class WordleGame {
     updateGameInfo() {
         const statValues = this.container.querySelectorAll('.stat-item .stat-value');
         
-        if (statValues.length >= 1) {
-            statValues[0].textContent = `${this.currentAttempt}/${this.maxGuesses}`;
+        // Actualizar solo la racha actual (segundo elemento)
+        if (statValues.length >= 2) {
+            statValues[1].textContent = this.currentStreak; // Racha actual
         }
     }
 
@@ -582,9 +691,16 @@ class WordleGame {
      * Actualiza las pistas usadas
      */
     updateHints() {
-        const hintsList = this.container.querySelector('.hints-list');
+        console.log('updateHints llamado - usedHints:', this.usedHints.length);
+        const hintsList = this.container.querySelector('#hints-container');
+        console.log('Elemento hints-container encontrado:', hintsList);
+        
         if (hintsList) {
-            hintsList.innerHTML = this.renderHints();
+            const hintsHTML = this.renderHints();
+            console.log('HTML de pistas generado:', hintsHTML);
+            hintsList.innerHTML = hintsHTML;
+        } else {
+            console.error('No se encontró el elemento #hints-container');
         }
     }
 
@@ -594,11 +710,23 @@ class WordleGame {
     updateHintButton() {
         const hintBtn = this.container.querySelector('#use-hint');
         if (hintBtn) {
-            hintBtn.disabled = this.hints.length === 0;
-            const hintText = hintBtn.querySelector('.hint-text');
-            if (hintText) {
-                hintText.textContent = this.hints.length === 0 ? 'Sin pistas' : 'Revelar Pista';
+            // Desactivar si ya se usaron 3 pistas o no hay pistas disponibles
+            const isDisabled = this.usedHints.length >= 3 || this.hints.length === 0;
+            hintBtn.disabled = isDisabled;
+            
+            // Actualizar el texto del botón
+            let buttonText = 'Revelar Pista';
+            if (this.usedHints.length >= 3) {
+                buttonText = 'Límite alcanzado';
+            } else if (this.hints.length === 0) {
+                buttonText = 'Sin pistas';
+            } else {
+                buttonText = `Revelar Pista (${3 - this.usedHints.length} restantes)`;
             }
+            
+            hintBtn.textContent = buttonText;
+            
+            console.log('Botón de pistas actualizado - usadas:', this.usedHints.length, 'disponibles:', this.hints.length, 'deshabilitado:', isDisabled);
         }
     }
 
@@ -609,6 +737,7 @@ class WordleGame {
     showWinMessage() {
         console.log('showWinMessage() llamado');
         console.log('targetWord:', this.targetWord);
+        
         
         // Verificar que targetWord existe
         if (!this.targetWord) {
@@ -627,15 +756,19 @@ class WordleGame {
         const overlay = document.createElement('div');
         overlay.className = 'game-overlay';
         overlay.innerHTML = `
-            <div class="game-message win">
-                <h3>¡Felicidades!</h3>
-                <div class="word-reveal">
-                    <p class="reveal-label">Has adivinado la palabra:</p>
-                    <p class="reveal-word">${this.targetWord.palabra}</p>
-                    <p class="reveal-translation">${traductions.es.traduccion}</p>
+            <div class="game-modal-content">
+                <div class="game-modal-header">
+                    <h2 class="game-modal-title win">¡Felicidades!</h2>
                 </div>
-                <div class="game-end-options">
-                    <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>
+                <div class="game-modal-body">
+                    <div class="word-reveal">
+                        <p class="reveal-label">Has adivinado la palabra:</p>
+                        <div class="reveal-word">${this.targetWord.palabra}</div>
+                        <p class="reveal-translation">${traductions.es.traduccion}</p>
+                    </div>
+                </div>
+                <div class="game-modal-footer">
+                    <button class="control-btn primary" id="play-again">Continuar</button>
                 </div>
             </div>
         `;
@@ -701,15 +834,19 @@ class WordleGame {
         const overlay = document.createElement('div');
         overlay.className = 'game-overlay';
         overlay.innerHTML = `
-            <div class="game-message lose">
-                <h3>¡Inténtalo de nuevo!</h3>
-                <div class="word-reveal">
-                    <p class="reveal-label">La palabra era:</p>
-                    <p class="reveal-word">${this.targetWord.palabra}</p>
-                    <p class="reveal-translation">${traductions.es.traduccion}</p>
+            <div class="game-modal-content">
+                <div class="game-modal-header">
+                    <h2 class="game-modal-title lose">¡Inténtalo de nuevo!</h2>
                 </div>
-                <div class="game-end-options">
-                    <button class="btn btn-primary" id="play-again">Jugar de nuevo</button>
+                <div class="game-modal-body">
+                    <div class="word-reveal">
+                        <p class="reveal-label">La palabra era:</p>
+                        <div class="reveal-word">${this.targetWord.palabra}</div>
+                        <p class="reveal-translation">${traductions.es.traduccion}</p>
+                    </div>
+                </div>
+                <div class="game-modal-footer">
+                    <button class="control-btn primary" id="play-again">Continuar</button>
                 </div>
             </div>
         `;
@@ -751,57 +888,21 @@ class WordleGame {
         document.addEventListener('keydown', handleModalKeydown);
     }
 
-    /**
-     * Muestra confetti cuando la palabra es correcta
-     */
-    showConfetti() {
-        // Verificar que confetti esté disponible
-        if (typeof confetti !== 'undefined') {
-            // Configuración del confetti
-            const count = 200;
-            const defaults = {
-                origin: { y: 0.7 }
-            };
-
-            function fire(particleRatio, opts) {
-                confetti({
-                    ...defaults,
-                    ...opts,
-                    particleCount: Math.floor(count * particleRatio)
-                });
-            }
-
-            // Disparar confetti múltiples veces para un efecto más espectacular
-            fire(0.25, {
-                spread: 26,
-                startVelocity: 55,
-            });
-            fire(0.2, {
-                spread: 60,
-            });
-            fire(0.35, {
-                spread: 100,
-                decay: 0.91,
-                scalar: 0.8
-            });
-            fire(0.1, {
-                spread: 120,
-                startVelocity: 25,
-                decay: 0.92,
-                scalar: 1.2
-            });
-            fire(0.1, {
-                spread: 120,
-                startVelocity: 45,
-            });
-        }
-    }
 
     /**
      * Inicia un nuevo juego
      */
     newGame() {
         this.cleanup();
+        this.initialize();
+    }
+
+    /**
+     * Inicia un nuevo juego reiniciando la racha
+     */
+    newGameWithReset() {
+        this.cleanup();
+        this.resetStreak(); // Reiniciar racha al presionar "Nueva Palabra"
         this.initialize();
     }
 
