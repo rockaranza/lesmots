@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "BATEAU",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "barco, bote"
+    },
+    "en": {
+      "traduccion": "boat, ship"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule qui navigue sur l'eau",
+      "es": "Vehículo que navega sobre el agua",
+      "en": "Vehicle that navigates on water"
+    },
+    {
+      "fr": "Peut être à voile ou à moteur",
+      "es": "Puede ser a vela o a motor",
+      "en": "Can be sail or motor powered"
+    },
+    {
+      "fr": "Transporte des passagers et des marchandises",
+      "es": "Transporta pasajeros y mercancías",
+      "en": "Transports passengers and goods"
+    },
+    {
+      "fr": "Utilisé pour les voyages et le commerce",
+      "es": "Utilizado para viajes y comercio",
+      "en": "Used for travel and commerce"
+    },
+    {
+      "fr": "Moyen de transport maritime",
+      "es": "Medio de transporte marítimo",
+      "en": "Maritime means of transportation"
+    }
+  ]
+}

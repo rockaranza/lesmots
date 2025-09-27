@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "ELEPHANT",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "elefante"
+    },
+    "en": {
+      "traduccion": "elephant"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Le plus grand animal terrestre",
+      "es": "El animal terrestre más grande",
+      "en": "The largest land animal"
+    },
+    {
+      "fr": "A une trompe et de grandes oreilles",
+      "es": "Tiene trompa y orejas grandes",
+      "en": "Has a trunk and large ears"
+    },
+    {
+      "fr": "Animal très intelligent et social",
+      "es": "Animal muy inteligente y social",
+      "en": "Very intelligent and social animal"
+    },
+    {
+      "fr": "Peut vivre plus de 60 ans",
+      "es": "Puede vivir más de 60 años",
+      "en": "Can live more than 60 years"
+    },
+    {
+      "fr": "Symbole de sagesse et de mémoire",
+      "es": "Símbolo de sabiduría y memoria",
+      "en": "Symbol of wisdom and memory"
+    }
+  ]
+}

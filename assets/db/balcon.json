@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "BALCON",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "balcón"
+    },
+    "en": {
+      "traduccion": "balcony"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Plateforme extérieure en hauteur",
+      "es": "Plataforma exterior en altura",
+      "en": "Outdoor platform at height"
+    },
+    {
+      "fr": "Où on peut prendre l'air",
+      "es": "Donde se puede tomar el aire",
+      "en": "Where you can get fresh air"
+    },
+    {
+      "fr": "Espace ouvert vers l'extérieur",
+      "es": "Espacio abierto hacia el exterior",
+      "en": "Open space to the outside"
+    },
+    {
+      "fr": "Généralement protégé par une balustrade",
+      "es": "Generalmente protegido por una balaustrada",
+      "en": "Usually protected by a railing"
+    },
+    {
+      "fr": "Extension de l'espace de vie",
+      "es": "Extensión del espacio de vida",
+      "en": "Extension of living space"
+    }
+  ]
+}

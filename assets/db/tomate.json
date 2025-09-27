@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "TOMATE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "tomate"
+    },
+    "en": {
+      "traduccion": "tomato"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Légume rouge et rond",
+      "es": "Verdura roja y redonda",
+      "en": "Red and round vegetable"
+    },
+    {
+      "fr": "Base de nombreuses sauces",
+      "es": "Base de muchas salsas",
+      "en": "Base of many sauces"
+    },
+    {
+      "fr": "Riche en lycopène",
+      "es": "Rica en licopeno",
+      "en": "Rich in lycopene"
+    },
+    {
+      "fr": "Ingrédient essentiel de la pizza",
+      "es": "Ingrediente esencial de la pizza",
+      "en": "Essential pizza ingredient"
+    },
+    {
+      "fr": "Fruit souvent utilisé comme légume",
+      "es": "Fruta a menudo usada como verdura",
+      "en": "Fruit often used as vegetable"
+    }
+  ]
+}

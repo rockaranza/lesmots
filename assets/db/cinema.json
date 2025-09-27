@@ -1,45 +1,45 @@
 {
   "categoria": {
-    "fr": "Les loisirs",
-    "es": "El ocio",
-    "en": "Leisure"
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
   },
   "palabra": "CINEMA",
   "longitud": 6,
   "genero": "masculin",
-  "traducciones": {
+  "traductions": {
     "es": {
       "traduccion": "cine"
     },
     "en": {
-      "traduccion": "cinema"
+      "traduccion": "cinema, movies"
     }
   },
   "pistas": [
     {
-      "fr": "C'est un lieu où on regarde des films sur grand écran.",
-      "es": "Es un lugar donde se ven películas en pantalla grande.",
-      "en": "It's a place where you watch movies on a big screen."
+      "fr": "Art du film et de l'image animée",
+      "es": "Arte del cine y la imagen animada",
+      "en": "Art of film and moving images"
     },
     {
-      "fr": "Il a des sièges confortables et une salle sombre.",
-      "es": "Tiene asientos cómodos y una sala oscura.",
-      "en": "It has comfortable seats and a dark room."
+      "fr": "Se regarde dans une salle sombre",
+      "es": "Se ve en una sala oscura",
+      "en": "Watched in a dark room"
     },
     {
-      "fr": "On y va pour se divertir et voir des histoires.",
-      "es": "Se va para divertirse y ver historias.",
-      "en": "You go there to have fun and watch stories."
+      "fr": "Divertissement populaire",
+      "es": "Entretenimiento popular",
+      "en": "Popular entertainment"
     },
     {
-      "fr": "Il peut projeter des films d'action, de comédie ou de drame.",
-      "es": "Puede proyectar películas de acción, comedia o drama.",
-      "en": "It can show action, comedy, or drama movies."
+      "fr": "Raconte des histoires en images",
+      "es": "Cuenta historias en imágenes",
+      "en": "Tells stories in images"
     },
     {
-      "fr": "On achète des billets et on peut manger du pop-corn.",
-      "es": "Se compran entradas y se puede comer palomitas.",
-      "en": "You buy tickets and can eat popcorn."
+      "fr": "Activité de loisir très appréciée",
+      "es": "Actividad de ocio muy apreciada",
+      "en": "Very appreciated leisure activity"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "ORANGE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "naranja, anaranjado"
+    },
+    "en": {
+      "traduccion": "orange"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Couleur du fruit du même nom",
+      "es": "Color de la fruta del mismo nombre",
+      "en": "Color of the fruit with the same name"
+    },
+    {
+      "fr": "Mélange de rouge et de jaune",
+      "es": "Mezcla de rojo y amarillo",
+      "en": "Mixture of red and yellow"
+    },
+    {
+      "fr": "Couleur chaude et énergique",
+      "es": "Color cálido y energético",
+      "en": "Warm and energetic color"
+    },
+    {
+      "fr": "Couleur des couchers de soleil",
+      "es": "Color de las puestas de sol",
+      "en": "Color of sunsets"
+    },
+    {
+      "fr": "Symbole d'enthousiasme et de créativité",
+      "es": "Símbolo de entusiasmo y creatividad",
+      "en": "Symbol of enthusiasm and creativity"
+    }
+  ]
+}

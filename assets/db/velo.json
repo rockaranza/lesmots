@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "VELO",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "bicicleta, bici"
+    },
+    "en": {
+      "traduccion": "bicycle, bike"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule à deux roues",
+      "es": "Vehículo de dos ruedas",
+      "en": "Two-wheeled vehicle"
+    },
+    {
+      "fr": "Se propulse avec les pédales",
+      "es": "Se propulsa con los pedales",
+      "en": "Propelled with pedals"
+    },
+    {
+      "fr": "Moyen de transport écologique",
+      "es": "Medio de transporte ecológico",
+      "en": "Ecological means of transportation"
+    },
+    {
+      "fr": "Bon pour la santé et l'environnement",
+      "es": "Bueno para la salud y el medio ambiente",
+      "en": "Good for health and environment"
+    },
+    {
+      "fr": "Très populaire en ville",
+      "es": "Muy popular en la ciudad",
+      "en": "Very popular in the city"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "TOILETTE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "baño, aseo"
+    },
+    "en": {
+      "traduccion": "bathroom, toilet"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Pièce d'hygiène personnelle",
+      "es": "Habitación de higiene personal",
+      "en": "Personal hygiene room"
+    },
+    {
+      "fr": "Contient un lavabo et un miroir",
+      "es": "Contiene un lavabo y un espejo",
+      "en": "Contains a sink and mirror"
+    },
+    {
+      "fr": "Espace privé pour se préparer",
+      "es": "Espacio privado para prepararse",
+      "en": "Private space for getting ready"
+    },
+    {
+      "fr": "Où on se lave et se coiffe",
+      "es": "Donde se lava y peina",
+      "en": "Where you wash and comb your hair"
+    },
+    {
+      "fr": "Partie fonctionnelle de la maison",
+      "es": "Parte funcional de la casa",
+      "en": "Functional part of the house"
+    }
+  ]
+}

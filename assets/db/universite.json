@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "UNIVERSITE",
+  "longitud": 10,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "universidad"
+    },
+    "en": {
+      "traduccion": "university"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Établissement d'enseignement supérieur",
+      "es": "Institución de enseñanza superior",
+      "en": "Higher education institution"
+    },
+    {
+      "fr": "Après le lycée",
+      "es": "Después del instituto",
+      "en": "After high school"
+    },
+    {
+      "fr": "Décerne des diplômes et des grades",
+      "es": "Otorga diplomas y títulos",
+      "en": "Awards diplomas and degrees"
+    },
+    {
+      "fr": "Contient plusieurs facultés",
+      "es": "Contiene varias facultades",
+      "en": "Contains several faculties"
+    },
+    {
+      "fr": "Lieu d'études avancées",
+      "es": "Lugar de estudios avanzados",
+      "en": "Place of advanced studies"
+    }
+  ]
+}

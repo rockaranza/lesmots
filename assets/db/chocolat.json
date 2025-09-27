@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "CHOCOLAT",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "chocolate"
+    },
+    "en": {
+      "traduccion": "chocolate"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Délicieux produit du cacao",
+      "es": "Delicioso producto del cacao",
+      "en": "Delicious product from cocoa"
+    },
+    {
+      "fr": "Se mange noir, au lait ou blanc",
+      "es": "Se come negro, con leche o blanco",
+      "en": "Eaten dark, milk or white"
+    },
+    {
+      "fr": "Ingrédient de nombreux desserts",
+      "es": "Ingrediente de muchos postres",
+      "en": "Ingredient in many desserts"
+    },
+    {
+      "fr": "Rend heureux grâce à la sérotonine",
+      "es": "Hace feliz gracias a la serotonina",
+      "en": "Makes happy thanks to serotonin"
+    },
+    {
+      "fr": "Très apprécié des enfants",
+      "es": "Muy apreciado por los niños",
+      "en": "Very appreciated by children"
+    }
+  ]
+}

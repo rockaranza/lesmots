@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "GRIS",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "gris"
+    },
+    "en": {
+      "traduccion": "gray, grey"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Couleur neutre entre le noir et le blanc",
+      "es": "Color neutro entre el negro y el blanco",
+      "en": "Neutral color between black and white"
+    },
+    {
+      "fr": "Couleur des nuages et de la pluie",
+      "es": "Color de las nubes y la lluvia",
+      "en": "Color of clouds and rain"
+    },
+    {
+      "fr": "Symbole de sobriété et d'élégance",
+      "es": "Símbolo de sobriedad y elegancia",
+      "en": "Symbol of sobriety and elegance"
+    },
+    {
+      "fr": "Couleur des cheveux avec l'âge",
+      "es": "Color del cabello con la edad",
+      "en": "Color of hair with age"
+    },
+    {
+      "fr": "Couleur moderne et sophistiquée",
+      "es": "Color moderno y sofisticado",
+      "en": "Modern and sophisticated color"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "POMME DE TERRE",
+  "longitud": 15,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "papa, patata"
+    },
+    "en": {
+      "traduccion": "potato"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Tubercule souterrain",
+      "es": "Tubérculo subterráneo",
+      "en": "Underground tuber"
+    },
+    {
+      "fr": "Légume très polyvalent",
+      "es": "Verdura muy versátil",
+      "en": "Very versatile vegetable"
+    },
+    {
+      "fr": "Se mange bouillie, frite ou en purée",
+      "es": "Se come hervida, frita o en puré",
+      "en": "Eaten boiled, fried or mashed"
+    },
+    {
+      "fr": "Riche en glucides",
+      "es": "Rica en carbohidratos",
+      "en": "Rich in carbohydrates"
+    },
+    {
+      "fr": "Aliment de base dans de nombreux pays",
+      "es": "Alimento básico en muchos países",
+      "en": "Staple food in many countries"
+    }
+  ]
+}

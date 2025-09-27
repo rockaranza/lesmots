@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "OURS",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "oso"
+    },
+    "en": {
+      "traduccion": "bear"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Grand mammifère omnivore",
+      "es": "Gran mamífero omnívoro",
+      "en": "Large omnivorous mammal"
+    },
+    {
+      "fr": "Hiberne pendant l'hiver",
+      "es": "Hiberna durante el invierno",
+      "en": "Hibernates during winter"
+    },
+    {
+      "fr": "Très fort et puissant",
+      "es": "Muy fuerte y poderoso",
+      "en": "Very strong and powerful"
+    },
+    {
+      "fr": "Vit dans les forêts et montagnes",
+      "es": "Vive en bosques y montañas",
+      "en": "Lives in forests and mountains"
+    },
+    {
+      "fr": "Symbole de force et de protection",
+      "es": "Símbolo de fuerza y protección",
+      "en": "Symbol of strength and protection"
+    }
+  ]
+}

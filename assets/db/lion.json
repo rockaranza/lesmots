@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "LION",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "león"
+    },
+    "en": {
+      "traduccion": "lion"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Roi de la jungle",
+      "es": "Rey de la selva",
+      "en": "King of the jungle"
+    },
+    {
+      "fr": "Grand félin avec une crinière",
+      "es": "Gran felino con melena",
+      "en": "Large feline with a mane"
+    },
+    {
+      "fr": "Animal sauvage et puissant",
+      "es": "Animal salvaje y poderoso",
+      "en": "Wild and powerful animal"
+    },
+    {
+      "fr": "Vit en groupe appelé troupeau",
+      "es": "Vive en grupo llamado manada",
+      "en": "Lives in a group called pride"
+    },
+    {
+      "fr": "Symbole de courage et de force",
+      "es": "Símbolo de coraje y fuerza",
+      "en": "Symbol of courage and strength"
+    }
+  ]
+}

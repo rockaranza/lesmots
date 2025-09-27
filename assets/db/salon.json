@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "SALON",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "sala de estar, salón"
+    },
+    "en": {
+      "traduccion": "living room, lounge"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Pièce principale pour recevoir",
+      "es": "Habitación principal para recibir",
+      "en": "Main room for receiving guests"
+    },
+    {
+      "fr": "Où on regarde la télévision",
+      "es": "Donde se ve la televisión",
+      "en": "Where you watch television"
+    },
+    {
+      "fr": "Espace de détente et de convivialité",
+      "es": "Espacio de relajación y convivencia",
+      "en": "Space for relaxation and socializing"
+    },
+    {
+      "fr": "Contient souvent un canapé",
+      "es": "A menudo contiene un sofá",
+      "en": "Often contains a sofa"
+    },
+    {
+      "fr": "Centre de la vie familiale",
+      "es": "Centro de la vida familiar",
+      "en": "Center of family life"
+    }
+  ]
+}

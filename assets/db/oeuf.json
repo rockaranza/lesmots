@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "OEUF",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "huevo"
+    },
+    "en": {
+      "traduccion": "egg"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Produit de la poule",
+      "es": "Producto de la gallina",
+      "en": "Product of the hen"
+    },
+    {
+      "fr": "Riche en protéines complètes",
+      "es": "Rico en proteínas completas",
+      "en": "Rich in complete proteins"
+    },
+    {
+      "fr": "Se mange au petit-déjeuner",
+      "es": "Se come en el desayuno",
+      "en": "Eaten for breakfast"
+    },
+    {
+      "fr": "Ingrédient de base en pâtisserie",
+      "es": "Ingrediente básico en repostería",
+      "en": "Basic ingredient in baking"
+    },
+    {
+      "fr": "Peut être cuit de nombreuses façons",
+      "es": "Se puede cocinar de muchas maneras",
+      "en": "Can be cooked in many ways"
+    }
+  ]
+}

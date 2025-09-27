@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "ESCALIER",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "escalera"
+    },
+    "en": {
+      "traduccion": "staircase, stairs"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Permet de monter et descendre",
+      "es": "Permite subir y bajar",
+      "en": "Allows you to go up and down"
+    },
+    {
+      "fr": "Série de marches dans une maison",
+      "es": "Serie de escalones en una casa",
+      "en": "Series of steps in a house"
+    },
+    {
+      "fr": "Relie les étages entre eux",
+      "es": "Conecta los pisos entre sí",
+      "en": "Connects floors together"
+    },
+    {
+      "fr": "Structure verticale avec des marches",
+      "es": "Estructura vertical con escalones",
+      "en": "Vertical structure with steps"
+    },
+    {
+      "fr": "Élément architectural essentiel",
+      "es": "Elemento arquitectónico esencial",
+      "en": "Essential architectural element"
+    }
+  ]
+}

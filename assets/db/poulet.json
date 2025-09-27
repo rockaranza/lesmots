@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "POULET",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "pollo"
+    },
+    "en": {
+      "traduccion": "chicken"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Viande blanche très populaire",
+      "es": "Carne blanca muy popular",
+      "en": "Very popular white meat"
+    },
+    {
+      "fr": "Volaille domestique",
+      "es": "Ave de corral doméstica",
+      "en": "Domestic poultry"
+    },
+    {
+      "fr": "Riche en protéines",
+      "es": "Rico en proteínas",
+      "en": "Rich in proteins"
+    },
+    {
+      "fr": "Se mange grillé, rôti ou frit",
+      "es": "Se come a la parrilla, asado o frito",
+      "en": "Eaten grilled, roasted or fried"
+    },
+    {
+      "fr": "Viande maigre et saine",
+      "es": "Carne magra y saludable",
+      "en": "Lean and healthy meat"
+    }
+  ]
+}

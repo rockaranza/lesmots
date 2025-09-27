@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "PATE",
+  "longitud": 4,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "pasta"
+    },
+    "en": {
+      "traduccion": "pasta"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Aliment à base de farine et d'œufs",
+      "es": "Alimento a base de harina y huevos",
+      "en": "Food made from flour and eggs"
+    },
+    {
+      "fr": "Spaghetti, macaroni, ravioli",
+      "es": "Espaguetis, macarrones, ravioles",
+      "en": "Spaghetti, macaroni, ravioli"
+    },
+    {
+      "fr": "Spécialité italienne",
+      "es": "Especialidad italiana",
+      "en": "Italian specialty"
+    },
+    {
+      "fr": "Se mange avec de la sauce",
+      "es": "Se come con salsa",
+      "en": "Eaten with sauce"
+    },
+    {
+      "fr": "Très populaire dans le monde entier",
+      "es": "Muy popular en todo el mundo",
+      "en": "Very popular worldwide"
+    }
+  ]
+}

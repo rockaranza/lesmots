@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "TRAIN",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "tren"
+    },
+    "en": {
+      "traduccion": "train"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule qui roule sur des rails",
+      "es": "Vehículo que circula sobre rieles",
+      "en": "Vehicle that runs on rails"
+    },
+    {
+      "fr": "Composé de plusieurs wagons",
+      "es": "Compuesto de varios vagones",
+      "en": "Composed of several cars"
+    },
+    {
+      "fr": "Transporte collectif très efficace",
+      "es": "Transporte colectivo muy eficiente",
+      "en": "Very efficient collective transport"
+    },
+    {
+      "fr": "Roule à grande vitesse",
+      "es": "Circula a gran velocidad",
+      "en": "Runs at high speed"
+    },
+    {
+      "fr": "Moyen de transport écologique",
+      "es": "Medio de transporte ecológico",
+      "en": "Ecological means of transportation"
+    }
+  ]
+}

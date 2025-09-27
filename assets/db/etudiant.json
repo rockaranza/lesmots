@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "ETUDIANT",
+  "longitud": 8,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "estudiante"
+    },
+    "en": {
+      "traduccion": "student"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Personne qui suit des études",
+      "es": "Persona que sigue estudios",
+      "en": "Person who follows studies"
+    },
+    {
+      "fr": "À l'université ou dans une école",
+      "es": "En la universidad o en una escuela",
+      "en": "At university or in a school"
+    },
+    {
+      "fr": "Apprend et acquiert des connaissances",
+      "es": "Aprende y adquiere conocimientos",
+      "en": "Learns and acquires knowledge"
+    },
+    {
+      "fr": "Assiste aux cours et aux conférences",
+      "es": "Asiste a clases y conferencias",
+      "en": "Attends classes and lectures"
+    },
+    {
+      "fr": "Prépare son avenir professionnel",
+      "es": "Prepara su futuro profesional",
+      "en": "Prepares his professional future"
+    }
+  ]
+}

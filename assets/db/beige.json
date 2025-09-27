@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "BEIGE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "beige, color crema"
+    },
+    "en": {
+      "traduccion": "beige"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Couleur claire et douce",
+      "es": "Color claro y suave",
+      "en": "Light and soft color"
+    },
+    {
+      "fr": "Mélange de blanc et de marron clair",
+      "es": "Mezcla de blanco y marrón claro",
+      "en": "Mixture of white and light brown"
+    },
+    {
+      "fr": "Couleur neutre et élégante",
+      "es": "Color neutro y elegante",
+      "en": "Neutral and elegant color"
+    },
+    {
+      "fr": "Couleur des vêtements classiques",
+      "es": "Color de la ropa clásica",
+      "en": "Color of classic clothing"
+    },
+    {
+      "fr": "Symbole de simplicité et de raffinement",
+      "es": "Símbolo de simplicidad y refinamiento",
+      "en": "Symbol of simplicity and refinement"
+    }
+  ]
+}

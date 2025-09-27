@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "MARRON",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "marrón, café, castaño"
+    },
+    "en": {
+      "traduccion": "brown"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Couleur de la terre et du bois",
+      "es": "Color de la tierra y la madera",
+      "en": "Color of earth and wood"
+    },
+    {
+      "fr": "Couleur des cheveux bruns",
+      "es": "Color del cabello castaño",
+      "en": "Color of brown hair"
+    },
+    {
+      "fr": "Couleur chaude et naturelle",
+      "es": "Color cálido y natural",
+      "en": "Warm and natural color"
+    },
+    {
+      "fr": "Couleur du chocolat et du café",
+      "es": "Color del chocolate y el café",
+      "en": "Color of chocolate and coffee"
+    },
+    {
+      "fr": "Symbole de stabilité et de confort",
+      "es": "Símbolo de estabilidad y comodidad",
+      "en": "Symbol of stability and comfort"
+    }
+  ]
+}

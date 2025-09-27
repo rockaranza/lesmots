@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "LAPIN",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "conejo"
+    },
+    "en": {
+      "traduccion": "rabbit"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Petit mammifère avec de longues oreilles",
+      "es": "Pequeño mamífero con orejas largas",
+      "en": "Small mammal with long ears"
+    },
+    {
+      "fr": "Se déplace en sautant",
+      "es": "Se mueve saltando",
+      "en": "Moves by jumping"
+    },
+    {
+      "fr": "Animal très prolifique",
+      "es": "Animal muy prolífico",
+      "en": "Very prolific animal"
+    },
+    {
+      "fr": "Mange des carottes et de la salade",
+      "es": "Come zanahorias y lechuga",
+      "en": "Eats carrots and lettuce"
+    },
+    {
+      "fr": "Symbole de fertilité et de rapidité",
+      "es": "Símbolo de fertilidad y rapidez",
+      "en": "Symbol of fertility and speed"
+    }
+  ]
+}

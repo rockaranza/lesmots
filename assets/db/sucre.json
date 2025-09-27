@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "SUCRE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "azúcar"
+    },
+    "en": {
+      "traduccion": "sugar"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Substance blanche et sucrée",
+      "es": "Sustancia blanca y dulce",
+      "en": "White and sweet substance"
+    },
+    {
+      "fr": "Extrait de la canne à sucre",
+      "es": "Extraído de la caña de azúcar",
+      "en": "Extracted from sugar cane"
+    },
+    {
+      "fr": "Ingrédient essentiel des desserts",
+      "es": "Ingrediente esencial de los postres",
+      "en": "Essential ingredient in desserts"
+    },
+    {
+      "fr": "Donne de l'énergie rapide",
+      "es": "Da energía rápida",
+      "en": "Provides quick energy"
+    },
+    {
+      "fr": "Se dissout dans l'eau",
+      "es": "Se disuelve en agua",
+      "en": "Dissolves in water"
+    }
+  ]
+}

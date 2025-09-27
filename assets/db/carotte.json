@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "CAROTTE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "zanahoria"
+    },
+    "en": {
+      "traduccion": "carrot"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Légume orange et croquant",
+      "es": "Verdura naranja y crujiente",
+      "en": "Orange and crunchy vegetable"
+    },
+    {
+      "fr": "Riche en bêta-carotène",
+      "es": "Rica en betacaroteno",
+      "en": "Rich in beta-carotene"
+    },
+    {
+      "fr": "Bonne pour la vue",
+      "es": "Buena para la vista",
+      "en": "Good for eyesight"
+    },
+    {
+      "fr": "Se mange crue ou cuite",
+      "es": "Se come cruda o cocida",
+      "en": "Eaten raw or cooked"
+    },
+    {
+      "fr": "Légume racine très populaire",
+      "es": "Verdura de raíz muy popular",
+      "en": "Very popular root vegetable"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "BIBLIOTHEQUE",
+  "longitud": 12,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "biblioteca"
+    },
+    "en": {
+      "traduccion": "library"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Lieu où sont conservés les livres",
+      "es": "Lugar donde se conservan los libros",
+      "en": "Place where books are kept"
+    },
+    {
+      "fr": "On peut y emprunter des ouvrages",
+      "es": "Se pueden tomar prestados libros",
+      "en": "You can borrow books there"
+    },
+    {
+      "fr": "Espace de lecture et d'étude",
+      "es": "Espacio de lectura y estudio",
+      "en": "Space for reading and studying"
+    },
+    {
+      "fr": "Contient des milliers de livres",
+      "es": "Contiene miles de libros",
+      "en": "Contains thousands of books"
+    },
+    {
+      "fr": "Ressource éducative importante",
+      "es": "Recurso educativo importante",
+      "en": "Important educational resource"
+    }
+  ]
+}

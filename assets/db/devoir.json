@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "DEVOIR",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "deber, tarea"
+    },
+    "en": {
+      "traduccion": "homework, assignment"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Travail à faire à la maison",
+      "es": "Trabajo que hacer en casa",
+      "en": "Work to do at home"
+    },
+    {
+      "fr": "Donné par le professeur",
+      "es": "Dado por el profesor",
+      "en": "Given by the teacher"
+    },
+    {
+      "fr": "Se fait après les cours",
+      "es": "Se hace después de las clases",
+      "en": "Done after classes"
+    },
+    {
+      "fr": "Permet de réviser et d'apprendre",
+      "es": "Permite repasar y aprender",
+      "en": "Allows to review and learn"
+    },
+    {
+      "fr": "Obligatoire pour les élèves",
+      "es": "Obligatorio para los estudiantes",
+      "en": "Mandatory for students"
+    }
+  ]
+}

@@ -454,6 +454,291 @@
       "id": "voyage",
       "filename": "voyage.json",
       "categoria": "Les loisirs"
+    },
+    {
+      "id": "chambre",
+      "filename": "chambre.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "salon",
+      "filename": "salon.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "escalier",
+      "filename": "escalier.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "toilette",
+      "filename": "toilette.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "balcon",
+      "filename": "balcon.json",
+      "categoria": "La maison"
+    },
+    {
+      "id": "lion",
+      "filename": "lion.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "elephant",
+      "filename": "elephant.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "souris",
+      "filename": "souris.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "lapin",
+      "filename": "lapin.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "ours",
+      "filename": "ours.json",
+      "categoria": "Les animaux"
+    },
+    {
+      "id": "rose",
+      "filename": "rose.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "violet",
+      "filename": "violet.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "orange",
+      "filename": "orange.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "gris",
+      "filename": "gris.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "marron",
+      "filename": "marron.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "beige",
+      "filename": "beige.json",
+      "categoria": "Les couleurs"
+    },
+    {
+      "id": "banane",
+      "filename": "banane.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "tomate",
+      "filename": "tomate.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "riz",
+      "filename": "riz.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "poulet",
+      "filename": "poulet.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "pomme_de_terre",
+      "filename": "pomme_de_terre.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "oeuf",
+      "filename": "oeuf.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "sucre",
+      "filename": "sucre.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "carotte",
+      "filename": "carotte.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "pate",
+      "filename": "pate.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "salade",
+      "filename": "salade.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "poisson",
+      "filename": "poisson.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "chocolat",
+      "filename": "chocolat.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "yaourt",
+      "filename": "yaourt.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "beurre",
+      "filename": "beurre.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "citron",
+      "filename": "citron.json",
+      "categoria": "La nourriture"
+    },
+    {
+      "id": "avion",
+      "filename": "avion.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "train",
+      "filename": "train.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "bus",
+      "filename": "bus.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "velo",
+      "filename": "velo.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "moto",
+      "filename": "moto.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "bateau",
+      "filename": "bateau.json",
+      "categoria": "Les transports"
+    },
+    {
+      "id": "cahier",
+      "filename": "cahier.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "tableau",
+      "filename": "tableau.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "eleve",
+      "filename": "eleve.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "classe",
+      "filename": "classe.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "examen",
+      "filename": "examen.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "lecon",
+      "filename": "lecon.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "devoir",
+      "filename": "devoir.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "universite",
+      "filename": "universite.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "bibliotheque",
+      "filename": "bibliotheque.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "etudiant",
+      "filename": "etudiant.json",
+      "categoria": "L'éducation"
+    },
+    {
+      "id": "danse",
+      "filename": "danse.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "peinture",
+      "filename": "peinture.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "musique",
+      "filename": "musique.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "cinema",
+      "filename": "cinema.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "jeu",
+      "filename": "jeu.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "voyage",
+      "filename": "voyage.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "cuisine",
+      "filename": "cuisine.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "jardinage",
+      "filename": "jardinage.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "ecriture",
+      "filename": "ecriture.json",
+      "categoria": "Les activités"
+    },
+    {
+      "id": "photo",
+      "filename": "photo.json",
+      "categoria": "Les activités"
     }
   ]
 }

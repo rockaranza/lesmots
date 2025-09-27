@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "BANANE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "plátano, banana"
+    },
+    "en": {
+      "traduccion": "banana"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Fruit jaune et courbé",
+      "es": "Fruta amarilla y curvada",
+      "en": "Yellow and curved fruit"
+    },
+    {
+      "fr": "Riche en potassium",
+      "es": "Rica en potasio",
+      "en": "Rich in potassium"
+    },
+    {
+      "fr": "Fruit tropical très populaire",
+      "es": "Fruta tropical muy popular",
+      "en": "Very popular tropical fruit"
+    },
+    {
+      "fr": "Se mange généralement pelée",
+      "es": "Se come generalmente pelada",
+      "en": "Usually eaten peeled"
+    },
+    {
+      "fr": "Symbole de l'énergie naturelle",
+      "es": "Símbolo de la energía natural",
+      "en": "Symbol of natural energy"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "YAOURT",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "yogur"
+    },
+    "en": {
+      "traduccion": "yogurt"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Produit laitier fermenté",
+      "es": "Producto lácteo fermentado",
+      "en": "Fermented dairy product"
+    },
+    {
+      "fr": "Riche en probiotiques",
+      "es": "Rico en probióticos",
+      "en": "Rich in probiotics"
+    },
+    {
+      "fr": "Se mange nature ou aux fruits",
+      "es": "Se come natural o con frutas",
+      "en": "Eaten plain or with fruits"
+    },
+    {
+      "fr": "Bon pour la digestion",
+      "es": "Bueno para la digestión",
+      "en": "Good for digestion"
+    },
+    {
+      "fr": "Dessert sain et léger",
+      "es": "Postre saludable y ligero",
+      "en": "Healthy and light dessert"
+    }
+  ]
+}

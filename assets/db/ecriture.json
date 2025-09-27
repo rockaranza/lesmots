@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "ECRITURE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "escritura"
+    },
+    "en": {
+      "traduccion": "writing"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Art de créer des textes",
+      "es": "Arte de crear textos",
+      "en": "Art of creating texts"
+    },
+    {
+      "fr": "Se pratique avec un stylo ou un clavier",
+      "es": "Se practica con un bolígrafo o teclado",
+      "en": "Practiced with a pen or keyboard"
+    },
+    {
+      "fr": "Permet d'exprimer ses idées",
+      "es": "Permite expresar ideas",
+      "en": "Allows to express ideas"
+    },
+    {
+      "fr": "Activité créative et intellectuelle",
+      "es": "Actividad creativa e intelectual",
+      "en": "Creative and intellectual activity"
+    },
+    {
+      "fr": "Peut être professionnelle ou personnelle",
+      "es": "Puede ser profesional o personal",
+      "en": "Can be professional or personal"
+    }
+  ]
+}

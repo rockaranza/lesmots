@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "AVION",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "avión"
+    },
+    "en": {
+      "traduccion": "airplane, plane"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule qui vole dans le ciel",
+      "es": "Vehículo que vuela en el cielo",
+      "en": "Vehicle that flies in the sky"
+    },
+    {
+      "fr": "Moyen de transport le plus rapide",
+      "es": "Medio de transporte más rápido",
+      "en": "Fastest means of transportation"
+    },
+    {
+      "fr": "A des ailes et des moteurs",
+      "es": "Tiene alas y motores",
+      "en": "Has wings and engines"
+    },
+    {
+      "fr": "Décolle et atterrit sur une piste",
+      "es": "Despega y aterriza en una pista",
+      "en": "Takes off and lands on a runway"
+    },
+    {
+      "fr": "Transporte des passagers et du fret",
+      "es": "Transporta pasajeros y carga",
+      "en": "Transports passengers and cargo"
+    }
+  ]
+}

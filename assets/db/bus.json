@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "BUS",
+  "longitud": 3,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "autobús, bus"
+    },
+    "en": {
+      "traduccion": "bus"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule de transport en commun",
+      "es": "Vehículo de transporte público",
+      "en": "Public transportation vehicle"
+    },
+    {
+      "fr": "Roule sur la route avec des roues",
+      "es": "Circula por la carretera con ruedas",
+      "en": "Runs on the road with wheels"
+    },
+    {
+      "fr": "Peut transporter beaucoup de passagers",
+      "es": "Puede transportar muchos pasajeros",
+      "en": "Can transport many passengers"
+    },
+    {
+      "fr": "S'arrête à des arrêts fixes",
+      "es": "Se detiene en paradas fijas",
+      "en": "Stops at fixed stops"
+    },
+    {
+      "fr": "Moyen de transport urbain",
+      "es": "Medio de transporte urbano",
+      "en": "Urban transportation means"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "SALADE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "ensalada"
+    },
+    "en": {
+      "traduccion": "salad"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Mélange de légumes crus",
+      "es": "Mezcla de verduras crudas",
+      "en": "Mixture of raw vegetables"
+    },
+    {
+      "fr": "Plat frais et léger",
+      "es": "Plato fresco y ligero",
+      "en": "Fresh and light dish"
+    },
+    {
+      "fr": "Se mange souvent en entrée",
+      "es": "Se come a menudo de entrada",
+      "en": "Often eaten as starter"
+    },
+    {
+      "fr": "Avec de la laitue et des tomates",
+      "es": "Con lechuga y tomates",
+      "en": "With lettuce and tomatoes"
+    },
+    {
+      "fr": "Riche en vitamines",
+      "es": "Rica en vitaminas",
+      "en": "Rich in vitamins"
+    }
+  ]
+}

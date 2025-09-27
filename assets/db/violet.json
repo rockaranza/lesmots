@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les couleurs",
+    "es": "Los colores",
+    "en": "Colors"
+  },
+  "palabra": "VIOLET",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "violeta, morado"
+    },
+    "en": {
+      "traduccion": "violet, purple"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Couleur entre le bleu et le rouge",
+      "es": "Color entre el azul y el rojo",
+      "en": "Color between blue and red"
+    },
+    {
+      "fr": "Couleur des violettes et des lavandes",
+      "es": "Color de las violetas y lavandas",
+      "en": "Color of violets and lavenders"
+    },
+    {
+      "fr": "Symbole de mystère et de spiritualité",
+      "es": "Símbolo de misterio y espiritualidad",
+      "en": "Symbol of mystery and spirituality"
+    },
+    {
+      "fr": "Couleur royale et luxueuse",
+      "es": "Color real y lujoso",
+      "en": "Royal and luxurious color"
+    },
+    {
+      "fr": "Associée à la créativité et à l'imagination",
+      "es": "Asociada a la creatividad y la imaginación",
+      "en": "Associated with creativity and imagination"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les transports",
+    "es": "Los transportes",
+    "en": "Transportation"
+  },
+  "palabra": "MOTO",
+  "longitud": 4,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "moto, motocicleta"
+    },
+    "en": {
+      "traduccion": "motorcycle, motorbike"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Véhicule à deux roues motorisé",
+      "es": "Vehículo de dos ruedas motorizado",
+      "en": "Motorized two-wheeled vehicle"
+    },
+    {
+      "fr": "Plus rapide qu'un vélo",
+      "es": "Más rápido que una bicicleta",
+      "en": "Faster than a bicycle"
+    },
+    {
+      "fr": "Se conduit avec un casque",
+      "es": "Se conduce con casco",
+      "en": "Driven with a helmet"
+    },
+    {
+      "fr": "Très maniable dans le trafic",
+      "es": "Muy manejable en el tráfico",
+      "en": "Very maneuverable in traffic"
+    },
+    {
+      "fr": "Moyen de transport individuel",
+      "es": "Medio de transporte individual",
+      "en": "Individual means of transportation"
+    }
+  ]
+}

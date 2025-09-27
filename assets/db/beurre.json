@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "BEURRE",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "mantequilla"
+    },
+    "en": {
+      "traduccion": "butter"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Produit laitier solide",
+      "es": "Producto lácteo sólido",
+      "en": "Solid dairy product"
+    },
+    {
+      "fr": "Se tartine sur le pain",
+      "es": "Se untar en el pan",
+      "en": "Spread on bread"
+    },
+    {
+      "fr": "Ingrédient de base en pâtisserie",
+      "es": "Ingrediente básico en repostería",
+      "en": "Basic ingredient in baking"
+    },
+    {
+      "fr": "Riche en matières grasses",
+      "es": "Rico en grasas",
+      "en": "Rich in fats"
+    },
+    {
+      "fr": "Se fait à partir de la crème",
+      "es": "Se hace a partir de la nata",
+      "en": "Made from cream"
+    }
+  ]
+}

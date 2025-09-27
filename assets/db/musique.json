@@ -1,13 +1,13 @@
 {
   "categoria": {
-    "fr": "Les arts",
-    "es": "Las artes",
-    "en": "Arts"
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
   },
   "palabra": "MUSIQUE",
   "longitud": 7,
   "genero": "feminin",
-  "traducciones": {
+  "traductions": {
     "es": {
       "traduccion": "música"
     },
@@ -17,29 +17,29 @@
   },
   "pistas": [
     {
-      "fr": "C'est l'art de combiner des sons de manière harmonieuse.",
-      "es": "Es el arte de combinar sonidos de manera armoniosa.",
-      "en": "It's the art of combining sounds in a harmonious way."
+      "fr": "Art des sons et des mélodies",
+      "es": "Arte de los sonidos y melodías",
+      "en": "Art of sounds and melodies"
     },
     {
-      "fr": "Elle peut être jouée avec des instruments ou chantée.",
-      "es": "Se puede tocar con instrumentos o cantar.",
-      "en": "It can be played with instruments or sung."
+      "fr": "Se joue avec des instruments",
+      "es": "Se toca con instrumentos",
+      "en": "Played with instruments"
     },
     {
-      "fr": "Elle a un rythme, une mélodie et parfois des paroles.",
-      "es": "Tiene ritmo, melodía y a veces letra.",
-      "en": "It has rhythm, melody, and sometimes lyrics."
+      "fr": "Peut être écoutée ou jouée",
+      "es": "Puede ser escuchada o tocada",
+      "en": "Can be listened to or played"
     },
     {
-      "fr": "On peut l'écouter à la radio, en concert ou sur internet.",
-      "es": "Se puede escuchar en la radio, en concierto o en internet.",
-      "en": "You can listen to it on the radio, in concert, or on the internet."
+      "fr": "Activité très populaire",
+      "es": "Actividad muy popular",
+      "en": "Very popular activity"
     },
     {
-      "fr": "Elle peut exprimer des émotions et rassembler les gens.",
-      "es": "Puede expresar emociones y unir a las personas.",
-      "en": "It can express emotions and bring people together."
+      "fr": "Éveille les émotions",
+      "es": "Despierta las emociones",
+      "en": "Awakens emotions"
     }
   ]
 }

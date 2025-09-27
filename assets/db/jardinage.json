@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "JARDINAGE",
+  "longitud": 9,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "jardinería"
+    },
+    "en": {
+      "traduccion": "gardening"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Art de cultiver des plantes",
+      "es": "Arte de cultivar plantas",
+      "en": "Art of growing plants"
+    },
+    {
+      "fr": "Se pratique dans un jardin",
+      "es": "Se practica en un jardín",
+      "en": "Practiced in a garden"
+    },
+    {
+      "fr": "Utilise des outils comme la bêche",
+      "es": "Utiliza herramientas como la pala",
+      "en": "Uses tools like a spade"
+    },
+    {
+      "fr": "Activité relaxante et gratifiante",
+      "es": "Actividad relajante y gratificante",
+      "en": "Relaxing and rewarding activity"
+    },
+    {
+      "fr": "Permet de cultiver des légumes",
+      "es": "Permite cultivar verduras",
+      "en": "Allows to grow vegetables"
+    }
+  ]
+}

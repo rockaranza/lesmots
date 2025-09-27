@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La maison",
+    "es": "La casa",
+    "en": "The house"
+  },
+  "palabra": "CHAMBRE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "dormitorio, habitación"
+    },
+    "en": {
+      "traduccion": "bedroom, room"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Endroit où on dort",
+      "es": "Lugar donde se duerme",
+      "en": "Place where you sleep"
+    },
+    {
+      "fr": "Pièce privée dans une maison",
+      "es": "Habitación privada en una casa",
+      "en": "Private room in a house"
+    },
+    {
+      "fr": "Contient généralement un lit",
+      "es": "Generalmente contiene una cama",
+      "en": "Usually contains a bed"
+    },
+    {
+      "fr": "Espace de repos et de sommeil",
+      "es": "Espacio de descanso y sueño",
+      "en": "Space for rest and sleep"
+    },
+    {
+      "fr": "Partie intime de la maison",
+      "es": "Parte íntima de la casa",
+      "en": "Intimate part of the house"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "RIZ",
+  "longitud": 3,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "arroz"
+    },
+    "en": {
+      "traduccion": "rice"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Céréale la plus consommée au monde",
+      "es": "Cereal más consumido en el mundo",
+      "en": "Most consumed cereal in the world"
+    },
+    {
+      "fr": "Grain blanc ou brun",
+      "es": "Grano blanco o marrón",
+      "en": "White or brown grain"
+    },
+    {
+      "fr": "Aliment de base en Asie",
+      "es": "Alimento básico en Asia",
+      "en": "Staple food in Asia"
+    },
+    {
+      "fr": "Se cuit dans l'eau bouillante",
+      "es": "Se cocina en agua hirviendo",
+      "en": "Cooked in boiling water"
+    },
+    {
+      "fr": "Très polyvalent en cuisine",
+      "es": "Muy versátil en cocina",
+      "en": "Very versatile in cooking"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "categoria": {
-    "fr": "Les loisirs",
-    "es": "Los pasatiempos",
-    "en": "Leisure"
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
   },
   "palabra": "JEU",
   "longitud": 3,
@@ -12,34 +12,34 @@
       "traduccion": "juego"
     },
     "en": {
-      "traduccion": "game"
+      "traduccion": "game, play"
     }
   },
   "pistas": [
     {
-      "fr": "C'est une activité de divertissement avec des règles.",
-      "es": "Es una actividad de entretenimiento con reglas.",
-      "en": "It's an entertainment activity with rules."
+      "fr": "Activité de divertissement",
+      "es": "Actividad de entretenimiento",
+      "en": "Entertainment activity"
     },
     {
-      "fr": "Il peut être de société, vidéo ou sportif.",
-      "es": "Puede ser de mesa, video o deportivo.",
-      "en": "It can be board, video, or sports."
+      "fr": "Se joue seul ou à plusieurs",
+      "es": "Se juega solo o en grupo",
+      "en": "Played alone or with others"
     },
     {
-      "fr": "Il se joue seul ou à plusieurs personnes.",
-      "es": "Se juega solo o con varias personas.",
-      "en": "It's played alone or with several people."
+      "fr": "Peut être physique ou mental",
+      "es": "Puede ser físico o mental",
+      "en": "Can be physical or mental"
     },
     {
-      "fr": "Il a souvent un objectif à atteindre ou un gagnant.",
-      "es": "A menudo tiene un objetivo que alcanzar o un ganador.",
-      "en": "It often has an objective to reach or a winner."
+      "fr": "Très populaire chez les enfants",
+      "es": "Muy popular entre los niños",
+      "en": "Very popular among children"
     },
     {
-      "fr": "Il apporte du plaisir et de la détente.",
-      "es": "Aporta placer y relajación.",
-      "en": "It brings pleasure and relaxation."
+      "fr": "Apporte de la joie et du plaisir",
+      "es": "Trae alegría y placer",
+      "en": "Brings joy and pleasure"
     }
   ]
 }

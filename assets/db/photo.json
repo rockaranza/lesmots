@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
+  },
+  "palabra": "PHOTO",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "fotografía"
+    },
+    "en": {
+      "traduccion": "photography"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Art de capturer des images",
+      "es": "Arte de capturar imágenes",
+      "en": "Art of capturing images"
+    },
+    {
+      "fr": "Se pratique avec un appareil photo",
+      "es": "Se practica con una cámara",
+      "en": "Practiced with a camera"
+    },
+    {
+      "fr": "Immortalise des moments",
+      "es": "Inmortaliza momentos",
+      "en": "Immortalizes moments"
+    },
+    {
+      "fr": "Activité artistique très populaire",
+      "es": "Actividad artística muy popular",
+      "en": "Very popular artistic activity"
+    },
+    {
+      "fr": "Permet de garder des souvenirs",
+      "es": "Permite guardar recuerdos",
+      "en": "Allows to keep memories"
+    }
+  ]
+}

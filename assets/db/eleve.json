@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "ELEVE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "alumno, estudiante"
+    },
+    "en": {
+      "traduccion": "student, pupil"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Personne qui apprend à l'école",
+      "es": "Persona que aprende en la escuela",
+      "en": "Person who learns at school"
+    },
+    {
+      "fr": "Assiste aux cours",
+      "es": "Asiste a las clases",
+      "en": "Attends classes"
+    },
+    {
+      "fr": "Fait ses devoirs et ses exercices",
+      "es": "Hace sus deberes y ejercicios",
+      "en": "Does homework and exercises"
+    },
+    {
+      "fr": "Apprend avec un professeur",
+      "es": "Aprende con un profesor",
+      "en": "Learns with a teacher"
+    },
+    {
+      "fr": "Membre de la classe",
+      "es": "Miembro de la clase",
+      "en": "Class member"
+    }
+  ]
+}

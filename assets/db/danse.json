@@ -1,45 +1,45 @@
 {
   "categoria": {
-    "fr": "Les arts",
-    "es": "Las artes",
-    "en": "Arts"
+    "fr": "Les activités",
+    "es": "Las actividades",
+    "en": "Activities"
   },
   "palabra": "DANSE",
   "longitud": 5,
   "genero": "feminin",
   "traductions": {
     "es": {
-      "traduccion": "danza"
+      "traduccion": "baile, danza"
     },
     "en": {
-      "traduccion": "dance"
+      "traduccion": "dance, dancing"
     }
   },
   "pistas": [
     {
-      "fr": "C'est l'art de bouger le corps de manière rythmée et expressive.",
-      "es": "Es el arte de mover el cuerpo de manera rítmica y expresiva.",
-      "en": "It's the art of moving the body in a rhythmic and expressive way."
+      "fr": "Art du mouvement rythmé",
+      "es": "Arte del movimiento rítmico",
+      "en": "Art of rhythmic movement"
     },
     {
-      "fr": "Elle peut être accompagnée de musique ou de silence.",
-      "es": "Puede estar acompañada de música o silencio.",
-      "en": "It can be accompanied by music or silence."
+      "fr": "Se pratique sur de la musique",
+      "es": "Se practica con música",
+      "en": "Practiced with music"
     },
     {
-      "fr": "Elle peut être classique, moderne, folklorique ou contemporaine.",
-      "es": "Puede ser clásica, moderna, folclórica o contemporánea.",
-      "en": "It can be classical, modern, folk, or contemporary."
+      "fr": "Exprime des émotions par le corps",
+      "es": "Expresa emociones con el cuerpo",
+      "en": "Expresses emotions through the body"
     },
     {
-      "fr": "Elle permet d'exprimer des émotions et des histoires.",
-      "es": "Permite expresar emociones e historias.",
-      "en": "It allows expressing emotions and stories."
+      "fr": "Activité physique et artistique",
+      "es": "Actividad física y artística",
+      "en": "Physical and artistic activity"
     },
     {
-      "fr": "Elle se pratique dans des studios, des théâtres ou en plein air.",
-      "es": "Se practica en estudios, teatros o al aire libre.",
-      "en": "It's practiced in studios, theaters, or outdoors."
+      "fr": "Très populaire chez les jeunes",
+      "es": "Muy popular entre los jóvenes",
+      "en": "Very popular among young people"
     }
   ]
 }

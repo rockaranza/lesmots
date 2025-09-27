@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "CLASSE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "clase, aula"
+    },
+    "en": {
+      "traduccion": "class, classroom"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Salle où se déroulent les cours",
+      "es": "Sala donde se desarrollan las clases",
+      "en": "Room where classes take place"
+    },
+    {
+      "fr": "Groupe d'élèves du même niveau",
+      "es": "Grupo de estudiantes del mismo nivel",
+      "en": "Group of students of the same level"
+    },
+    {
+      "fr": "Contient des tables et des chaises",
+      "es": "Contiene mesas y sillas",
+      "en": "Contains tables and chairs"
+    },
+    {
+      "fr": "Lieu d'apprentissage quotidien",
+      "es": "Lugar de aprendizaje diario",
+      "en": "Daily learning place"
+    },
+    {
+      "fr": "Espace éducatif organisé",
+      "es": "Espacio educativo organizado",
+      "en": "Organized educational space"
+    }
+  ]
+}

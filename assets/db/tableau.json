@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "TABLEAU",
+  "longitud": 7,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "pizarra, tablero"
+    },
+    "en": {
+      "traduccion": "blackboard, whiteboard"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Surface noire ou blanche pour écrire",
+      "es": "Superficie negra o blanca para escribir",
+      "en": "Black or white surface for writing"
+    },
+    {
+      "fr": "Accroché au mur de la classe",
+      "es": "Colgado en la pared del aula",
+      "en": "Hanging on the classroom wall"
+    },
+    {
+      "fr": "Le professeur y écrit avec de la craie",
+      "es": "El profesor escribe con tiza",
+      "en": "Teacher writes with chalk"
+    },
+    {
+      "fr": "Visible par tous les élèves",
+      "es": "Visible por todos los estudiantes",
+      "en": "Visible to all students"
+    },
+    {
+      "fr": "Outil pédagogique fondamental",
+      "es": "Herramienta pedagógica fundamental",
+      "en": "Fundamental teaching tool"
+    }
+  ]
+}

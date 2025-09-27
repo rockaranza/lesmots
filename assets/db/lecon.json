@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "LECON",
+  "longitud": 5,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "lección, clase"
+    },
+    "en": {
+      "traduccion": "lesson, class"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Unité d'enseignement sur un sujet",
+      "es": "Unidad de enseñanza sobre un tema",
+      "en": "Teaching unit on a subject"
+    },
+    {
+      "fr": "Dure généralement une heure",
+      "es": "Dura generalmente una hora",
+      "en": "Usually lasts one hour"
+    },
+    {
+      "fr": "Enseignée par le professeur",
+      "es": "Enseñada por el profesor",
+      "en": "Taught by the teacher"
+    },
+    {
+      "fr": "Contient des explications et des exemples",
+      "es": "Contiene explicaciones y ejemplos",
+      "en": "Contains explanations and examples"
+    },
+    {
+      "fr": "Partie d'un programme scolaire",
+      "es": "Parte de un programa escolar",
+      "en": "Part of a school program"
+    }
+  ]
+}

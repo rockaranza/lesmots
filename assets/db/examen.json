@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "EXAMEN",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "examen"
+    },
+    "en": {
+      "traduccion": "exam, examination"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Épreuve pour évaluer les connaissances",
+      "es": "Prueba para evaluar los conocimientos",
+      "en": "Test to evaluate knowledge"
+    },
+    {
+      "fr": "Se passe à la fin d'un trimestre",
+      "es": "Se realiza al final de un trimestre",
+      "en": "Taken at the end of a term"
+    },
+    {
+      "fr": "Donne une note ou une appréciation",
+      "es": "Da una nota o apreciación",
+      "en": "Gives a grade or assessment"
+    },
+    {
+      "fr": "Peut être écrit ou oral",
+      "es": "Puede ser escrito u oral",
+      "en": "Can be written or oral"
+    },
+    {
+      "fr": "Moment important de l'évaluation",
+      "es": "Momento importante de la evaluación",
+      "en": "Important moment of assessment"
+    }
+  ]
+}

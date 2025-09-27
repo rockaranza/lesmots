@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La nourriture",
+    "es": "La comida",
+    "en": "Food"
+  },
+  "palabra": "CITRON",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "limón"
+    },
+    "en": {
+      "traduccion": "lemon"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Fruit jaune et acide",
+      "es": "Fruta amarilla y ácida",
+      "en": "Yellow and sour fruit"
+    },
+    {
+      "fr": "Riche en vitamine C",
+      "es": "Rico en vitamina C",
+      "en": "Rich in vitamin C"
+    },
+    {
+      "fr": "Se presse pour faire du jus",
+      "es": "Se exprime para hacer jugo",
+      "en": "Squeezed to make juice"
+    },
+    {
+      "fr": "Aromatise les plats et boissons",
+      "es": "Aromatiza platos y bebidas",
+      "en": "Flavors dishes and drinks"
+    },
+    {
+      "fr": "Fruit très rafraîchissant",
+      "es": "Fruta muy refrescante",
+      "en": "Very refreshing fruit"
+    }
+  ]
+}

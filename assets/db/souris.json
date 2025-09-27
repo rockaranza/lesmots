@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les animaux",
+    "es": "Los animales",
+    "en": "Animals"
+  },
+  "palabra": "SOURIS",
+  "longitud": 6,
+  "genero": "feminin",
+  "traductions": {
+    "es": {
+      "traduccion": "ratón"
+    },
+    "en": {
+      "traduccion": "mouse"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Petit rongeur avec une longue queue",
+      "es": "Pequeño roedor con cola larga",
+      "en": "Small rodent with a long tail"
+    },
+    {
+      "fr": "Animal domestique ou sauvage",
+      "es": "Animal doméstico o salvaje",
+      "en": "Domestic or wild animal"
+    },
+    {
+      "fr": "Très rapide et agile",
+      "es": "Muy rápido y ágil",
+      "en": "Very fast and agile"
+    },
+    {
+      "fr": "Vit souvent dans les maisons",
+      "es": "Vive a menudo en las casas",
+      "en": "Often lives in houses"
+    },
+    {
+      "fr": "Petit mammifère omnivore",
+      "es": "Pequeño mamífero omnívoro",
+      "en": "Small omnivorous mammal"
+    }
+  ]
+}

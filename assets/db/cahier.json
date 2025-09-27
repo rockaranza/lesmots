@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'éducation",
+    "es": "La educación",
+    "en": "Education"
+  },
+  "palabra": "CAHIER",
+  "longitud": 6,
+  "genero": "masculin",
+  "traductions": {
+    "es": {
+      "traduccion": "cuaderno"
+    },
+    "en": {
+      "traduccion": "notebook, exercise book"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Ouvrage de papier pour écrire",
+      "es": "Libro de papel para escribir",
+      "en": "Paper book for writing"
+    },
+    {
+      "fr": "Contient des pages blanches",
+      "es": "Contiene páginas en blanco",
+      "en": "Contains blank pages"
+    },
+    {
+      "fr": "Utilisé par les élèves",
+      "es": "Utilizado por los estudiantes",
+      "en": "Used by students"
+    },
+    {
+      "fr": "Se remplit de notes et exercices",
+      "es": "Se llena de notas y ejercicios",
+      "en": "Filled with notes and exercises"
+    },
+    {
+      "fr": "Outil essentiel de l'apprentissage",
+      "es": "Herramienta esencial del aprendizaje",
+      "en": "Essential learning tool"
+    }
+  ]
+}
