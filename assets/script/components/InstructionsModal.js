@@ -34,7 +34,7 @@ class InstructionsModal {
                         <ul>
                             <li>🎯 Adivina la palabra en francés</li>
                             <li>⌨️ Escribe con tu teclado para completar todas las letras</li>
-                            <li>5️⃣ Tienes 5 intentos</li>
+                            <li>⚠️ Atención a la cantidad de intentos que tengas</li>
                             <li>💡 Puedes pedir pistas que te ayudarán</li>
                         </ul>
 
