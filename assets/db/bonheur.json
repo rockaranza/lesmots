@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "BONHEUR",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "felicidad"
+    },
+    "en": {
+      "traduccion": "happiness"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment de joie profonde et durable.",
+      "es": "Es un sentimiento de alegría profunda y duradera.",
+      "en": "It's a feeling of deep and lasting joy."
+    },
+    {
+      "fr": "On le ressent quand tout va bien dans la vie.",
+      "es": "Se siente cuando todo va bien en la vida.",
+      "en": "You feel it when everything is going well in life."
+    },
+    {
+      "fr": "C'est le contraire de la tristesse et de la peine.",
+      "es": "Es lo contrario de la tristeza y el dolor.",
+      "en": "It's the opposite of sadness and sorrow."
+    },
+    {
+      "fr": "Il peut venir de l'amour, du succès ou de la santé.",
+      "es": "Puede venir del amor, del éxito o de la salud.",
+      "en": "It can come from love, success or health."
+    },
+    {
+      "fr": "C'est ce que tout le monde recherche dans la vie.",
+      "es": "Es lo que todos buscan en la vida.",
+      "en": "It's what everyone seeks in life."
+    }
+  ]
+}

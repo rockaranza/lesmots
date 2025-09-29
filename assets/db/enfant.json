@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "ENFANT",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "niño/hijo"
+    },
+    "en": {
+      "traduccion": "child"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne jeune, généralement de moins de 18 ans.",
+      "es": "Es una persona joven, generalmente menor de 18 años.",
+      "en": "It's a young person, usually under 18 years old."
+    },
+    {
+      "fr": "Il a des parents et parfois des frères et sœurs.",
+      "es": "Tiene padres y a veces hermanos y hermanas.",
+      "en": "He has parents and sometimes brothers and sisters."
+    },
+    {
+      "fr": "Il va à l'école et apprend beaucoup de choses.",
+      "es": "Va a la escuela y aprende muchas cosas.",
+      "en": "He goes to school and learns many things."
+    },
+    {
+      "fr": "Il aime jouer, rire et découvrir le monde.",
+      "es": "Le gusta jugar, reír y descubrir el mundo.",
+      "en": "He likes to play, laugh and discover the world."
+    },
+    {
+      "fr": "C'est l'avenir de la société et de la famille.",
+      "es": "Es el futuro de la sociedad y de la familia.",
+      "en": "It's the future of society and family."
+    }
+  ]
+}

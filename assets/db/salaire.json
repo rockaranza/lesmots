@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "SALAIRE",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "salario"
+    },
+    "en": {
+      "traduccion": "salary"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'argent qu'on reçoit chaque mois pour son travail.",
+      "es": "Es el dinero que se recibe cada mes por el trabajo.",
+      "en": "It's the money you receive each month for your work."
+    },
+    {
+      "fr": "Il est versé par l'employeur à l'employé.",
+      "es": "Es pagado por el empleador al empleado.",
+      "en": "It's paid by the employer to the employee."
+    },
+    {
+      "fr": "Il peut être fixe ou variable selon le type de travail.",
+      "es": "Puede ser fijo o variable según el tipo de trabajo.",
+      "en": "It can be fixed or variable depending on the type of work."
+    },
+    {
+      "fr": "C'est la rémunération principale de la plupart des gens.",
+      "es": "Es la remuneración principal de la mayoría de las personas.",
+      "en": "It's the main remuneration for most people."
+    },
+    {
+      "fr": "Il permet de payer les dépenses et d'épargner.",
+      "es": "Permite pagar los gastos y ahorrar.",
+      "en": "It allows you to pay expenses and save."
+    }
+  ]
+}

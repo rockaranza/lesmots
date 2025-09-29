@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "GALERIE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "galería"
+    },
+    "en": {
+      "traduccion": "gallery"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un lieu où on expose des œuvres d'art.",
+      "es": "Es un lugar donde se exponen obras de arte.",
+      "en": "It's a place where works of art are exhibited."
+    },
+    {
+      "fr": "On y trouve des tableaux, des sculptures et des photographies.",
+      "es": "Allí se encuentran cuadros, esculturas y fotografías.",
+      "en": "You can find paintings, sculptures and photographs there."
+    },
+    {
+      "fr": "Elle peut être publique ou privée, grande ou petite.",
+      "es": "Puede ser pública o privada, grande o pequeña.",
+      "en": "It can be public or private, large or small."
+    },
+    {
+      "fr": "Les visiteurs y viennent pour admirer les créations artistiques.",
+      "es": "Los visitantes vienen a admirar las creaciones artísticas.",
+      "en": "Visitors come to admire artistic creations."
+    },
+    {
+      "fr": "C'est un espace dédié à la promotion de l'art.",
+      "es": "Es un espacio dedicado a la promoción del arte.",
+      "en": "It's a space dedicated to promoting art."
+    }
+  ]
+}

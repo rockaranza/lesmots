@@ -1,8 +1,8 @@
 {
   "categoria": {
-    "fr": "L'éducation",
-    "es": "La educación",
-    "en": "Education"
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
   },
   "palabra": "LIVRE",
   "longitud": 5,
@@ -17,29 +17,29 @@
   },
   "pistas": [
     {
-      "fr": "C'est un objet avec des pages qu'on lit pour apprendre ou se divertir.",
-      "es": "Es un objeto con páginas que se lee para aprender o divertirse.",
-      "en": "It's an object with pages that you read to learn or have fun."
+      "fr": "C'est un objet avec des pages qu'on lit pour s'instruire ou se divertir.",
+      "es": "Es un objeto con páginas que se lee para instruirse o divertirse.",
+      "en": "It's an object with pages that you read to learn or entertain yourself."
     },
     {
-      "fr": "Il a une couverture et contient des histoires ou des informations.",
-      "es": "Tiene una portada y contiene historias o información.",
-      "en": "It has a cover and contains stories or information."
+      "fr": "Il contient des mots, des phrases et des histoires.",
+      "es": "Contiene palabras, frases e historias.",
+      "en": "It contains words, sentences and stories."
     },
     {
       "fr": "On peut l'acheter dans une librairie ou l'emprunter à la bibliothèque.",
-      "es": "Se puede comprar en una librería o pedirlo prestado en la biblioteca.",
+      "es": "Se puede comprar en una librería o prestarlo en la biblioteca.",
       "en": "You can buy it at a bookstore or borrow it from the library."
     },
     {
-      "fr": "Il peut être un roman, un dictionnaire ou un manuel scolaire.",
-      "es": "Puede ser una novela, un diccionario o un manual escolar.",
-      "en": "It can be a novel, dictionary, or school textbook."
+      "fr": "Il y a des romans, des essais, des poèmes et des biographies.",
+      "es": "Hay novelas, ensayos, poemas y biografías.",
+      "en": "There are novels, essays, poems and biographies."
     },
     {
-      "fr": "Lire régulièrement améliore le vocabulaire et l'imagination.",
-      "es": "Leer regularmente mejora el vocabulario y la imaginación.",
-      "en": "Reading regularly improves vocabulary and imagination."
+      "fr": "C'est un compagnon fidèle pour les amoureux de la lecture.",
+      "es": "Es un compañero fiel para los amantes de la lectura.",
+      "en": "It's a faithful companion for book lovers."
     }
   ]
 }

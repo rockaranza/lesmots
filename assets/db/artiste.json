@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "ARTISTE",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "artista"
+    },
+    "en": {
+      "traduccion": "artist"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne qui crée des œuvres d'art.",
+      "es": "Es una persona que crea obras de arte.",
+      "en": "It's a person who creates works of art."
+    },
+    {
+      "fr": "Il peut être peintre, sculpteur, musicien ou écrivain.",
+      "es": "Puede ser pintor, escultor, músico o escritor.",
+      "en": "He can be a painter, sculptor, musician or writer."
+    },
+    {
+      "fr": "Il exprime sa créativité et sa sensibilité.",
+      "es": "Expresa su creatividad y sensibilidad.",
+      "en": "He expresses his creativity and sensitivity."
+    },
+    {
+      "fr": "Ses œuvres sont souvent exposées dans des musées.",
+      "es": "Sus obras a menudo se exponen en museos.",
+      "en": "His works are often exhibited in museums."
+    },
+    {
+      "fr": "C'est quelqu'un qui voit le monde différemment.",
+      "es": "Es alguien que ve el mundo de manera diferente.",
+      "en": "It's someone who sees the world differently."
+    }
+  ]
+}

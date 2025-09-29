@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "PROFIT",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "beneficio"
+    },
+    "en": {
+      "traduccion": "profit"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'argent gagné après avoir payé toutes les dépenses.",
+      "es": "Es el dinero ganado después de pagar todos los gastos.",
+      "en": "It's the money earned after paying all expenses."
+    },
+    {
+      "fr": "Il reste quand les revenus sont plus élevés que les coûts.",
+      "es": "Queda cuando los ingresos son más altos que los costos.",
+      "en": "It remains when revenue is higher than costs."
+    },
+    {
+      "fr": "C'est l'objectif principal d'une entreprise commerciale.",
+      "es": "Es el objetivo principal de una empresa comercial.",
+      "en": "It's the main goal of a commercial company."
+    },
+    {
+      "fr": "Il peut être réinvesti ou distribué aux actionnaires.",
+      "es": "Puede ser reinvertido o distribuido a los accionistas.",
+      "en": "It can be reinvested or distributed to shareholders."
+    },
+    {
+      "fr": "C'est le contraire de la perte.",
+      "es": "Es lo contrario de la pérdida.",
+      "en": "It's the opposite of loss."
+    }
+  ]
+}

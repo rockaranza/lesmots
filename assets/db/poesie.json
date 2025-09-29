@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "POESIE",
+  "longitud": 6,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "poesía"
+    },
+    "en": {
+      "traduccion": "poetry"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un art littéraire qui joue avec les mots et les rythmes.",
+      "es": "Es un arte literario que juega con las palabras y los ritmos.",
+      "en": "It's a literary art that plays with words and rhythms."
+    },
+    {
+      "fr": "Elle utilise des vers, des strophes et des figures de style.",
+      "es": "Utiliza versos, estrofas y figuras literarias.",
+      "en": "It uses verses, stanzas and literary figures."
+    },
+    {
+      "fr": "Les poètes expriment leurs émotions et leurs pensées.",
+      "es": "Los poetas expresan sus emociones y pensamientos.",
+      "en": "Poets express their emotions and thoughts."
+    },
+    {
+      "fr": "Elle peut être rimée ou libre, courte ou longue.",
+      "es": "Puede ser rimada o libre, corta o larga.",
+      "en": "It can be rhymed or free, short or long."
+    },
+    {
+      "fr": "C'est l'art de dire beaucoup avec peu de mots.",
+      "es": "Es el arte de decir mucho con pocas palabras.",
+      "en": "It's the art of saying a lot with few words."
+    }
+  ]
+}

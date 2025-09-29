@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "CLAVIER",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "teclado"
+    },
+    "en": {
+      "traduccion": "keyboard"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un périphérique avec des touches pour écrire sur l'ordinateur.",
+      "es": "Es un periférico con teclas para escribir en la computadora.",
+      "en": "It's a peripheral with keys to type on the computer."
+    },
+    {
+      "fr": "Il a des lettres, des chiffres et des touches spéciales.",
+      "es": "Tiene letras, números y teclas especiales.",
+      "en": "It has letters, numbers and special keys."
+    },
+    {
+      "fr": "On l'utilise pour taper du texte et naviguer.",
+      "es": "Se usa para escribir texto y navegar.",
+      "en": "It's used to type text and navigate."
+    },
+    {
+      "fr": "Il peut être filaire ou sans fil.",
+      "es": "Puede ser con cable o inalámbrico.",
+      "en": "It can be wired or wireless."
+    },
+    {
+      "fr": "C'est essentiel pour utiliser un ordinateur.",
+      "es": "Es esencial para usar una computadora.",
+      "en": "It's essential for using a computer."
+    }
+  ]
+}

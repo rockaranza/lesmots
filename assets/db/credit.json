@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "CREDIT",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "crédito"
+    },
+    "en": {
+      "traduccion": "credit"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'argent qu'on emprunte et qu'on doit rembourser.",
+      "es": "Es el dinero que se pide prestado y que se debe devolver.",
+      "en": "It's the money you borrow and must repay."
+    },
+    {
+      "fr": "Il permet d'acheter quelque chose sans avoir tout l'argent.",
+      "es": "Permite comprar algo sin tener todo el dinero.",
+      "en": "It allows you to buy something without having all the money."
+    },
+    {
+      "fr": "Il faut payer des intérêts en plus du montant emprunté.",
+      "es": "Hay que pagar intereses además del monto prestado.",
+      "en": "You have to pay interest in addition to the borrowed amount."
+    },
+    {
+      "fr": "Il peut être accordé par une banque ou un organisme financier.",
+      "es": "Puede ser concedido por un banco u organismo financiero.",
+      "en": "It can be granted by a bank or financial institution."
+    },
+    {
+      "fr": "C'est utile pour acheter une maison ou une voiture.",
+      "es": "Es útil para comprar una casa o un coche.",
+      "en": "It's useful for buying a house or car."
+    }
+  ]
+}

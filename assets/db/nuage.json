@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "NUAGE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "nube"
+    },
+    "en": {
+      "traduccion": "cloud"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une masse de vapeur d'eau dans le ciel.",
+      "es": "Es una masa de vapor de agua en el cielo.",
+      "en": "It's a mass of water vapor in the sky."
+    },
+    {
+      "fr": "Elle peut être blanche, grise ou noire selon le temps.",
+      "es": "Puede ser blanca, gris o negra según el tiempo.",
+      "en": "It can be white, gray or black depending on the weather."
+    },
+    {
+      "fr": "Elle peut apporter la pluie ou simplement de l'ombre.",
+      "es": "Puede traer lluvia o simplemente sombra.",
+      "en": "It can bring rain or just shade."
+    },
+    {
+      "fr": "On la voit flotter dans le ciel au-dessus de nos têtes.",
+      "es": "Se ve flotando en el cielo sobre nuestras cabezas.",
+      "en": "You see it floating in the sky above our heads."
+    },
+    {
+      "fr": "Elle peut avoir différentes formes : ronde, allongée ou en couches.",
+      "es": "Puede tener diferentes formas: redonda, alargada o en capas.",
+      "en": "It can have different shapes: round, elongated or layered."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "DESSIN",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "dibujo"
+    },
+    "en": {
+      "traduccion": "drawing"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'art de créer des images avec des lignes et des formes.",
+      "es": "Es el arte de crear imágenes con líneas y formas.",
+      "en": "It's the art of creating images with lines and shapes."
+    },
+    {
+      "fr": "On peut le faire avec un crayon, un stylo ou un pinceau.",
+      "es": "Se puede hacer con un lápiz, un bolígrafo o un pincel.",
+      "en": "You can do it with a pencil, pen or brush."
+    },
+    {
+      "fr": "Il peut être réaliste, abstrait ou caricatural.",
+      "es": "Puede ser realista, abstracto o caricaturesco.",
+      "en": "It can be realistic, abstract or caricatural."
+    },
+    {
+      "fr": "C'est souvent la première étape avant la peinture.",
+      "es": "Es a menudo el primer paso antes de la pintura.",
+      "en": "It's often the first step before painting."
+    },
+    {
+      "fr": "Les enfants apprennent à dessiner dès leur plus jeune âge.",
+      "es": "Los niños aprenden a dibujar desde muy pequeños.",
+      "en": "Children learn to draw from a very young age."
+    }
+  ]
+}

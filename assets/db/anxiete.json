@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "ANXIETE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "ansiedad"
+    },
+    "en": {
+      "traduccion": "anxiety"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment d'inquiétude et de tension.",
+      "es": "Es un sentimiento de inquietud y tensión.",
+      "en": "It's a feeling of worry and tension."
+    },
+    {
+      "fr": "On la ressent avant un examen ou un entretien important.",
+      "es": "Se siente antes de un examen o una entrevista importante.",
+      "en": "You feel it before an exam or an important interview."
+    },
+    {
+      "fr": "Elle peut causer des palpitations et des sueurs.",
+      "es": "Puede causar palpitaciones y sudores.",
+      "en": "It can cause palpitations and sweating."
+    },
+    {
+      "fr": "C'est une émotion liée à l'anticipation d'un danger.",
+      "es": "Es una emoción relacionada con la anticipación de un peligro.",
+      "en": "It's an emotion related to anticipating danger."
+    },
+    {
+      "fr": "Elle peut être normale ou pathologique selon l'intensité.",
+      "es": "Puede ser normal o patológica según la intensidad.",
+      "en": "It can be normal or pathological depending on intensity."
+    }
+  ]
+}

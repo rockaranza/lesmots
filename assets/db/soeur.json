@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "SOEUR",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "hermana"
+    },
+    "en": {
+      "traduccion": "sister"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une fille qui a les mêmes parents qu'une autre personne.",
+      "es": "Es una niña que tiene los mismos padres que otra persona.",
+      "en": "It's a girl who has the same parents as another person."
+    },
+    {
+      "fr": "Elle peut être plus âgée ou plus jeune.",
+      "es": "Puede ser mayor o más joven.",
+      "en": "She can be older or younger."
+    },
+    {
+      "fr": "On partage souvent la même chambre dans l'enfance.",
+      "es": "A menudo se comparte la misma habitación en la infancia.",
+      "en": "You often share the same room in childhood."
+    },
+    {
+      "fr": "Elle peut être une confidente et une amie proche.",
+      "es": "Puede ser una confidente y una amiga cercana.",
+      "en": "She can be a confidante and close friend."
+    },
+    {
+      "fr": "C'est un lien familial très spécial et unique.",
+      "es": "Es un vínculo familiar muy especial y único.",
+      "en": "It's a very special and unique family bond."
+    }
+  ]
+}

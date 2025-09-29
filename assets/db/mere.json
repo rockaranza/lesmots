@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "MERE",
+  "longitud": 4,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "madre"
+    },
+    "en": {
+      "traduccion": "mother"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la femme qui a donné naissance à un enfant.",
+      "es": "Es la mujer que ha dado a luz a un niño.",
+      "en": "It's the woman who gave birth to a child."
+    },
+    {
+      "fr": "Elle aime, protège et éduque ses enfants.",
+      "es": "Ama, protege y educa a sus hijos.",
+      "en": "She loves, protects and educates her children."
+    },
+    {
+      "fr": "C'est souvent la personne la plus importante dans une famille.",
+      "es": "A menudo es la persona más importante en una familia.",
+      "en": "She's often the most important person in a family."
+    },
+    {
+      "fr": "Elle peut être biologique ou adoptive.",
+      "es": "Puede ser biológica o adoptiva.",
+      "en": "She can be biological or adoptive."
+    },
+    {
+      "fr": "On la fête le jour de la fête des mères.",
+      "es": "Se celebra el día de la madre.",
+      "en": "She's celebrated on Mother's Day."
+    }
+  ]
+}

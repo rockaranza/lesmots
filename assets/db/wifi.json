@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "WIFI",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "wifi"
+    },
+    "en": {
+      "traduccion": "wifi"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une technologie qui permet de se connecter à Internet sans fil.",
+      "es": "Es una tecnología que permite conectarse a Internet sin cables.",
+      "en": "It's a technology that allows you to connect to the Internet wirelessly."
+    },
+    {
+      "fr": "On l'utilise dans les cafés, les hôtels et chez soi.",
+      "es": "Se usa en cafés, hoteles y en casa.",
+      "en": "It's used in cafes, hotels and at home."
+    },
+    {
+      "fr": "Il faut un mot de passe pour s'y connecter.",
+      "es": "Se necesita una contraseña para conectarse.",
+      "en": "You need a password to connect to it."
+    },
+    {
+      "fr": "C'est plus pratique que les câbles Ethernet.",
+      "es": "Es más práctico que los cables Ethernet.",
+      "en": "It's more convenient than Ethernet cables."
+    },
+    {
+      "fr": "On peut l'utiliser avec un smartphone, un ordinateur ou une tablette.",
+      "es": "Se puede usar con un smartphone, computadora o tableta.",
+      "en": "You can use it with a smartphone, computer or tablet."
+    }
+  ]
+}

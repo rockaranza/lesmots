@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "SERENITE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "serenidad"
+    },
+    "en": {
+      "traduccion": "serenity"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un état de calme et de paix intérieure.",
+      "es": "Es un estado de calma y paz interior.",
+      "en": "It's a state of calm and inner peace."
+    },
+    {
+      "fr": "On la ressent quand on est détendu et sans stress.",
+      "es": "Se siente cuando se está relajado y sin estrés.",
+      "en": "You feel it when you're relaxed and stress-free."
+    },
+    {
+      "fr": "Elle peut venir de la méditation ou de la nature.",
+      "es": "Puede venir de la meditación o de la naturaleza.",
+      "en": "It can come from meditation or nature."
+    },
+    {
+      "fr": "C'est l'opposé de l'agitation et de l'inquiétude.",
+      "es": "Es lo opuesto a la agitación y la inquietud.",
+      "en": "It's the opposite of agitation and worry."
+    },
+    {
+      "fr": "Elle nous aide à prendre de bonnes décisions.",
+      "es": "Nos ayuda a tomar buenas decisiones.",
+      "en": "It helps us make good decisions."
+    }
+  ]
+}

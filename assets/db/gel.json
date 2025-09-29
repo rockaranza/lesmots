@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "GEL",
+  "longitud": 3,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "hielo/helada"
+    },
+    "en": {
+      "traduccion": "ice/frost"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est de l'eau qui a gelé à cause du froid.",
+      "es": "Es agua que se ha congelado por el frío.",
+      "en": "It's water that has frozen due to cold."
+    },
+    {
+      "fr": "Il se forme sur les routes, les arbres et les fenêtres.",
+      "es": "Se forma en las carreteras, árboles y ventanas.",
+      "en": "It forms on roads, trees and windows."
+    },
+    {
+      "fr": "Il peut être dangereux pour la circulation.",
+      "es": "Puede ser peligroso para la circulación.",
+      "en": "It can be dangerous for traffic."
+    },
+    {
+      "fr": "Il disparaît quand la température remonte.",
+      "es": "Desaparece cuando la temperatura sube.",
+      "en": "It disappears when the temperature rises."
+    },
+    {
+      "fr": "Il peut créer de beaux paysages hivernaux.",
+      "es": "Puede crear hermosos paisajes invernales.",
+      "en": "It can create beautiful winter landscapes."
+    }
+  ]
+}

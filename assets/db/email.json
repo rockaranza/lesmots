@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "EMAIL",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "correo electrónico"
+    },
+    "en": {
+      "traduccion": "email"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un message électronique qu'on envoie par Internet.",
+      "es": "Es un mensaje electrónico que se envía por Internet.",
+      "en": "It's an electronic message sent over the Internet."
+    },
+    {
+      "fr": "Il faut une adresse email pour en envoyer et en recevoir.",
+      "es": "Se necesita una dirección de correo electrónico para enviar y recibir.",
+      "en": "You need an email address to send and receive them."
+    },
+    {
+      "fr": "On peut y joindre des fichiers et des photos.",
+      "es": "Se pueden adjuntar archivos y fotos.",
+      "en": "You can attach files and photos to it."
+    },
+    {
+      "fr": "C'est plus rapide que le courrier postal.",
+      "es": "Es más rápido que el correo postal.",
+      "en": "It's faster than postal mail."
+    },
+    {
+      "fr": "On l'utilise pour le travail et la communication personnelle.",
+      "es": "Se usa para el trabajo y la comunicación personal.",
+      "en": "It's used for work and personal communication."
+    }
+  ]
+}

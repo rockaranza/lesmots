@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "COMMERCE",
+  "longitud": 8,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "comercio"
+    },
+    "en": {
+      "traduccion": "commerce"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'activité d'acheter et de vendre des produits.",
+      "es": "Es la actividad de comprar y vender productos.",
+      "en": "It's the activity of buying and selling products."
+    },
+    {
+      "fr": "Il peut être local, national ou international.",
+      "es": "Puede ser local, nacional o internacional.",
+      "en": "It can be local, national or international."
+    },
+    {
+      "fr": "Il génère des échanges économiques entre les pays.",
+      "es": "Genera intercambios económicos entre países.",
+      "en": "It generates economic exchanges between countries."
+    },
+    {
+      "fr": "Il peut se faire en magasin, en ligne ou au marché.",
+      "es": "Se puede hacer en tienda, en línea o en el mercado.",
+      "en": "It can be done in store, online or at the market."
+    },
+    {
+      "fr": "C'est un moteur important de l'économie mondiale.",
+      "es": "Es un motor importante de la economía mundial.",
+      "en": "It's an important engine of the world economy."
+    }
+  ]
+}

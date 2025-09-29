@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "EUPHORIE",
+  "longitud": 8,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "euforia"
+    },
+    "en": {
+      "traduccion": "euphoria"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment de joie intense et exaltante.",
+      "es": "Es un sentimiento de alegría intensa y exaltante.",
+      "en": "It's a feeling of intense and exhilarating joy."
+    },
+    {
+      "fr": "On la ressent après une grande victoire ou un succès.",
+      "es": "Se siente después de una gran victoria o éxito.",
+      "en": "You feel it after a great victory or success."
+    },
+    {
+      "fr": "Elle peut donner l'impression de planer ou de flotter.",
+      "es": "Puede dar la impresión de planear o flotar.",
+      "en": "It can give the impression of soaring or floating."
+    },
+    {
+      "fr": "C'est une émotion très forte et temporaire.",
+      "es": "Es una emoción muy fuerte y temporal.",
+      "en": "It's a very strong and temporary emotion."
+    },
+    {
+      "fr": "Elle peut être provoquée par l'amour ou le sport.",
+      "es": "Puede ser provocada por el amor o el deporte.",
+      "en": "It can be caused by love or sports."
+    }
+  ]
+}

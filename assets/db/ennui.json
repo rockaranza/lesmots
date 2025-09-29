@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "ENNUI",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "aburrimiento"
+    },
+    "en": {
+      "traduccion": "boredom"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le sentiment d'être fatigué et sans intérêt.",
+      "es": "Es el sentimiento de estar cansado y sin interés.",
+      "en": "It's the feeling of being tired and uninterested."
+    },
+    {
+      "fr": "On le ressent quand on n'a rien d'intéressant à faire.",
+      "es": "Se siente cuando no hay nada interesante que hacer.",
+      "en": "You feel it when there's nothing interesting to do."
+    },
+    {
+      "fr": "Il peut rendre le temps très long et pénible.",
+      "es": "Puede hacer que el tiempo sea muy largo y penoso.",
+      "en": "It can make time seem very long and painful."
+    },
+    {
+      "fr": "C'est l'opposé de l'excitation et de l'enthousiasme.",
+      "es": "Es lo opuesto a la emoción y el entusiasmo.",
+      "en": "It's the opposite of excitement and enthusiasm."
+    },
+    {
+      "fr": "Les enfants le ressentent souvent pendant les vacances.",
+      "es": "Los niños lo sienten a menudo durante las vacaciones.",
+      "en": "Children often feel it during holidays."
+    }
+  ]
+}

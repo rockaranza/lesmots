@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "CHALEUR",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "calor"
+    },
+    "en": {
+      "traduccion": "heat"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une température élevée qui donne une sensation de chaud.",
+      "es": "Es una temperatura alta que da sensación de calor.",
+      "en": "It's a high temperature that gives a feeling of heat."
+    },
+    {
+      "fr": "Elle est plus forte en été qu'en hiver.",
+      "es": "Es más fuerte en verano que en invierno.",
+      "en": "It's stronger in summer than in winter."
+    },
+    {
+      "fr": "Elle peut être agréable ou insupportable selon l'intensité.",
+      "es": "Puede ser agradable o insoportable según la intensidad.",
+      "en": "It can be pleasant or unbearable depending on intensity."
+    },
+    {
+      "fr": "On la ressent surtout quand le soleil brille fort.",
+      "es": "Se siente especialmente cuando el sol brilla fuerte.",
+      "en": "You feel it especially when the sun shines bright."
+    },
+    {
+      "fr": "Elle peut causer des coups de soleil et de la déshydratation.",
+      "es": "Puede causar quemaduras solares y deshidratación.",
+      "en": "It can cause sunburn and dehydration."
+    }
+  ]
+}

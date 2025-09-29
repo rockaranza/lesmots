@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "DECEPTION",
+  "longitud": 9,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "decepción"
+    },
+    "en": {
+      "traduccion": "disappointment"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le sentiment d'être déçu par quelqu'un ou quelque chose.",
+      "es": "Es el sentimiento de estar decepcionado por alguien o algo.",
+      "en": "It's the feeling of being disappointed by someone or something."
+    },
+    {
+      "fr": "On la ressent quand nos attentes ne sont pas satisfaites.",
+      "es": "Se siente cuando nuestras expectativas no se satisfacen.",
+      "en": "You feel it when your expectations are not met."
+    },
+    {
+      "fr": "Elle peut être légère ou profonde selon l'importance.",
+      "es": "Puede ser ligera o profunda según la importancia.",
+      "en": "It can be light or deep depending on importance."
+    },
+    {
+      "fr": "C'est souvent lié à une promesse non tenue.",
+      "es": "A menudo está relacionado con una promesa incumplida.",
+      "en": "It's often related to a broken promise."
+    },
+    {
+      "fr": "Elle peut nous rendre triste ou en colère.",
+      "es": "Puede hacernos tristes o enojados.",
+      "en": "It can make us sad or angry."
+    }
+  ]
+}

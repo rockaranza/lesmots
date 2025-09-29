@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "INVESTISSEMENT",
+  "longitud": 14,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "inversión"
+    },
+    "en": {
+      "traduccion": "investment"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'action de placer de l'argent pour le faire fructifier.",
+      "es": "Es la acción de colocar dinero para hacerlo fructificar.",
+      "en": "It's the action of placing money to make it fruitful."
+    },
+    {
+      "fr": "On peut investir dans des actions, des obligations ou des biens.",
+      "es": "Se puede invertir en acciones, bonos o bienes.",
+      "en": "You can invest in stocks, bonds or real estate."
+    },
+    {
+      "fr": "Il y a toujours un risque de perdre ou de gagner de l'argent.",
+      "es": "Siempre hay un riesgo de perder o ganar dinero.",
+      "en": "There's always a risk of losing or gaining money."
+    },
+    {
+      "fr": "C'est une stratégie pour faire croître son patrimoine.",
+      "es": "Es una estrategia para hacer crecer el patrimonio.",
+      "en": "It's a strategy to grow your wealth."
+    },
+    {
+      "fr": "Il nécessite de la patience et de la réflexion.",
+      "es": "Requiere paciencia y reflexión.",
+      "en": "It requires patience and reflection."
+    }
+  ]
+}

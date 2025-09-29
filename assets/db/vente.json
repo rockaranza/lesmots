@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "VENTE",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "venta"
+    },
+    "en": {
+      "traduccion": "sale"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'action de vendre un produit ou un service.",
+      "es": "Es la acción de vender un producto o servicio.",
+      "en": "It's the action of selling a product or service."
+    },
+    {
+      "fr": "On reçoit de l'argent en échange du produit.",
+      "es": "Se recibe dinero a cambio del producto.",
+      "en": "You receive money in exchange for the product."
+    },
+    {
+      "fr": "Elle peut se faire en magasin, en ligne ou par téléphone.",
+      "es": "Se puede hacer en tienda, en línea o por teléfono.",
+      "en": "It can be done in store, online or by phone."
+    },
+    {
+      "fr": "C'est l'opposé de l'achat.",
+      "es": "Es lo opuesto a la compra.",
+      "en": "It's the opposite of purchase."
+    },
+    {
+      "fr": "Elle génère des revenus pour l'entreprise.",
+      "es": "Genera ingresos para la empresa.",
+      "en": "It generates revenue for the company."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "BUDGET",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "presupuesto"
+    },
+    "en": {
+      "traduccion": "budget"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un plan qui organise les revenus et les dépenses.",
+      "es": "Es un plan que organiza los ingresos y los gastos.",
+      "en": "It's a plan that organizes income and expenses."
+    },
+    {
+      "fr": "Il aide à contrôler l'argent et éviter les dettes.",
+      "es": "Ayuda a controlar el dinero y evitar las deudas.",
+      "en": "It helps control money and avoid debt."
+    },
+    {
+      "fr": "On peut le faire pour un mois, un an ou un projet.",
+      "es": "Se puede hacer para un mes, un año o un proyecto.",
+      "en": "You can do it for a month, a year or a project."
+    },
+    {
+      "fr": "Il répartit l'argent entre les différentes catégories.",
+      "es": "Reparte el dinero entre las diferentes categorías.",
+      "en": "It distributes money among different categories."
+    },
+    {
+      "fr": "C'est essentiel pour une bonne gestion financière.",
+      "es": "Es esencial para una buena gestión financiera.",
+      "en": "It's essential for good financial management."
+    }
+  ]
+}

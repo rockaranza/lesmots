@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "DONNEES",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "datos"
+    },
+    "en": {
+      "traduccion": "data"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Ce sont des informations stockées dans l'ordinateur.",
+      "es": "Son información almacenada en la computadora.",
+      "en": "They are information stored in the computer."
+    },
+    {
+      "fr": "Elles peuvent être des textes, des images ou des chiffres.",
+      "es": "Pueden ser textos, imágenes o números.",
+      "en": "They can be texts, images or numbers."
+    },
+    {
+      "fr": "On les sauvegarde pour ne pas les perdre.",
+      "es": "Se respaldan para no perderlas.",
+      "en": "You back them up so you don't lose them."
+    },
+    {
+      "fr": "Elles sont très précieuses et parfois confidentielles.",
+      "es": "Son muy valiosas y a veces confidenciales.",
+      "en": "They are very valuable and sometimes confidential."
+    },
+    {
+      "fr": "C'est la matière première de l'informatique moderne.",
+      "es": "Es la materia prima de la informática moderna.",
+      "en": "It's the raw material of modern computing."
+    }
+  ]
+}

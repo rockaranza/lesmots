@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "FROID",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "frío"
+    },
+    "en": {
+      "traduccion": "cold"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une température basse qui donne une sensation de froid.",
+      "es": "Es una temperatura baja que da sensación de frío.",
+      "en": "It's a low temperature that gives a feeling of cold."
+    },
+    {
+      "fr": "Il est plus intense en hiver qu'en été.",
+      "es": "Es más intenso en invierno que en verano.",
+      "en": "It's more intense in winter than in summer."
+    },
+    {
+      "fr": "Il peut être léger ou glacial selon l'intensité.",
+      "es": "Puede ser ligero o glacial según la intensidad.",
+      "en": "It can be light or freezing depending on intensity."
+    },
+    {
+      "fr": "On se couvre avec des vêtements chauds pour le supporter.",
+      "es": "Se cubre con ropa caliente para soportarlo.",
+      "en": "You cover yourself with warm clothes to bear it."
+    },
+    {
+      "fr": "Il peut transformer l'eau en glace.",
+      "es": "Puede transformar el agua en hielo.",
+      "en": "It can turn water into ice."
+    }
+  ]
+}

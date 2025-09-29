@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "LOGICIEL",
+  "longitud": 8,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "software"
+    },
+    "en": {
+      "traduccion": "software"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un programme informatique qui fait fonctionner l'ordinateur.",
+      "es": "Es un programa informático que hace funcionar la computadora.",
+      "en": "It's a computer program that makes the computer work."
+    },
+    {
+      "fr": "Il y en a pour le traitement de texte, les jeux et Internet.",
+      "es": "Los hay para procesamiento de texto, juegos e Internet.",
+      "en": "There are some for word processing, games and Internet."
+    },
+    {
+      "fr": "On peut l'installer et le désinstaller selon ses besoins.",
+      "es": "Se puede instalar y desinstalar según las necesidades.",
+      "en": "You can install and uninstall it according to your needs."
+    },
+    {
+      "fr": "Il peut être gratuit ou payant.",
+      "es": "Puede ser gratuito o de pago.",
+      "en": "It can be free or paid."
+    },
+    {
+      "fr": "C'est l'âme de l'ordinateur, sans lui il ne fonctionne pas.",
+      "es": "Es el alma de la computadora, sin él no funciona.",
+      "en": "It's the soul of the computer, without it it doesn't work."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "NOSTALGIE",
+  "longitud": 9,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "nostalgia"
+    },
+    "en": {
+      "traduccion": "nostalgia"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment de mélancolie pour le passé.",
+      "es": "Es un sentimiento de melancolía por el pasado.",
+      "en": "It's a feeling of melancholy for the past."
+    },
+    {
+      "fr": "On la ressent en pensant à des moments heureux révolus.",
+      "es": "Se siente al pensar en momentos felices pasados.",
+      "en": "You feel it when thinking about past happy moments."
+    },
+    {
+      "fr": "Elle peut être douce-amère, à la fois triste et agréable.",
+      "es": "Puede ser agridulce, a la vez triste y agradable.",
+      "en": "It can be bittersweet, both sad and pleasant."
+    },
+    {
+      "fr": "C'est souvent lié à l'enfance ou à des lieux familiers.",
+      "es": "A menudo está relacionado con la infancia o lugares familiares.",
+      "en": "It's often related to childhood or familiar places."
+    },
+    {
+      "fr": "Elle nous fait sourire et pleurer en même temps.",
+      "es": "Nos hace sonreír y llorar al mismo tiempo.",
+      "en": "It makes us smile and cry at the same time."
+    }
+  ]
+}

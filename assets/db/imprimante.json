@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "IMPRIMANTE",
+  "longitud": 10,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "impresora"
+    },
+    "en": {
+      "traduccion": "printer"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un appareil qui imprime des documents sur papier.",
+      "es": "Es un aparato que imprime documentos en papel.",
+      "en": "It's a device that prints documents on paper."
+    },
+    {
+      "fr": "Elle utilise de l'encre ou du toner pour imprimer.",
+      "es": "Utiliza tinta o tóner para imprimir.",
+      "en": "It uses ink or toner to print."
+    },
+    {
+      "fr": "On peut imprimer du texte, des images et des photos.",
+      "es": "Se puede imprimir texto, imágenes y fotos.",
+      "en": "You can print text, images and photos."
+    },
+    {
+      "fr": "Elle peut être laser ou à jet d'encre.",
+      "es": "Puede ser láser o de inyección de tinta.",
+      "en": "It can be laser or inkjet."
+    },
+    {
+      "fr": "C'est très utile pour imprimer des documents importants.",
+      "es": "Es muy útil para imprimir documentos importantes.",
+      "en": "It's very useful for printing important documents."
+    }
+  ]
+}

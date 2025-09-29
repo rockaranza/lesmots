@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "ACHAT",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "compra"
+    },
+    "en": {
+      "traduccion": "purchase"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'action d'acheter quelque chose avec de l'argent.",
+      "es": "Es la acción de comprar algo con dinero.",
+      "en": "It's the action of buying something with money."
+    },
+    {
+      "fr": "On le fait dans un magasin, en ligne ou au marché.",
+      "es": "Se hace en una tienda, en línea o en el mercado.",
+      "en": "You do it in a store, online or at the market."
+    },
+    {
+      "fr": "Il faut payer le prix demandé pour obtenir le produit.",
+      "es": "Hay que pagar el precio solicitado para obtener el producto.",
+      "en": "You have to pay the requested price to get the product."
+    },
+    {
+      "fr": "C'est l'opposé de la vente.",
+      "es": "Es lo opuesto a la venta.",
+      "en": "It's the opposite of sale."
+    },
+    {
+      "fr": "On peut faire des achats quotidiens ou exceptionnels.",
+      "es": "Se pueden hacer compras diarias o excepcionales.",
+      "en": "You can make daily or exceptional purchases."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "FASCINATION",
+  "longitud": 11,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "fascinación"
+    },
+    "en": {
+      "traduccion": "fascination"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment d'attraction intense et captivante.",
+      "es": "Es un sentimiento de atracción intensa y cautivadora.",
+      "en": "It's a feeling of intense and captivating attraction."
+    },
+    {
+      "fr": "On la ressent devant quelque chose d'extraordinaire.",
+      "es": "Se siente ante algo extraordinario.",
+      "en": "You feel it in front of something extraordinary."
+    },
+    {
+      "fr": "Elle peut être provoquée par la beauté ou le mystère.",
+      "es": "Puede ser provocada por la belleza o el misterio.",
+      "en": "It can be caused by beauty or mystery."
+    },
+    {
+      "fr": "C'est un mélange d'admiration et de curiosité.",
+      "es": "Es una mezcla de admiración y curiosidad.",
+      "en": "It's a mixture of admiration and curiosity."
+    },
+    {
+      "fr": "Elle nous fait oublier le temps qui passe.",
+      "es": "Nos hace olvidar el tiempo que pasa.",
+      "en": "It makes us forget the passing time."
+    }
+  ]
+}

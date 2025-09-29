@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "SCULPTURE",
+  "longitud": 9,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "escultura"
+    },
+    "en": {
+      "traduccion": "sculpture"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un art en trois dimensions qu'on peut toucher.",
+      "es": "Es un arte en tres dimensiones que se puede tocar.",
+      "en": "It's a three-dimensional art that you can touch."
+    },
+    {
+      "fr": "Elle peut être faite de pierre, de bronze, de bois ou d'argile.",
+      "es": "Puede estar hecha de piedra, bronce, madera o arcilla.",
+      "en": "It can be made of stone, bronze, wood or clay."
+    },
+    {
+      "fr": "Les sculpteurs créent des formes et des volumes.",
+      "es": "Los escultores crean formas y volúmenes.",
+      "en": "Sculptors create shapes and volumes."
+    },
+    {
+      "fr": "On peut la voir dans les musées, les parcs et les places publiques.",
+      "es": "Se puede ver en museos, parques y plazas públicas.",
+      "en": "You can see it in museums, parks and public squares."
+    },
+    {
+      "fr": "C'est l'art de donner vie à la matière inerte.",
+      "es": "Es el arte de dar vida a la materia inerte.",
+      "en": "It's the art of giving life to inert matter."
+    }
+  ]
+}

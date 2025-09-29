@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "PERE",
+  "longitud": 4,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "padre"
+    },
+    "en": {
+      "traduccion": "father"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'homme qui a un ou plusieurs enfants.",
+      "es": "Es el hombre que tiene uno o varios hijos.",
+      "en": "It's the man who has one or more children."
+    },
+    {
+      "fr": "Il guide, protège et soutient sa famille.",
+      "es": "Guía, protege y apoya a su familia.",
+      "en": "He guides, protects and supports his family."
+    },
+    {
+      "fr": "Il peut être strict ou gentil selon les situations.",
+      "es": "Puede ser estricto o amable según las situaciones.",
+      "en": "He can be strict or kind depending on situations."
+    },
+    {
+      "fr": "C'est souvent le chef de famille traditionnel.",
+      "es": "A menudo es el jefe de familia tradicional.",
+      "en": "He's often the traditional head of family."
+    },
+    {
+      "fr": "On le fête le jour de la fête des pères.",
+      "es": "Se celebra el día del padre.",
+      "en": "He's celebrated on Father's Day."
+    }
+  ]
+}

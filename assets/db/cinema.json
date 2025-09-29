@@ -1,45 +1,45 @@
 {
   "categoria": {
-    "fr": "Les activités",
-    "es": "Las actividades",
-    "en": "Activities"
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
   },
   "palabra": "CINEMA",
   "longitud": 6,
   "genero": "masculin",
-  "traductions": {
+  "traducciones": {
     "es": {
       "traduccion": "cine"
     },
     "en": {
-      "traduccion": "cinema, movies"
+      "traduccion": "cinema"
     }
   },
   "pistas": [
     {
-      "fr": "Art du film et de l'image animée",
-      "es": "Arte del cine y la imagen animada",
-      "en": "Art of film and moving images"
+      "fr": "C'est un art qui raconte des histoires avec des images en mouvement.",
+      "es": "Es un arte que cuenta historias con imágenes en movimiento.",
+      "en": "It's an art that tells stories with moving images."
     },
     {
-      "fr": "Se regarde dans une salle sombre",
-      "es": "Se ve en una sala oscura",
-      "en": "Watched in a dark room"
+      "fr": "On y va pour voir des films sur grand écran.",
+      "es": "Se va allí para ver películas en pantalla grande.",
+      "en": "You go there to watch movies on a big screen."
     },
     {
-      "fr": "Divertissement populaire",
-      "es": "Entretenimiento popular",
-      "en": "Popular entertainment"
+      "fr": "Il y a des acteurs, des réalisateurs et des scénaristes.",
+      "es": "Hay actores, directores y guionistas.",
+      "en": "There are actors, directors and screenwriters."
     },
     {
-      "fr": "Raconte des histoires en images",
-      "es": "Cuenta historias en imágenes",
-      "en": "Tells stories in images"
+      "fr": "C'est le septième art.",
+      "es": "Es el séptimo arte.",
+      "en": "It's the seventh art."
     },
     {
-      "fr": "Activité de loisir très appréciée",
-      "es": "Actividad de ocio muy apreciada",
-      "en": "Very appreciated leisure activity"
+      "fr": "On peut y aller en famille ou entre amis.",
+      "es": "Se puede ir en familia o con amigos.",
+      "en": "You can go with family or friends."
     }
   ]
 }

@@ -253,7 +253,7 @@
     {
       "id": "neige",
       "filename": "neige.json",
-      "categoria": "La nature"
+      "categoria": "La météo"
     },
     {
       "id": "noir",
@@ -273,7 +273,7 @@
     {
       "id": "orage",
       "filename": "orage.json",
-      "categoria": "La nature"
+      "categoria": "La météo"
     },
     {
       "id": "ordinateur",
@@ -313,7 +313,7 @@
     {
       "id": "pluie",
       "filename": "pluie.json",
-      "categoria": "La nature"
+      "categoria": "La météo"
     },
     {
       "id": "poisson",
@@ -373,7 +373,7 @@
     {
       "id": "soleil",
       "filename": "soleil.json",
-      "categoria": "La nature"
+      "categoria": "La météo"
     },
     {
       "id": "sport",
@@ -401,6 +401,56 @@
       "categoria": "La technologie"
     },
     {
+      "id": "clavier",
+      "filename": "clavier.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "donnees",
+      "filename": "donnees.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "ecran",
+      "filename": "ecran.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "email",
+      "filename": "email.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "imprimante",
+      "filename": "imprimante.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "laptop",
+      "filename": "laptop.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "logiciel",
+      "filename": "logiciel.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "reseau",
+      "filename": "reseau.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "souris",
+      "filename": "souris.json",
+      "categoria": "La technologie"
+    },
+    {
+      "id": "wifi",
+      "filename": "wifi.json",
+      "categoria": "La technologie"
+    },
+    {
       "id": "terre",
       "filename": "terre.json",
       "categoria": "La nature"
@@ -411,8 +461,108 @@
       "categoria": "Les arts"
     },
     {
+      "id": "artiste",
+      "filename": "artiste.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "cinema",
+      "filename": "cinema.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "concert",
+      "filename": "concert.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "dessin",
+      "filename": "dessin.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "exposition",
+      "filename": "exposition.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "galerie",
+      "filename": "galerie.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "livre",
+      "filename": "livre.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "photographie",
+      "filename": "photographie.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "poesie",
+      "filename": "poesie.json",
+      "categoria": "Les arts"
+    },
+    {
+      "id": "sculpture",
+      "filename": "sculpture.json",
+      "categoria": "Les arts"
+    },
+    {
       "id": "travail",
       "filename": "travail.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "achat",
+      "filename": "achat.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "budget",
+      "filename": "budget.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "commerce",
+      "filename": "commerce.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "credit",
+      "filename": "credit.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "depense",
+      "filename": "depense.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "investissement",
+      "filename": "investissement.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "marchandise",
+      "filename": "marchandise.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "profit",
+      "filename": "profit.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "salaire",
+      "filename": "salaire.json",
+      "categoria": "L'économie"
+    },
+    {
+      "id": "vente",
+      "filename": "vente.json",
       "categoria": "L'économie"
     },
     {
@@ -421,9 +571,84 @@
       "categoria": "Les émotions"
     },
     {
+      "id": "anxiete",
+      "filename": "anxiete.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "bonheur",
+      "filename": "bonheur.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "deception",
+      "filename": "deception.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "ennui",
+      "filename": "ennui.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "espoir",
+      "filename": "espoir.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "euphorie",
+      "filename": "euphorie.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "fascination",
+      "filename": "fascination.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "melancolie",
+      "filename": "melancolie.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "nostalgie",
+      "filename": "nostalgie.json",
+      "categoria": "Les émotions"
+    },
+    {
+      "id": "serenite",
+      "filename": "serenite.json",
+      "categoria": "Les émotions"
+    },
+    {
       "id": "vent",
       "filename": "vent.json",
-      "categoria": "La nature"
+      "categoria": "La météo"
+    },
+    {
+      "id": "brume",
+      "filename": "brume.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "chaleur",
+      "filename": "chaleur.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "froid",
+      "filename": "froid.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "gel",
+      "filename": "gel.json",
+      "categoria": "La météo"
+    },
+    {
+      "id": "nuage",
+      "filename": "nuage.json",
+      "categoria": "La météo"
     },
     {
       "id": "vert",
@@ -443,6 +668,36 @@
     {
       "id": "voisin",
       "filename": "voisin.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "collegue",
+      "filename": "collegue.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "enfant",
+      "filename": "enfant.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "frere",
+      "filename": "frere.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "mere",
+      "filename": "mere.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "pere",
+      "filename": "pere.json",
+      "categoria": "Les relations"
+    },
+    {
+      "id": "soeur",
+      "filename": "soeur.json",
       "categoria": "Les relations"
     },
     {

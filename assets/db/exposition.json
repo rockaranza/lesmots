@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "EXPOSITION",
+  "longitud": 10,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "exposición"
+    },
+    "en": {
+      "traduccion": "exhibition"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une présentation publique d'œuvres d'art.",
+      "es": "Es una presentación pública de obras de arte.",
+      "en": "It's a public presentation of works of art."
+    },
+    {
+      "fr": "Elle a généralement un thème ou un artiste spécifique.",
+      "es": "Generalmente tiene un tema o un artista específico.",
+      "en": "It usually has a specific theme or artist."
+    },
+    {
+      "fr": "Elle dure quelques semaines ou quelques mois.",
+      "es": "Dura algunas semanas o algunos meses.",
+      "en": "It lasts a few weeks or a few months."
+    },
+    {
+      "fr": "On peut y voir des tableaux, des sculptures ou des installations.",
+      "es": "Se pueden ver cuadros, esculturas o instalaciones.",
+      "en": "You can see paintings, sculptures or installations there."
+    },
+    {
+      "fr": "C'est un événement culturel important pour la ville.",
+      "es": "Es un evento cultural importante para la ciudad.",
+      "en": "It's an important cultural event for the city."
+    }
+  ]
+}

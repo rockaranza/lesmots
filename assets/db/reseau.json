@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "RESEAU",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "red"
+    },
+    "en": {
+      "traduccion": "network"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un système qui connecte plusieurs ordinateurs entre eux.",
+      "es": "Es un sistema que conecta varias computadoras entre sí.",
+      "en": "It's a system that connects several computers together."
+    },
+    {
+      "fr": "Il permet de partager des fichiers et des ressources.",
+      "es": "Permite compartir archivos y recursos.",
+      "en": "It allows sharing files and resources."
+    },
+    {
+      "fr": "Internet est le plus grand réseau du monde.",
+      "es": "Internet es la red más grande del mundo.",
+      "en": "The Internet is the world's largest network."
+    },
+    {
+      "fr": "Il peut être local ou mondial selon sa taille.",
+      "es": "Puede ser local o mundial según su tamaño.",
+      "en": "It can be local or global depending on its size."
+    },
+    {
+      "fr": "C'est essentiel pour la communication moderne.",
+      "es": "Es esencial para la comunicación moderna.",
+      "en": "It's essential for modern communication."
+    }
+  ]
+}

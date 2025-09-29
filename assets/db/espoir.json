@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "ESPOIR",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "esperanza"
+    },
+    "en": {
+      "traduccion": "hope"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est le sentiment que quelque chose de bon va arriver.",
+      "es": "Es el sentimiento de que algo bueno va a pasar.",
+      "en": "It's the feeling that something good is going to happen."
+    },
+    {
+      "fr": "On l'a même dans les moments difficiles de la vie.",
+      "es": "Se tiene incluso en los momentos difíciles de la vida.",
+      "en": "You have it even in life's difficult moments."
+    },
+    {
+      "fr": "C'est ce qui nous aide à continuer quand tout semble perdu.",
+      "es": "Es lo que nos ayuda a continuar cuando todo parece perdido.",
+      "en": "It's what helps us continue when everything seems lost."
+    },
+    {
+      "fr": "Il peut concerner l'avenir, la santé ou les relations.",
+      "es": "Puede concernir el futuro, la salud o las relaciones.",
+      "en": "It can concern the future, health or relationships."
+    },
+    {
+      "fr": "C'est une émotion positive qui donne de la force.",
+      "es": "Es una emoción positiva que da fuerza.",
+      "en": "It's a positive emotion that gives strength."
+    }
+  ]
+}

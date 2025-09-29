@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "MARCHANDISE",
+  "longitud": 11,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "mercancía"
+    },
+    "en": {
+      "traduccion": "merchandise"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "Ce sont les produits qu'on vend dans un magasin.",
+      "es": "Son los productos que se venden en una tienda.",
+      "en": "They are the products sold in a store."
+    },
+    {
+      "fr": "Elle peut être stockée dans un entrepôt avant la vente.",
+      "es": "Puede ser almacenada en un almacén antes de la venta.",
+      "en": "It can be stored in a warehouse before sale."
+    },
+    {
+      "fr": "Elle est transportée par camion, train ou avion.",
+      "es": "Se transporta en camión, tren o avión.",
+      "en": "It's transported by truck, train or plane."
+    },
+    {
+      "fr": "Elle a une valeur commerciale et peut être échangée.",
+      "es": "Tiene un valor comercial y puede ser intercambiada.",
+      "en": "It has commercial value and can be exchanged."
+    },
+    {
+      "fr": "C'est l'objet principal du commerce et du négoce.",
+      "es": "Es el objeto principal del comercio y la negociación.",
+      "en": "It's the main object of commerce and trade."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "L'économie",
+    "es": "La economía",
+    "en": "Economy"
+  },
+  "palabra": "DEPENSE",
+  "longitud": 7,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "gasto"
+    },
+    "en": {
+      "traduccion": "expense"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'argent qu'on utilise pour payer quelque chose.",
+      "es": "Es el dinero que se usa para pagar algo.",
+      "en": "It's the money you use to pay for something."
+    },
+    {
+      "fr": "Elle peut être nécessaire ou optionnelle.",
+      "es": "Puede ser necesaria u opcional.",
+      "en": "It can be necessary or optional."
+    },
+    {
+      "fr": "On la note dans un budget pour contrôler ses finances.",
+      "es": "Se anota en un presupuesto para controlar las finanzas.",
+      "en": "You note it in a budget to control your finances."
+    },
+    {
+      "fr": "Elle réduit l'argent disponible dans le compte.",
+      "es": "Reduce el dinero disponible en la cuenta.",
+      "en": "It reduces the money available in the account."
+    },
+    {
+      "fr": "C'est l'opposé de l'épargne.",
+      "es": "Es lo opuesto al ahorro.",
+      "en": "It's the opposite of saving."
+    }
+  ]
+}

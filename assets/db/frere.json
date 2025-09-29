@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "FRERE",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "hermano"
+    },
+    "en": {
+      "traduccion": "brother"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un garçon qui a les mêmes parents qu'une autre personne.",
+      "es": "Es un niño que tiene los mismos padres que otra persona.",
+      "en": "It's a boy who has the same parents as another person."
+    },
+    {
+      "fr": "Il peut être plus âgé ou plus jeune que ses frères et sœurs.",
+      "es": "Puede ser mayor o más joven que sus hermanos y hermanas.",
+      "en": "He can be older or younger than his brothers and sisters."
+    },
+    {
+      "fr": "On joue souvent ensemble dans l'enfance.",
+      "es": "A menudo se juega juntos en la infancia.",
+      "en": "You often play together in childhood."
+    },
+    {
+      "fr": "Il peut être protecteur ou taquin selon les situations.",
+      "es": "Puede ser protector o bromista según las situaciones.",
+      "en": "He can be protective or teasing depending on situations."
+    },
+    {
+      "fr": "C'est un compagnon de vie et de jeux.",
+      "es": "Es un compañero de vida y de juegos.",
+      "en": "It's a companion for life and games."
+    }
+  ]
+}

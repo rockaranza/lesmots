@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "LAPTOP",
+  "longitud": 6,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "portátil"
+    },
+    "en": {
+      "traduccion": "laptop"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un ordinateur portable qu'on peut transporter facilement.",
+      "es": "Es una computadora portátil que se puede transportar fácilmente.",
+      "en": "It's a portable computer that you can easily transport."
+    },
+    {
+      "fr": "Il a un écran intégré et se ferme comme un livre.",
+      "es": "Tiene una pantalla integrada y se cierra como un libro.",
+      "en": "It has an integrated screen and closes like a book."
+    },
+    {
+      "fr": "On peut l'utiliser n'importe où grâce à sa batterie.",
+      "es": "Se puede usar en cualquier lugar gracias a su batería.",
+      "en": "You can use it anywhere thanks to its battery."
+    },
+    {
+      "fr": "Il est plus léger qu'un ordinateur de bureau.",
+      "es": "Es más ligero que una computadora de escritorio.",
+      "en": "It's lighter than a desktop computer."
+    },
+    {
+      "fr": "C'est parfait pour travailler en déplacement.",
+      "es": "Es perfecto para trabajar en movimiento.",
+      "en": "It's perfect for working on the go."
+    }
+  ]
+}

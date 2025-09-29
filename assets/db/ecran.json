@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La technologie",
+    "es": "La tecnología",
+    "en": "Technology"
+  },
+  "palabra": "ECRAN",
+  "longitud": 5,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "pantalla"
+    },
+    "en": {
+      "traduccion": "screen"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est la partie de l'ordinateur qui affiche les images et le texte.",
+      "es": "Es la parte de la computadora que muestra las imágenes y el texto.",
+      "en": "It's the part of the computer that displays images and text."
+    },
+    {
+      "fr": "Il peut être plat ou incurvé selon les modèles.",
+      "es": "Puede ser plano o curvo según los modelos.",
+      "en": "It can be flat or curved depending on the models."
+    },
+    {
+      "fr": "On y voit les fenêtres, les icônes et les vidéos.",
+      "es": "Allí se ven las ventanas, los iconos y los videos.",
+      "en": "You see windows, icons and videos there."
+    },
+    {
+      "fr": "Il a une résolution qui détermine la qualité d'affichage.",
+      "es": "Tiene una resolución que determina la calidad de visualización.",
+      "en": "It has a resolution that determines display quality."
+    },
+    {
+      "fr": "C'est comme un téléviseur mais pour l'ordinateur.",
+      "es": "Es como un televisor pero para la computadora.",
+      "en": "It's like a television but for the computer."
+    }
+  ]
+}

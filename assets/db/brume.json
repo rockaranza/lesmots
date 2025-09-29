@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "La météo",
+    "es": "El clima",
+    "en": "Weather"
+  },
+  "palabra": "BRUME",
+  "longitud": 5,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "niebla"
+    },
+    "en": {
+      "traduccion": "fog"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un brouillard épais qui réduit la visibilité.",
+      "es": "Es una niebla espesa que reduce la visibilidad.",
+      "en": "It's a thick fog that reduces visibility."
+    },
+    {
+      "fr": "Elle apparaît souvent le matin ou le soir.",
+      "es": "Aparece a menudo por la mañana o por la tarde.",
+      "en": "It often appears in the morning or evening."
+    },
+    {
+      "fr": "Elle rend la conduite dangereuse sur les routes.",
+      "es": "Hace peligrosa la conducción en las carreteras.",
+      "en": "It makes driving dangerous on the roads."
+    },
+    {
+      "fr": "Elle peut être légère ou très dense.",
+      "es": "Puede ser ligera o muy densa.",
+      "en": "It can be light or very dense."
+    },
+    {
+      "fr": "Elle disparaît généralement quand le soleil se lève.",
+      "es": "Generalmente desaparece cuando sale el sol.",
+      "en": "It usually disappears when the sun rises."
+    }
+  ]
+}

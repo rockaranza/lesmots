@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les émotions",
+    "es": "Las emociones",
+    "en": "Emotions"
+  },
+  "palabra": "MELANCOLIE",
+  "longitud": 10,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "melancolía"
+    },
+    "en": {
+      "traduccion": "melancholy"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est un sentiment de tristesse douce et rêveuse.",
+      "es": "Es un sentimiento de tristeza dulce y soñadora.",
+      "en": "It's a feeling of sweet and dreamy sadness."
+    },
+    {
+      "fr": "On la ressent souvent en automne ou par temps gris.",
+      "es": "Se siente a menudo en otoño o con tiempo gris.",
+      "en": "You often feel it in autumn or on gray days."
+    },
+    {
+      "fr": "Elle peut être inspirante pour les artistes.",
+      "es": "Puede ser inspiradora para los artistas.",
+      "en": "It can be inspiring for artists."
+    },
+    {
+      "fr": "C'est une tristesse qui n'est pas douloureuse.",
+      "es": "Es una tristeza que no es dolorosa.",
+      "en": "It's a sadness that is not painful."
+    },
+    {
+      "fr": "Elle nous fait réfléchir sur la vie et le temps.",
+      "es": "Nos hace reflexionar sobre la vida y el tiempo.",
+      "en": "It makes us reflect on life and time."
+    }
+  ]
+}

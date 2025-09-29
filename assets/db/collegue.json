@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les relations",
+    "es": "Las relaciones",
+    "en": "Relations"
+  },
+  "palabra": "COLLEGUE",
+  "longitud": 8,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "colega"
+    },
+    "en": {
+      "traduccion": "colleague"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une personne qui travaille avec nous dans la même entreprise.",
+      "es": "Es una persona que trabaja con nosotros en la misma empresa.",
+      "en": "It's a person who works with us in the same company."
+    },
+    {
+      "fr": "On partage le même bureau ou le même projet professionnel.",
+      "es": "Se comparte la misma oficina o el mismo proyecto profesional.",
+      "en": "You share the same office or the same professional project."
+    },
+    {
+      "fr": "Il peut devenir un ami ou rester simplement professionnel.",
+      "es": "Puede convertirse en un amigo o quedarse simplemente profesional.",
+      "en": "He can become a friend or remain simply professional."
+    },
+    {
+      "fr": "C'est différent d'un patron ou d'un employé.",
+      "es": "Es diferente de un jefe o un empleado.",
+      "en": "It's different from a boss or an employee."
+    },
+    {
+      "fr": "On peut l'aider et il peut nous aider au travail.",
+      "es": "Se puede ayudar y él puede ayudarnos en el trabajo.",
+      "en": "You can help him and he can help us at work."
+    }
+  ]
+}

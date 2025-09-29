@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "PHOTOGRAPHIE",
+  "longitud": 12,
+  "genero": "feminin",
+  "traducciones": {
+    "es": {
+      "traduccion": "fotografía"
+    },
+    "en": {
+      "traduccion": "photography"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est l'art de capturer des moments avec un appareil photo.",
+      "es": "Es el arte de capturar momentos con una cámara.",
+      "en": "It's the art of capturing moments with a camera."
+    },
+    {
+      "fr": "Elle immortalise des instants précieux de la vie.",
+      "es": "Inmortaliza momentos preciosos de la vida.",
+      "en": "It immortalizes precious moments of life."
+    },
+    {
+      "fr": "Il y a la photographie de portrait, de paysage et de reportage.",
+      "es": "Hay fotografía de retrato, paisaje y reportaje.",
+      "en": "There's portrait, landscape and documentary photography."
+    },
+    {
+      "fr": "Elle peut être en noir et blanc ou en couleur.",
+      "es": "Puede ser en blanco y negro o en color.",
+      "en": "It can be black and white or in color."
+    },
+    {
+      "fr": "C'est l'art de voir le monde à travers un objectif.",
+      "es": "Es el arte de ver el mundo a través de un objetivo.",
+      "en": "It's the art of seeing the world through a lens."
+    }
+  ]
+}

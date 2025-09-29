@@ -1,0 +1,45 @@
+{
+  "categoria": {
+    "fr": "Les arts",
+    "es": "Las artes",
+    "en": "The arts"
+  },
+  "palabra": "CONCERT",
+  "longitud": 7,
+  "genero": "masculin",
+  "traducciones": {
+    "es": {
+      "traduccion": "concierto"
+    },
+    "en": {
+      "traduccion": "concert"
+    }
+  },
+  "pistas": [
+    {
+      "fr": "C'est une représentation musicale en public.",
+      "es": "Es una representación musical en público.",
+      "en": "It's a public musical performance."
+    },
+    {
+      "fr": "On y va pour écouter de la musique en direct.",
+      "es": "Se va allí para escuchar música en vivo.",
+      "en": "You go there to listen to live music."
+    },
+    {
+      "fr": "Il peut y avoir un orchestre, un groupe ou un soliste.",
+      "es": "Puede haber una orquesta, un grupo o un solista.",
+      "en": "There can be an orchestra, a group or a soloist."
+    },
+    {
+      "fr": "Il se déroule souvent dans une salle ou en plein air.",
+      "es": "Se desarrolla a menudo en una sala o al aire libre.",
+      "en": "It often takes place in a hall or outdoors."
+    },
+    {
+      "fr": "Le public applaudit à la fin de chaque morceau.",
+      "es": "El público aplaude al final de cada pieza.",
+      "en": "The audience applauds at the end of each piece."
+    }
+  ]
+}
