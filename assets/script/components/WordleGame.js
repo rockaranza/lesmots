@@ -17,7 +17,7 @@ class WordleGame {
         
         // Sistema de dificultad
         this.difficulty = 'normal'; // 'easy', 'normal', 'hard'
-        this.maxHints = 2; // Pistas máximas según dificultad
+        this.maxHints = 3; // Pistas máximas según dificultad (se ajusta en setDifficulty)
         this.difficultySelected = false; // Si ya se seleccionó la dificultad
         this.keydownHandler = null; // Para poder remover el listener
         
@@ -47,6 +47,13 @@ class WordleGame {
     }
 
     /**
+     * Normaliza texto para comparación: quita tildes (é → e, à → a, etc.)
+     */
+    normalizeForCompare(str) {
+        return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+    }
+
+    /**
      * Configura la dificultad del juego
      */
     setDifficulty(difficulty) {
@@ -55,19 +62,19 @@ class WordleGame {
         switch (difficulty) {
             case 'easy':
                 this.maxGuesses = 5;
-                this.maxHints = 3;
+                this.maxHints = 5;
                 break;
             case 'normal':
                 this.maxGuesses = 3;
-                this.maxHints = 2;
+                this.maxHints = 3;
                 break;
             case 'hard':
                 this.maxGuesses = 1;
-                this.maxHints = 1; // Solo la pista inicial
+                this.maxHints = 1;
                 break;
             default:
                 this.maxGuesses = 3;
-                this.maxHints = 2;
+                this.maxHints = 3;
         }
     }
 
@@ -83,6 +90,9 @@ class WordleGame {
         }
     }
 
+    /**
+     * Icono indicador de carga desde base de datos
+     */
     /**
      * Inicializa el juego con una palabra aleatoria
      */
@@ -112,12 +122,12 @@ class WordleGame {
                         <button class="difficulty-btn easy" data-difficulty="easy">
                             <div class="difficulty-icon">😊</div>
                             <h3>Fácil</h3>
-                            <p>5 intentos • 3 pistas</p>
+                            <p>5 intentos • 5 pistas</p>
                         </button>
                         <button class="difficulty-btn normal" data-difficulty="normal">
                             <div class="difficulty-icon">😐</div>
                             <h3>Normal</h3>
-                            <p>3 intentos • 2 pistas</p>
+                            <p>3 intentos • 3 pistas</p>
                         </button>
                         <button class="difficulty-btn hard" data-difficulty="hard">
                             <div class="difficulty-icon">😤</div>
@@ -192,8 +202,9 @@ class WordleGame {
         this.container.innerHTML = `
             <div class="wordle-game">
                 <!-- Título del juego -->
-                <header class="game-title">
-                            <h1>Les Mots</h1>
+                <header class="game-header-block">
+                    <h1 class="game-title">Les Mots</h1>
+                    <p class="game-subtitle">Aprende francés jugando</p>
                         <div class="game-stats">
                         <div class="stat">
                                 <span class="stat-label">Categoría</span>
@@ -304,29 +315,22 @@ class WordleGame {
         const guess = this.guesses[row];
         const letter = guess[col];
         const targetWord = this.targetWord.palabra;
+        const letterNorm = this.normalizeForCompare(letter);
+        const targetNorm = this.normalizeForCompare(targetWord);
         
-        // Si la letra está en la posición correcta
-        if (letter === targetWord[col]) {
+        // Si la letra está en la posición correcta (sin exigir tilde)
+        if (letterNorm === targetNorm[col]) {
             return 'correct';
         }
         
-        // Si la letra existe en la palabra pero no en esta posición
-        if (targetWord.includes(letter)) {
-            // Contar cuántas veces aparece la letra en la palabra objetivo
-            const targetCount = (targetWord.match(new RegExp(letter, 'g')) || []).length;
-            
-            // Contar cuántas veces aparece la letra en el intento hasta esta posición
-            let guessCount = 0;
-            for (let i = 0; i <= col; i++) {
-                if (guess[i] === letter) {
-                    guessCount++;
-                }
-            }
-            
-            // Solo marcar como presente si no hemos excedido el número de ocurrencias
-            if (guessCount <= targetCount) {
-                return 'present';
-            }
+        // Si la letra existe en la palabra pero no en esta posición (sin exigir tilde)
+        const targetCount = (targetNorm.match(new RegExp(letterNorm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+        let guessCount = 0;
+        for (let i = 0; i <= col; i++) {
+            if (this.normalizeForCompare(guess[i]) === letterNorm) guessCount++;
+        }
+        if (targetCount > 0 && guessCount <= targetCount) {
+            return 'present';
         }
         
         return 'absent';
@@ -500,9 +504,9 @@ class WordleGame {
         if (this.currentGuess.length !== this.targetWord.longitud) return;
         if (this.gameState !== 'playing') return;
 
-        // Procesar inmediatamente sin animación de envío
+        // Procesar inmediatamente sin animación de envío (comparación sin exigir tildes)
         this.guesses[this.currentAttempt] = this.currentGuess;
-        const isCorrect = this.currentGuess === this.targetWord.palabra;
+        const isCorrect = this.normalizeForCompare(this.currentGuess) === this.normalizeForCompare(this.targetWord.palabra);
         const currentAttemptIndex = this.currentAttempt; // Guardar el índice actual
         this.currentAttempt++;
         this.currentGuess = '';

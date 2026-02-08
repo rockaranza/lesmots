@@ -5,11 +5,9 @@
 class LesMotsApp {
     constructor() {
         this.dataManager = new DataManager();
-        this.categorySelector = null;
-        this.vocabularyStudy = null;
         this.wordleGame = null;
         this.instructionsModal = null;
-        this.currentState = 'category-selection'; // 'category-selection', 'study', 'game'
+        this.currentState = 'game';
     }
 
     /**
@@ -17,7 +15,6 @@ class LesMotsApp {
      */
     async initialize() {
         try {
-            console.log('Inicializando Les Mots...');
             this.setupComponents();
             this.startGame();
         } catch (error) {
@@ -69,11 +66,6 @@ class LesMotsApp {
 
 // Inicialización de la aplicación
 document.addEventListener('DOMContentLoaded', async function() {
-    console.log('Les Mots - Aplicación cargada correctamente');
-    
     const app = new LesMotsApp();
     await app.initialize();
-    
-    // Hacer la app globalmente accesible para debugging
-    window.lesMotsApp = app;
 });

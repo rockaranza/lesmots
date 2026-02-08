@@ -1,0 +1,21 @@
+# SQL (schema y moldes locales, no subir)
+*.sql
+
+# Dependencias
+node_modules/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Entorno y secretos
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
