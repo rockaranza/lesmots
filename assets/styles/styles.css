@@ -649,6 +649,15 @@ main {
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
+/* Casillas fijas (guiones, espacios, apóstrofos ya resueltos) */
+.letter-box.fixed-char {
+    background: #f0f2f5;
+    border-style: dashed;
+    border-color: #c0c4c8;
+    color: #7b8a96;
+    box-shadow: none;
+}
+
 .letter-box.filled {
     border-color: #878a8c;
     animation: letterPop 0.1s ease;
