@@ -7,6 +7,13 @@ class WordleGame {
         this.container = document.getElementById(containerId);
         this.dataManager = dataManager;
         this.targetWord = null;
+        // Mapa de caracteres de la palabra objetivo para el tablero:
+        // - type: 'letter' (casilla que el usuario completa)
+        // - type: 'fixed' (guiones, espacios, apóstrofos que ya vienen escritos)
+        // - char: carácter mostrado
+        // - logicalIndex: índice dentro de la secuencia SOLO de letras jugables
+        this.charMap = [];
+        this.playableLength = 0; // número de letras jugables (sin contar guiones/espacios)
         this.currentGuess = '';
         this.guesses = [];
         this.maxGuesses = 5;
@@ -51,6 +58,68 @@ class WordleGame {
      */
     normalizeForCompare(str) {
         return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+    }
+
+    /**
+     * Construye el mapa de caracteres de la palabra objetivo para el tablero.
+     * - Las letras (incluyendo acentuadas) son casillas jugables.
+     * - Guiones, espacios y apóstrofos se muestran ya escritos y no cuentan como letras a adivinar.
+     */
+    buildCharMap() {
+        this.charMap = [];
+        this.playableLength = 0;
+
+        const word = this.targetWord && this.targetWord.palabra ? this.targetWord.palabra : '';
+
+        for (let i = 0; i < word.length; i++) {
+            const ch = word[i];
+
+            // Letras (incluyendo acentos): casillas jugables
+            if (/[A-Za-zÀ-ÿ]/.test(ch)) {
+                this.charMap.push({
+                    type: 'letter',
+                    char: ch,
+                    logicalIndex: this.playableLength
+                });
+                this.playableLength++;
+            } else if (ch === '-' || ch === ' ' || ch === '\'' || ch === '’') {
+                // Guiones, espacios y apóstrofos: casillas fijas ya escritas
+                this.charMap.push({
+                    type: 'fixed',
+                    char: ch
+                });
+            } else {
+                // Cualquier otro carácter se trata como letra jugable por defecto
+                this.charMap.push({
+                    type: 'letter',
+                    char: ch,
+                    logicalIndex: this.playableLength
+                });
+                this.playableLength++;
+            }
+        }
+
+        // Fallback por si la palabra viene sin mapa válido
+        if (this.charMap.length === 0 && this.targetWord && typeof this.targetWord.longitud === 'number') {
+            for (let i = 0; i < this.targetWord.longitud; i++) {
+                this.charMap.push({
+                    type: 'letter',
+                    char: '',
+                    logicalIndex: i
+                });
+            }
+            this.playableLength = this.targetWord.longitud;
+        }
+    }
+
+    /**
+     * Devuelve la representación normalizada de la palabra objetivo
+     * usando solo letras jugables (sin guiones, espacios, etc.).
+     */
+    getComparableTarget() {
+        const word = this.targetWord && this.targetWord.palabra ? this.targetWord.palabra : '';
+        const onlyLetters = word.replace(/[^A-Za-zÀ-ÿ]/g, '');
+        return this.normalizeForCompare(onlyLetters);
     }
 
     /**
@@ -158,6 +227,8 @@ class WordleGame {
         try {
             // Cargar palabra aleatoria
             this.targetWord = await this.dataManager.loadRandomWord();
+            // Construir el mapa de caracteres para manejar guiones/espacios fijos
+            this.buildCharMap();
             this.hints = [...this.targetWord.pistas]; // Copiar todas las pistas
             this.usedHints = []; // Reiniciar pistas usadas
             
@@ -282,19 +353,34 @@ class WordleGame {
             let rowClass = 'guess-row';
             
             boardHTML += `<div class="${rowClass}">`;
+
+            // Usar el mapa de caracteres si está disponible; si no, caer en la longitud original
+            const totalCells = this.charMap.length > 0 && this.playableLength > 0
+                ? this.charMap.length
+                : (this.targetWord ? this.targetWord.longitud : 0);
             
-            for (let j = 0; j < this.targetWord.longitud; j++) {
+            for (let j = 0; j < totalCells; j++) {
                 let letter = '';
                 let letterClass = '';
-                
-                if (this.guesses[i]) {
-                    // Fila completada y validada
-                    letter = this.guesses[i][j];
-                    letterClass = this.getLetterClass(i, j);
-                } else if (i === this.currentAttempt && j < this.currentGuess.length) {
-                    // Fila actual con letras escritas
-                    letter = this.currentGuess[j];
-                    letterClass = 'filled';
+
+                const mapItem = this.charMap[j];
+
+                if (mapItem && mapItem.type === 'fixed') {
+                    // Casilla fija (guion, espacio, apóstrofo): se muestra tal cual, no se adivina
+                    letter = mapItem.char;
+                    letterClass = 'fixed-char';
+                } else {
+                    const logicalIndex = mapItem ? mapItem.logicalIndex : j;
+
+                    if (this.guesses[i]) {
+                        // Fila completada y validada
+                        letter = this.guesses[i][logicalIndex] || '';
+                        letterClass = this.getLetterClass(i, logicalIndex);
+                    } else if (i === this.currentAttempt && logicalIndex < this.currentGuess.length) {
+                        // Fila actual con letras escritas
+                        letter = this.currentGuess[logicalIndex];
+                        letterClass = 'filled';
+                    }
                 }
                 
                 boardHTML += `<div class="letter-box ${letterClass}">${letter}</div>`;
@@ -314,9 +400,9 @@ class WordleGame {
         
         const guess = this.guesses[row];
         const letter = guess[col];
-        const targetWord = this.targetWord.palabra;
         const letterNorm = this.normalizeForCompare(letter);
-        const targetNorm = this.normalizeForCompare(targetWord);
+        // Usar solo letras jugables de la palabra objetivo para comparar
+        const targetNorm = this.getComparableTarget();
         
         // Si la letra está en la posición correcta (sin exigir tilde)
         if (letterNorm === targetNorm[col]) {
@@ -458,7 +544,7 @@ class WordleGame {
         } else if (key === 'ENTER') {
             // Enter no hace nada durante el juego, solo en modales
             return;
-        } else if (key.match(/^[A-ZÀ-ÿ]$/) && this.currentGuess.length < this.targetWord.longitud) {
+        } else if (key.match(/^[A-ZÀ-ÿ]$/) && this.currentGuess.length < this.playableLength) {
             // Solo aceptar letras individuales válidas (ya convertidas a mayúsculas)
             this.addLetter(key);
         }
@@ -468,12 +554,12 @@ class WordleGame {
      * Añade una letra al intento actual
      */
     addLetter(letter) {
-        if (this.currentGuess.length < this.targetWord.longitud) {
+        if (this.currentGuess.length < this.playableLength) {
             this.currentGuess += letter;
             this.updateCurrentRow();
             
             // Si se llenó la fila, validar automáticamente
-            if (this.currentGuess.length === this.targetWord.longitud) {
+            if (this.currentGuess.length === this.playableLength) {
                 // Validar automáticamente después de un breve delay
                 setTimeout(() => {
                     this.submitGuess();
@@ -501,12 +587,12 @@ class WordleGame {
      * Envía el intento actual
      */
     submitGuess() {
-        if (this.currentGuess.length !== this.targetWord.longitud) return;
+        if (this.currentGuess.length !== this.playableLength) return;
         if (this.gameState !== 'playing') return;
 
         // Procesar inmediatamente sin animación de envío (comparación sin exigir tildes)
         this.guesses[this.currentAttempt] = this.currentGuess;
-        const isCorrect = this.normalizeForCompare(this.currentGuess) === this.normalizeForCompare(this.targetWord.palabra);
+        const isCorrect = this.normalizeForCompare(this.currentGuess) === this.getComparableTarget();
         const currentAttemptIndex = this.currentAttempt; // Guardar el índice actual
         this.currentAttempt++;
         this.currentGuess = '';
@@ -746,18 +832,33 @@ class WordleGame {
             
             let rowHTML = `<div class="${rowClass}">`;
             
-            for (let j = 0; j < this.targetWord.longitud; j++) {
+            // Usar el mismo número de celdas que en el render principal
+            const totalCells = this.charMap.length > 0 && this.playableLength > 0
+                ? this.charMap.length
+                : (this.targetWord ? this.targetWord.longitud : 0);
+
+            for (let j = 0; j < totalCells; j++) {
                 let letter = '';
                 let letterClass = '';
-                
-                if (this.guesses[this.currentAttempt]) {
-                    // Fila completada y validada
-                    letter = this.guesses[this.currentAttempt][j];
-                    letterClass = this.getLetterClass(this.currentAttempt, j);
-                } else if (j < this.currentGuess.length) {
-                    // Fila actual con letras escritas
-                    letter = this.currentGuess[j];
-                    letterClass = 'filled';
+
+                const mapItem = this.charMap[j];
+
+                if (mapItem && mapItem.type === 'fixed') {
+                    // Casilla fija (guion, espacio, apóstrofo): se muestra tal cual
+                    letter = mapItem.char;
+                    letterClass = 'fixed-char';
+                } else {
+                    const logicalIndex = mapItem ? mapItem.logicalIndex : j;
+
+                    if (this.guesses[this.currentAttempt]) {
+                        // Fila completada y validada
+                        letter = this.guesses[this.currentAttempt][logicalIndex] || '';
+                        letterClass = this.getLetterClass(this.currentAttempt, logicalIndex);
+                    } else if (logicalIndex < this.currentGuess.length) {
+                        // Fila actual con letras escritas
+                        letter = this.currentGuess[logicalIndex];
+                        letterClass = 'filled';
+                    }
                 }
                 
                 rowHTML += `<div class="letter-box ${letterClass}">${letter}</div>`;
