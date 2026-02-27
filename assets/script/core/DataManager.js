@@ -89,34 +89,6 @@ class DataManager {
      * @returns {Promise<Object>} Datos de la palabra
      */
     async loadRandomWord() {
-        // Modo "super dios" / pruebas: permitir forzar una palabra vía parámetro de URL
-        try {
-            const params = new URLSearchParams(window.location.search || '');
-            const devWord = params.get('dev_word');
-            if (devWord) {
-                const onlyLetters = (devWord || '').replace(/[^A-Za-zÀ-ÿ]/g, '');
-                const length = onlyLetters.length;
-                this.currentWord = {
-                    categoria: { fr: 'Mode test', es: 'Modo prueba', en: 'Test mode' },
-                    palabra: devWord,
-                    longitud: length,
-                    genero: 'masculin',
-                    traducciones: {
-                        es: { traduccion: devWord }
-                    },
-                    pistas: [
-                        {
-                            fr: 'Mot en mode test (URL dev_word)',
-                            es: 'Palabra en modo prueba (URL dev_word)'
-                        }
-                    ]
-                };
-                return this.currentWord;
-            }
-        } catch (e) {
-            console.warn('Les Mots: no se pudo leer el parámetro dev_word', e);
-        }
-
         try {
             if (!this.isLoaded) await this.loadWordsList();
             if (this.wordsList.length === 0) throw new Error('No hay palabras disponibles');
